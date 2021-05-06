@@ -1,0 +1,6 @@
+EPSILON = 1e-10
+
+SUCCESS_THRESHOLD = 0.25
+
+
+
