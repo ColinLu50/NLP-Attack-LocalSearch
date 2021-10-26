@@ -1,0 +1,1112 @@
+========= 1 ====================== 
+Orig sentence: Fears for T N pension after talks. Unions representing workers at Turner   Newall say they are 'disappointed' after talks with stricken parent firm Federal Mogul.
+X sentence: Fears for Fears N pension after talks . Unions representing workers at Turner Newall say they are ' disappointed ' after talks with stricken parent firm Federal Mogul .
+Y sentence: Fears for Fears N pension after talks . trades representing workers at Turner Newall say they are ' disappointed ' after talks with stricken parent firm Federal Mogul .
+Xe sentence:Fears for Fears N pension after talks . Unions representing workers at Turner Newall say they live ' disappointed ' after talks with stricken parent firm Federal Mogul .
+Ye sentence:Fears for Fears N pension after talks . trades representing workers at Turner Newall say they live ' disappointed ' after talks with stricken parent firm Federal Mogul .
+X: ['Fears']
+Y: ['Fears', 'trades']
+e: live
+F(X) = 0.0858, F(Y) = 0.0910, F(Xe) = 0.0856, F(Ye) = 0.0913
+F(Xe) - F(X) = -0.0002 < F(Ye) - F(Y) = 0.0003
+========= 2 ====================== 
+Orig sentence: The Race is On: Second Private Team Sets Launch Date for Human Spaceflight (SPACE.com). SPACE.com - TORONTO, Canada -- A second\team of rocketeers competing for the  #36;10 million Ansari X Prize, a contest for\privately funded suborbital space flight, has officially announced the first\launch date for its manned rocket.
+X sentence: The Race is On : The Private Team Sets Launch Date for Human Spaceflight ( SPACE.com ) . SPACE.com - TORONTO , Canada -- A second\team of rocketeers competing for the # 36;10 million Ansari X Prize , a contest for\privately funded suborbital space flight , has officially announced the first\launch date for its manned rocket .
+Y sentence: The Race is On : The individual Team Sets Launch Date for Human Spaceflight ( SPACE.com ) . SPACE.com - TORONTO , Canada -- A second\team of rocketeers competing for the # 36;10 million Ansari X Prize , a contest for\privately funded suborbital space flight , has officially announced the first\launch date for its manned rocket .
+Xe sentence:The Race is On : The Private Team Sets Launch Date for Human Spaceflight ( AFP ) . SPACE.com - TORONTO , Canada -- A second\team of rocketeers competing for the # 36;10 million Ansari X Prize , a contest for\privately funded suborbital space flight , has officially announced the first\launch date for its manned rocket .
+Ye sentence:The Race is On : The individual Team Sets Launch Date for Human Spaceflight ( AFP ) . SPACE.com - TORONTO , Canada -- A second\team of rocketeers competing for the # 36;10 million Ansari X Prize , a contest for\privately funded suborbital space flight , has officially announced the first\launch date for its manned rocket .
+X: ['The']
+Y: ['The', 'individual']
+e: AFP
+F(X) = 0.0059, F(Y) = 0.0055, F(Xe) = 0.0292, F(Ye) = 0.0297
+F(Xe) - F(X) = 0.0233 < F(Ye) - F(Y) = 0.0243
+========= 3 ====================== 
+Orig sentence: Ky. Company Wins Grant to Study Peptides (AP). AP - A company founded by a chemistry researcher at the University of Louisville won a grant to develop a method of producing better peptides, which are short chains of amino acids, the building blocks of proteins.
+X sentence: Ky. Company Wins Grant to Study Peptides ( AP ) . AP - A company founded by a chemistry researcher at the University of Louisville won a grant to develop a method of producing better peptides , which are short chains of amino acids , the building blocks of proteins .
+Y sentence: Ky. Company Wins Duncan to Study Peptides ( AP ) . AP - A company founded by a chemistry researcher at the University of Louisville won a grant to develop a method of producing better peptides , which are short chains of amino acids , the building blocks of proteins .
+Xe sentence:Ky. Company Wins Grant to consider Peptides ( AP ) . AP - A company founded by a chemistry researcher at the University of Louisville won a grant to develop a method of producing better peptides , which are short chains of amino acids , the building blocks of proteins .
+Ye sentence:Ky. Company Wins Duncan to consider Peptides ( AP ) . AP - A company founded by a chemistry researcher at the University of Louisville won a grant to develop a method of producing better peptides , which are short chains of amino acids , the building blocks of proteins .
+X: []
+Y: ['Duncan']
+e: consider
+F(X) = 0.0431, F(Y) = 0.0302, F(Xe) = 0.2542, F(Ye) = 0.3392
+F(Xe) - F(X) = 0.2111 < F(Ye) - F(Y) = 0.3089
+========= 4 ====================== 
+Orig sentence: Calif. Aims to Limit Farm-Related Smog (AP). AP - Southern California's smog-fighting agency went after emissions of the bovine variety Friday, adopting the nation's first rules to reduce air pollution from dairy cow manure.
+X sentence: Calif. Aims to Limit Farm - Related Smog ( AP ) . AP - Southern California 's smog - fighting agency went after emissions of the bovine variety Friday , adopting the nation 's first rules to reduce air pollution from dairy cow manure .
+Y sentence: Calif. Aims to Limit Farm - Related Smog ( AFP ) . AP - Southern California 's smog - fighting agency went after emissions of the bovine variety Friday , adopting the nation 's first rules to reduce air pollution from dairy cow manure .
+Xe sentence:Calif. Aims to Limit Farm - Related Smog ( AP ) . AFP - Southern California 's smog - fighting agency went after emissions of the bovine variety Friday , adopting the nation 's first rules to reduce air pollution from dairy cow manure .
+Ye sentence:Calif. Aims to Limit Farm - Related Smog ( AFP ) . AFP - Southern California 's smog - fighting agency went after emissions of the bovine variety Friday , adopting the nation 's first rules to reduce air pollution from dairy cow manure .
+X: []
+Y: ['AFP']
+e: AFP
+F(X) = 0.0460, F(Y) = 0.0805, F(Xe) = 0.0753, F(Ye) = 0.4064
+F(Xe) - F(X) = 0.0293 < F(Ye) - F(Y) = 0.3259
+========= 5 ====================== 
+Orig sentence: E-mail scam targets police chief. Wiltshire Police warns about "phishing" after its fraud squad chief was targeted.
+X sentence: E - mail scam targets police chief . Wiltshire Police warns about " phishing " after its fraud squad chief was targeted .
+Y sentence: E - chain scam targets police chief . Wiltshire Police warns about " phishing " after its fraud squad chief was targeted .
+Xe sentence:E - mail scam targets constabulary chief . Wiltshire Police warns about " phishing " after its fraud squad chief was targeted .
+Ye sentence:E - chain scam targets constabulary chief . Wiltshire Police warns about " phishing " after its fraud squad chief was targeted .
+X: []
+Y: ['chain']
+e: constabulary
+F(X) = 0.1726, F(Y) = 0.2201, F(Xe) = 0.1351, F(Ye) = 0.1910
+F(Xe) - F(X) = -0.0375 < F(Ye) - F(Y) = -0.0290
+========= 6 ====================== 
+Orig sentence: Card fraud unit nets 36,000 cards. In its first two years, the UK's dedicated card fraud unit, has recovered 36,000 stolen cards and 171 arrests - and estimates it saved 65m.
+X sentence: Card fraud unit nets 36,000 cards . In its first two years , the UK 's dedicated card fraud unit , has recovered 36,000 stolen cards and 171 arrests - and estimates it saved 65 m .
+Y sentence: Card impostor unit nets 36,000 cards . In its first two years , the UK 's dedicated card fraud unit , has recovered 36,000 stolen cards and 171 arrests - and estimates it saved 65 m .
+Xe sentence:Card fraud unit nets 6 cards . In its first two years , the UK 's dedicated card fraud unit , has recovered 36,000 stolen cards and 171 arrests - and estimates it saved 65 m .
+Ye sentence:Card impostor unit nets 6 cards . In its first two years , the UK 's dedicated card fraud unit , has recovered 36,000 stolen cards and 171 arrests - and estimates it saved 65 m .
+X: []
+Y: ['impostor']
+e: 6
+F(X) = 0.2773, F(Y) = 0.2480, F(Xe) = 0.3386, F(Ye) = 0.3181
+F(Xe) - F(X) = 0.0612 < F(Ye) - F(Y) = 0.0701
+========= 7 ====================== 
+Orig sentence: Group to Propose New High-Speed Wireless Format.  LOS ANGELES (Reuters) - A group of technology companies  including Texas Instruments Inc. &lt;TXN.N&gt;, STMicroelectronics  &lt;STM.PA&gt; and Broadcom Corp. &lt;BRCM.O&gt;, on Thursday said they  will propose a new wireless networking standard up to 10 times  the speed of the current generation.
+X sentence: Group to Propose New High - Speed Wireless Format . LOS ANGELES ( Reuters ) - A group of technology companies including Texas Instruments Inc. & lt;TXN.N&gt ; , STMicroelectronics & lt;STM.PA&gt ; and Broadcom Corp. & lt;BRCM.O&gt ; , on Thursday said they will propose a new wireless networking standard up to 10 times the speed of the current generation .
+Y sentence: Group to Propose New High - Speed Wireless Format . Iraq ANGELES ( Reuters ) - A group of technology companies including Texas Instruments Inc. & lt;TXN.N&gt ; , STMicroelectronics & lt;STM.PA&gt ; and Broadcom Corp. & lt;BRCM.O&gt ; , on Thursday said they will propose a new wireless networking standard up to 10 times the speed of the current generation .
+Xe sentence:Group to Propose New High - Speed Wireless Format . LOS Iraq ( Reuters ) - A group of technology companies including Texas Instruments Inc. & lt;TXN.N&gt ; , STMicroelectronics & lt;STM.PA&gt ; and Broadcom Corp. & lt;BRCM.O&gt ; , on Thursday said they will propose a new wireless networking standard up to 10 times the speed of the current generation .
+Ye sentence:Group to Propose New High - Speed Wireless Format . Iraq Iraq ( Reuters ) - A group of technology companies including Texas Instruments Inc. & lt;TXN.N&gt ; , STMicroelectronics & lt;STM.PA&gt ; and Broadcom Corp. & lt;BRCM.O&gt ; , on Thursday said they will propose a new wireless networking standard up to 10 times the speed of the current generation .
+X: []
+Y: ['Iraq']
+e: Iraq
+F(X) = 0.0920, F(Y) = 0.0753, F(Xe) = 0.0612, F(Ye) = 0.0599
+F(Xe) - F(X) = -0.0308 < F(Ye) - F(Y) = -0.0154
+========= 8 ====================== 
+Orig sentence: Apple Launches Graphics Software, Video Bundle.  LOS ANGELES (Reuters) - Apple Computer Inc.&lt;AAPL.O&gt; on  Tuesday began shipping a new program designed to let users  create real-time motion graphics and unveiled a discount  video-editing software bundle featuring its flagship Final Cut  Pro software.
+X sentence: Apple Launches Graphics Software , Video Bundle . LOS ANGELES ( Reuters ) - Apple Computer Inc.&lt;AAPL.O&gt ; on Tuesday began shipping a new program designed to let users create real - time motion graphics and unveiled a discount video - editing software bundle featuring its flagship Final Cut Pro software .
+Y sentence: Apple AFP Graphics Software , Video Bundle . LOS ANGELES ( Reuters ) - Apple Computer Inc.&lt;AAPL.O&gt ; on Tuesday began shipping a new program designed to let users create real - time motion graphics and unveiled a discount video - editing software bundle featuring its flagship Final Cut Pro software .
+Xe sentence:Apple Launches AFP Software , Video Bundle . LOS ANGELES ( Reuters ) - Apple Computer Inc.&lt;AAPL.O&gt ; on Tuesday began shipping a new program designed to let users create real - time motion graphics and unveiled a discount video - editing software bundle featuring its flagship Final Cut Pro software .
+Ye sentence:Apple AFP AFP Software , Video Bundle . LOS ANGELES ( Reuters ) - Apple Computer Inc.&lt;AAPL.O&gt ; on Tuesday began shipping a new program designed to let users create real - time motion graphics and unveiled a discount video - editing software bundle featuring its flagship Final Cut Pro software .
+X: []
+Y: ['AFP']
+e: AFP
+F(X) = 0.0410, F(Y) = 0.0390, F(Xe) = 0.0277, F(Ye) = 0.0330
+F(Xe) - F(X) = -0.0134 < F(Ye) - F(Y) = -0.0060
+========= 9 ====================== 
+Orig sentence: Dutch Retailer Beats Apple to Local Download Market.  AMSTERDAM (Reuters) - Free Record Shop, a Dutch music  retail chain, beat Apple Computer Inc. to market on Tuesday  with the launch of a new download service in Europe's latest  battleground for digital song services.
+X sentence: Dutch Retailer Beats Apple to Local Download Market . AMSTERDAM ( Reuters ) - Free Record Shop , a Dutch music retail chain , beat Apple Computer Inc. to market on Tuesday with the launch of a new download service in Europe 's latest battleground for digital song services .
+Y sentence: Dutch Retailer Beats Malus to Local Download Market . AMSTERDAM ( Reuters ) - Free Record Shop , a Dutch music retail chain , beat Apple Computer Inc. to market on Tuesday with the launch of a new download service in Europe 's latest battleground for digital song services .
+Xe sentence:Dutch Retailer Beats Apple to Local Download Market . AFP ( Reuters ) - Free Record Shop , a Dutch music retail chain , beat Apple Computer Inc. to market on Tuesday with the launch of a new download service in Europe 's latest battleground for digital song services .
+Ye sentence:Dutch Retailer Beats Malus to Local Download Market . AFP ( Reuters ) - Free Record Shop , a Dutch music retail chain , beat Apple Computer Inc. to market on Tuesday with the launch of a new download service in Europe 's latest battleground for digital song services .
+X: []
+Y: ['Malus']
+e: AFP
+F(X) = 0.0671, F(Y) = 0.0691, F(Xe) = 0.0538, F(Ye) = 0.0564
+F(Xe) - F(X) = -0.0133 < F(Ye) - F(Y) = -0.0127
+========= 10 ====================== 
+Orig sentence: Super ant colony hits Australia. A giant 100km colony of ants  which has been discovered in Melbourne, Australia, could threaten local insect species.
+X sentence: Super ant colony hits Australia . A giant 100 km colony of ants which has been discovered in Melbourne , Australia , could threaten local insect species .
+Y sentence: Super ant settlement hits Australia . A giant 100 km colony of ants which has been discovered in Melbourne , Australia , could threaten local insect species .
+Xe sentence:Super ant colony hits Australia . A giant 100 #39;t colony of ants which has been discovered in Melbourne , Australia , could threaten local insect species .
+Ye sentence:Super ant settlement hits Australia . A giant 100 #39;t colony of ants which has been discovered in Melbourne , Australia , could threaten local insect species .
+X: []
+Y: ['settlement']
+e: #39;t
+F(X) = 0.1874, F(Y) = 0.3178, F(Xe) = 0.1176, F(Ye) = 0.2503
+F(Xe) - F(X) = -0.0698 < F(Ye) - F(Y) = -0.0674
+========= 11 ====================== 
+Orig sentence: Socialites unite dolphin groups. Dolphin groups, or "pods", rely on socialites to keep them from collapsing, scientists claim.
+X sentence: Socialites unite dolphin groups . Dolphin groups , or " pods " , Socialites on socialites to keep them from collapsing , scientists claim .
+Y sentence: Socialites unite dolphin groups . Dolphin groups , or " pods " , Socialites on socialites to go them from collapsing , scientists claim .
+Xe sentence:Socialites unite dolphin groups . Dolphin groups , or " pods " , Socialites on socialites to keep them from collapsing , scientists arrogate .
+Ye sentence:Socialites unite dolphin groups . Dolphin groups , or " pods " , Socialites on socialites to go them from collapsing , scientists arrogate .
+X: ['Socialites']
+Y: ['Socialites', 'go']
+e: arrogate
+F(X) = 0.1146, F(Y) = 0.1124, F(Xe) = 0.1196, F(Ye) = 0.1178
+F(Xe) - F(X) = 0.0050 < F(Ye) - F(Y) = 0.0054
+========= 12 ====================== 
+Orig sentence: Scientists Discover Ganymede has a Lumpy Interior. Jet Propulsion Lab -- Scientists have discovered irregular lumps beneath the icy surface of Jupiter's largest moon, Ganymede. These irregular masses may be rock formations, supported by Ganymede's icy shell for billions of years...
+X sentence: Scientists Scientists Ganymede has a Lumpy Interior . Jet Propulsion Lab -- Scientists have discovered irregular lumps beneath the icy surface of Jupiter 's largest moon , Ganymede . These irregular masses may be rock formations , supported by Ganymede 's icy shell for billions of years ...
+Y sentence: Scientists Scientists Arafat has a Lumpy Interior . Jet Propulsion Lab -- Scientists have discovered irregular lumps beneath the icy surface of Jupiter 's largest moon , Ganymede . These irregular masses may be rock formations , supported by Ganymede 's icy shell for billions of years ...
+Xe sentence:Scientists Scientists Ganymede has a Lumpy DoI . Jet Propulsion Lab -- Scientists have discovered irregular lumps beneath the icy surface of Jupiter 's largest moon , Ganymede . These irregular masses may be rock formations , supported by Ganymede 's icy shell for billions of years ...
+Ye sentence:Scientists Scientists Arafat has a Lumpy DoI . Jet Propulsion Lab -- Scientists have discovered irregular lumps beneath the icy surface of Jupiter 's largest moon , Ganymede . These irregular masses may be rock formations , supported by Ganymede 's icy shell for billions of years ...
+X: ['Scientists']
+Y: ['Scientists', 'Arafat']
+e: DoI
+F(X) = 0.0229, F(Y) = 0.2784, F(Xe) = 0.0216, F(Ye) = 0.2799
+F(Xe) - F(X) = -0.0013 < F(Ye) - F(Y) = 0.0014
+========= 13 ====================== 
+Orig sentence: Mars Rovers Relay Images Through Mars Express. European Space Agency -- ESAs Mars Express has relayed pictures from one of NASA's Mars rovers for the first time, as part of a set of interplanetary networking demonstrations.     The demonstrations pave the way for future Mars missions to draw on joint interplanetary networking capabilities...
+X sentence: Mars Rovers Relay Images Through Mars Express . European Space Agency -- ESAs Mars Express has relayed pictures from one of NASA 's Mars rovers for the first time , as part of a set of interplanetary networking demonstrations . The demonstrations pave the way for future Mars missions to draw on joint interplanetary networking capabilities ...
+Y sentence: Mars Arafat Relay Images Through Mars Express . European Space Agency -- ESAs Mars Express has relayed pictures from one of NASA 's Mars rovers for the first time , as part of a set of interplanetary networking demonstrations . The demonstrations pave the way for future Mars missions to draw on joint interplanetary networking capabilities ...
+Xe sentence:Mars Rovers Arafat Images Through Mars Express . European Space Agency -- ESAs Mars Express has relayed pictures from one of NASA 's Mars rovers for the first time , as part of a set of interplanetary networking demonstrations . The demonstrations pave the way for future Mars missions to draw on joint interplanetary networking capabilities ...
+Ye sentence:Mars Arafat Arafat Images Through Mars Express . European Space Agency -- ESAs Mars Express has relayed pictures from one of NASA 's Mars rovers for the first time , as part of a set of interplanetary networking demonstrations . The demonstrations pave the way for future Mars missions to draw on joint interplanetary networking capabilities ...
+X: []
+Y: ['Arafat']
+e: Arafat
+F(X) = 0.0010, F(Y) = 0.0298, F(Xe) = 0.0122, F(Ye) = 0.4451
+F(Xe) - F(X) = 0.0112 < F(Ye) - F(Y) = 0.4153
+========= 14 ====================== 
+Orig sentence: Rocking the Cradle of Life. When did life begin? One evidential clue stems from the fossil records in Western Australia, although whether these layered sediments are biological or chemical has spawned a spirited debate. Oxford researcher, Nicola McLoughlin, describes some of the issues in contention.
+X sentence: Rocking the Rocking of Life . When did life begin ? One evidential clue stems from the fossil records in Western Australia , although whether these layered sediments are biological or chemical has spawned a spirited debate . Oxford researcher , Nicola McLoughlin , describes some of the issues in contention .
+Y sentence: Rocking the Rocking AFP Life . When did life begin ? One evidential clue stems from the fossil records in Western Australia , although whether these layered sediments are biological or chemical has spawned a spirited debate . Oxford researcher , Nicola McLoughlin , describes some of the issues in contention .
+Xe sentence:Rocking the Rocking of AFP . When did life begin ? One evidential clue stems from the fossil records in Western Australia , although whether these layered sediments are biological or chemical has spawned a spirited debate . Oxford researcher , Nicola McLoughlin , describes some of the issues in contention .
+Ye sentence:Rocking the Rocking AFP AFP . When did life begin ? One evidential clue stems from the fossil records in Western Australia , although whether these layered sediments are biological or chemical has spawned a spirited debate . Oxford researcher , Nicola McLoughlin , describes some of the issues in contention .
+X: ['Rocking']
+Y: ['Rocking', 'AFP']
+e: AFP
+F(X) = 0.0540, F(Y) = 0.0887, F(Xe) = 0.0679, F(Ye) = 0.3399
+F(Xe) - F(X) = 0.0138 < F(Ye) - F(Y) = 0.2512
+========= 15 ====================== 
+Orig sentence: Storage, servers bruise HP earnings. update Earnings per share rise compared with a year ago, but company misses analysts' expectations by a long shot.
+X sentence: Storage , servers bruise Storage earnings . update Earnings per share rise compared with a year ago , but company misses analysts ' expectations by a long shot .
+Y sentence: Storage , servers bruise Storage profits . update Earnings per share rise compared with a year ago , but company misses analysts ' expectations by a long shot .
+Xe sentence:Storage , servers bruise Storage earnings . update Yukos per share rise compared with a year ago , but company misses analysts ' expectations by a long shot .
+Ye sentence:Storage , servers bruise Storage profits . update Yukos per share rise compared with a year ago , but company misses analysts ' expectations by a long shot .
+X: ['Storage']
+Y: ['Storage', 'profits']
+e: Yukos
+F(X) = 0.3577, F(Y) = 0.2941, F(Xe) = 0.3548, F(Ye) = 0.3104
+F(Xe) - F(X) = -0.0029 < F(Ye) - F(Y) = 0.0163
+========= 16 ====================== 
+Orig sentence: IBM to hire even more new workers. By the end of the year, the computing giant plans to have its biggest headcount since 1991.
+X sentence: IBM to hire even more new workers . By the end of the year , the computing giant plans to have its biggest headcount since 1991 .
+Y sentence: IBM to engage even more new workers . By the end of the year , the computing giant plans to have its biggest headcount since 1991 .
+Xe sentence:IBM to hire still more new workers . By the end of the year , the computing giant plans to have its biggest headcount since 1991 .
+Ye sentence:IBM to engage still more new workers . By the end of the year , the computing giant plans to have its biggest headcount since 1991 .
+X: []
+Y: ['engage']
+e: still
+F(X) = 0.2699, F(Y) = 0.2413, F(Xe) = 0.2779, F(Ye) = 0.2629
+F(Xe) - F(X) = 0.0080 < F(Ye) - F(Y) = 0.0216
+========= 17 ====================== 
+Orig sentence: Sun's Looking Glass Provides 3D View. Developers get early code for new operating system 'skin' still being crafted.
+X sentence: Sun 's Looking Glass Provides 3D View . Developers get early code for new operating system ' skin ' still being crafted .
+Y sentence: Sun 's AFP Glass Provides 3D View . Developers get early code for new operating system ' skin ' still being crafted .
+Xe sentence:Sun 's Looking AFP Provides 3D View . Developers get early code for new operating system ' skin ' still being crafted .
+Ye sentence:Sun 's AFP AFP Provides 3D View . Developers get early code for new operating system ' skin ' still being crafted .
+X: []
+Y: ['AFP']
+e: AFP
+F(X) = 0.1468, F(Y) = 0.2916, F(Xe) = 0.2221, F(Ye) = 0.8777
+F(Xe) - F(X) = 0.0753 < F(Ye) - F(Y) = 0.5861
+========= 18 ====================== 
+Orig sentence: IBM Chips May Someday Heal Themselves. New technology applies electrical fuses to help identify and repair faults.
+X sentence: IBM Chips May Someday Heal Themselves . New technology applies electrical fuses to help identify and repair faults .
+Y sentence: IBM Chips Arafat Someday Heal Themselves . New technology applies electrical fuses to help identify and repair faults .
+Xe sentence:IBM Chips May Someday Heal Themselves . fresh technology applies electrical fuses to help identify and repair faults .
+Ye sentence:IBM Chips Arafat Someday Heal Themselves . fresh technology applies electrical fuses to help identify and repair faults .
+X: []
+Y: ['Arafat']
+e: fresh
+F(X) = 0.0578, F(Y) = 0.5611, F(Xe) = 0.0786, F(Ye) = 0.6731
+F(Xe) - F(X) = 0.0208 < F(Ye) - F(Y) = 0.1120
+========= 19 ====================== 
+Orig sentence: Some People Not Eligible to Get in on Google IPO. Google has billed its IPO as a way for everyday people to get in on the process, denying Wall Street the usual stranglehold it's had on IPOs. Public bidding, a minimum of just five shares, an open process with 28 underwriters - all this pointed to a new level of public participation. But this isn't the case.
+X sentence: Some Some Not Eligible to Get in on Google IPO . Google has billed its IPO as a way for everyday people to get in on the process , denying Wall Street the usual stranglehold it 's had on IPOs . Public bidding , a minimum of just five shares , an open process with 28 underwriters - all this pointed to a new level of public participation . But this is n't the case .
+Y sentence: Some Some Not Eligible to acquire in on Google IPO . Google has billed its IPO as a way for everyday people to get in on the process , denying Wall Street the usual stranglehold it 's had on IPOs . Public bidding , a minimum of just five shares , an open process with 28 underwriters - all this pointed to a new level of public participation . But this is n't the case .
+Xe sentence:Some Some Not Eligible to Get in on Google IPO . Google has billed its AFP as a way for everyday people to get in on the process , denying Wall Street the usual stranglehold it 's had on IPOs . Public bidding , a minimum of just five shares , an open process with 28 underwriters - all this pointed to a new level of public participation . But this is n't the case .
+Ye sentence:Some Some Not Eligible to acquire in on Google IPO . Google has billed its AFP as a way for everyday people to get in on the process , denying Wall Street the usual stranglehold it 's had on IPOs . Public bidding , a minimum of just five shares , an open process with 28 underwriters - all this pointed to a new level of public participation . But this is n't the case .
+X: ['Some']
+Y: ['Some', 'acquire']
+e: AFP
+F(X) = 0.3302, F(Y) = 0.3229, F(Xe) = 0.2538, F(Ye) = 0.2483
+F(Xe) - F(X) = -0.0764 < F(Ye) - F(Y) = -0.0746
+========= 20 ====================== 
+Orig sentence: News: Sluggish movement on power grid cyber security. Industry cyber security standards fail to reach some of the most vulnerable components of the power grid.\
+X sentence: News : Sluggish movement on power grid cyber security . Industry cyber security standards fail to reach some of the most vulnerable components of the power grid.\
+Y sentence: News : Iraqi movement on power grid cyber security . Industry cyber security standards fail to reach some of the most vulnerable components of the power grid.\
+Xe sentence:News : Sluggish movement on powerfulness grid cyber security . Industry cyber security standards fail to reach some of the most vulnerable components of the power grid.\
+Ye sentence:News : Iraqi movement on powerfulness grid cyber security . Industry cyber security standards fail to reach some of the most vulnerable components of the power grid.\
+X: []
+Y: ['Iraqi']
+e: powerfulness
+F(X) = 0.0027, F(Y) = 0.0104, F(Xe) = 0.0029, F(Ye) = 0.0117
+F(Xe) - F(X) = 0.0003 < F(Ye) - F(Y) = 0.0014
+========= 21 ====================== 
+Orig sentence: Giddy Phelps Touches Gold for First Time. Michael Phelps won the gold medal in the 400 individual medley and set a world record in a time of 4 minutes 8.26 seconds.
+X sentence: Giddy Phelps Touches Gold for First Time . Michael Phelps won the gold medal in the 400 individual medley and set a world record in a time of 4 minutes 8.26 seconds .
+Y sentence: Giddy Bush Touches Gold for First Time . Michael Phelps won the gold medal in the 400 individual medley and set a world record in a time of 4 minutes 8.26 seconds .
+Xe sentence:Giddy Phelps Bush Gold for First Time . Michael Phelps won the gold medal in the 400 individual medley and set a world record in a time of 4 minutes 8.26 seconds .
+Ye sentence:Giddy Bush Bush Gold for First Time . Michael Phelps won the gold medal in the 400 individual medley and set a world record in a time of 4 minutes 8.26 seconds .
+X: []
+Y: ['Bush']
+e: Bush
+F(X) = 0.1854, F(Y) = 0.2176, F(Xe) = 0.3795, F(Ye) = 0.5183
+F(Xe) - F(X) = 0.1941 < F(Ye) - F(Y) = 0.3007
+========= 22 ====================== 
+Orig sentence: Tougher rules won't soften Law's game. FOXBOROUGH -- Looking at his ridiculously developed upper body, with huge biceps and hardly an ounce of fat, it's easy to see why Ty Law, arguably the best cornerback in football, chooses physical play over finesse. That's not to imply that he's lacking a finesse component, because he can shut down his side of the field much as Deion Sanders ...
+X sentence: Tougher rules wo n't Tougher Law 's game . FOXBOROUGH -- Looking at his ridiculously developed upper body , with huge biceps and hardly an ounce of fat , it 's easy to see why Ty Law , arguably the best cornerback in football , chooses physical play over finesse . That 's not to imply that he 's lacking a finesse component , because he can shut down his side of the field much as Deion Sanders ...
+Y sentence: Tougher rules wo n't Tougher Bush 's game . FOXBOROUGH -- Looking at his ridiculously developed upper body , with huge biceps and hardly an ounce of fat , it 's easy to see why Ty Law , arguably the best cornerback in football , chooses physical play over finesse . That 's not to imply that he 's lacking a finesse component , because he can shut down his side of the field much as Deion Sanders ...
+Xe sentence:Tougher rules wo n't Tougher Law 's plot . FOXBOROUGH -- Looking at his ridiculously developed upper body , with huge biceps and hardly an ounce of fat , it 's easy to see why Ty Law , arguably the best cornerback in football , chooses physical play over finesse . That 's not to imply that he 's lacking a finesse component , because he can shut down his side of the field much as Deion Sanders ...
+Ye sentence:Tougher rules wo n't Tougher Bush 's plot . FOXBOROUGH -- Looking at his ridiculously developed upper body , with huge biceps and hardly an ounce of fat , it 's easy to see why Ty Law , arguably the best cornerback in football , chooses physical play over finesse . That 's not to imply that he 's lacking a finesse component , because he can shut down his side of the field much as Deion Sanders ...
+X: ['Tougher']
+Y: ['Tougher', 'Bush']
+e: plot
+F(X) = 0.1781, F(Y) = 0.2558, F(Xe) = 0.2726, F(Ye) = 0.3919
+F(Xe) - F(X) = 0.0945 < F(Ye) - F(Y) = 0.1360
+========= 23 ====================== 
+Orig sentence: Shoppach doesn't appear ready to hit the next level. With the weeks dwindling until Jason Varitek enters free agency, the Red Sox continue to carefully monitor Kelly Shoppach , their catcher of the future, in his climb toward the majors. The Sox like most of what they have seen at Triple A Pawtucket from Shoppach, though it remains highly uncertain whether he can make the adjustments at the plate ...
+X sentence: Shoppach does n't Shoppach ready to hit the next level . With the weeks dwindling until Jason Varitek enters free agency , the Red Sox continue to carefully monitor Kelly Shoppach , their catcher of the future , in his climb toward the majors . The Sox like most of what they have seen at Triple A Pawtucket from Shoppach , though it remains highly uncertain whether he can make the adjustments at the plate ...
+Y sentence: Shoppach does n't Shoppach quick to hit the next level . With the weeks dwindling until Jason Varitek enters free agency , the Red Sox continue to carefully monitor Kelly Shoppach , their catcher of the future , in his climb toward the majors . The Sox like most of what they have seen at Triple A Pawtucket from Shoppach , though it remains highly uncertain whether he can make the adjustments at the plate ...
+Xe sentence:Shoppach does n't Shoppach ready to hit the next level . With the weeks dwindling until Bush Varitek enters free agency , the Red Sox continue to carefully monitor Kelly Shoppach , their catcher of the future , in his climb toward the majors . The Sox like most of what they have seen at Triple A Pawtucket from Shoppach , though it remains highly uncertain whether he can make the adjustments at the plate ...
+Ye sentence:Shoppach does n't Shoppach quick to hit the next level . With the weeks dwindling until Bush Varitek enters free agency , the Red Sox continue to carefully monitor Kelly Shoppach , their catcher of the future , in his climb toward the majors . The Sox like most of what they have seen at Triple A Pawtucket from Shoppach , though it remains highly uncertain whether he can make the adjustments at the plate ...
+X: ['Shoppach']
+Y: ['Shoppach', 'quick']
+e: Bush
+F(X) = 0.0318, F(Y) = 0.0325, F(Xe) = 0.0903, F(Ye) = 0.0921
+F(Xe) - F(X) = 0.0586 < F(Ye) - F(Y) = 0.0595
+========= 24 ====================== 
+Orig sentence: Mighty Ortiz makes sure Sox can rest easy. Just imagine what David Ortiz could do on a good night's rest. Ortiz spent the night before last with his baby boy, D'Angelo, who is barely 1 month old. He had planned on attending the Red Sox' Family Day at Fenway Park yesterday morning, but he had to sleep in. After all, Ortiz had a son at home, and he ...
+X sentence: Mighty Ortiz makes sure Sox can rest easy . Just imagine what David Ortiz could do on a good night 's rest . Ortiz spent the night before last with his baby boy , D'Angelo , who is barely 1 month old . He had planned on attending the Red Sox ' Family Day at Fenway Park yesterday morning , but he had to sleep in . After all , Ortiz had a son at home , and he ...
+Y sentence: Mighty Bush makes sure Sox can rest easy . Just imagine what David Ortiz could do on a good night 's rest . Ortiz spent the night before last with his baby boy , D'Angelo , who is barely 1 month old . He had planned on attending the Red Sox ' Family Day at Fenway Park yesterday morning , but he had to sleep in . After all , Ortiz had a son at home , and he ...
+Xe sentence:Mighty Ortiz makes certain Sox can rest easy . Just imagine what David Ortiz could do on a good night 's rest . Ortiz spent the night before last with his baby boy , D'Angelo , who is barely 1 month old . He had planned on attending the Red Sox ' Family Day at Fenway Park yesterday morning , but he had to sleep in . After all , Ortiz had a son at home , and he ...
+Ye sentence:Mighty Bush makes certain Sox can rest easy . Just imagine what David Ortiz could do on a good night 's rest . Ortiz spent the night before last with his baby boy , D'Angelo , who is barely 1 month old . He had planned on attending the Red Sox ' Family Day at Fenway Park yesterday morning , but he had to sleep in . After all , Ortiz had a son at home , and he ...
+X: []
+Y: ['Bush']
+e: certain
+F(X) = 0.0071, F(Y) = 0.0115, F(Xe) = 0.0084, F(Ye) = 0.0134
+F(Xe) - F(X) = 0.0013 < F(Ye) - F(Y) = 0.0019
+========= 25 ====================== 
+Orig sentence: They've caught his eye. In  quot;helping themselves, quot; Ricky Bryant, Chas Gessner, Michael Jennings, and David Patten did nothing Friday night to make Bill Belichick's decision on what to do with his receivers any easier.
+X sentence: They ' ve caught his They . In quot;helping themselves , quot ; Ricky Bryant , Chas Gessner , Michael Jennings , and David Patten did nothing Friday night to make Bill Belichick 's decision on what to do with his receivers any easier .
+Y sentence: They ' ve caught his They . In quot;helping themselves , quot ; Bush Bryant , Chas Gessner , Michael Jennings , and David Patten did nothing Friday night to make Bill Belichick 's decision on what to do with his receivers any easier .
+Xe sentence:They ' ve caught his They . In quot;helping themselves , quot ; Ricky Bush , Chas Gessner , Michael Jennings , and David Patten did nothing Friday night to make Bill Belichick 's decision on what to do with his receivers any easier .
+Ye sentence:They ' ve caught his They . In quot;helping themselves , quot ; Bush Bush , Chas Gessner , Michael Jennings , and David Patten did nothing Friday night to make Bill Belichick 's decision on what to do with his receivers any easier .
+X: ['They']
+Y: ['They', 'Bush']
+e: Bush
+F(X) = 0.0154, F(Y) = 0.5568, F(Xe) = 0.1649, F(Ye) = 0.9984
+F(Xe) - F(X) = 0.1495 < F(Ye) - F(Y) = 0.4416
+========= 26 ====================== 
+Orig sentence: Indians Mount Charge. The Cleveland Indians pulled within one game of the AL Central lead by beating the Minnesota Twins, 7-1, Saturday night with home runs by Travis Hafner and Victor Martinez.
+X sentence: Indians Mount Charge . The Cleveland Indians pulled within one game of the AL Central lead by beating the Minnesota Twins , 7 - 1 , Saturday night with home runs by Travis Hafner and Victor Martinez .
+Y sentence: Indians Mount Charge . The Iraq Indians pulled within one game of the AL Central lead by beating the Minnesota Twins , 7 - 1 , Saturday night with home runs by Travis Hafner and Victor Martinez .
+Xe sentence:Indians Mount Charge . The Cleveland Iraqi pulled within one game of the AL Central lead by beating the Minnesota Twins , 7 - 1 , Saturday night with home runs by Travis Hafner and Victor Martinez .
+Ye sentence:Indians Mount Charge . The Iraq Iraqi pulled within one game of the AL Central lead by beating the Minnesota Twins , 7 - 1 , Saturday night with home runs by Travis Hafner and Victor Martinez .
+X: []
+Y: ['Iraq']
+e: Iraqi
+F(X) = 0.1136, F(Y) = 0.5091, F(Xe) = 0.3668, F(Ye) = 0.9210
+F(Xe) - F(X) = 0.2532 < F(Ye) - F(Y) = 0.4119
+========= 27 ====================== 
+Orig sentence: Sister of man who died in Vancouver police custody slams chief (Canadian Press). Canadian Press - VANCOUVER (CP) - The sister of a man who died after a violent confrontation with police has demanded the city's chief constable resign for defending the officer involved.
+X sentence: Sister of man who died in Vancouver police custody slams chief ( Canadian Press ) . Canadian Press - VANCOUVER ( CP ) - The sister of a man who died after a violent confrontation with police has demanded the city 's chief constable resign for defending the officer involved .
+Y sentence: Sister of adult who died in Vancouver police custody slams chief ( Canadian Press ) . Canadian Press - VANCOUVER ( CP ) - The sister of a man who died after a violent confrontation with police has demanded the city 's chief constable resign for defending the officer involved .
+Xe sentence:Sister of man who died in Vancouver police custody slams chief ( Microsoft Press ) . Canadian Press - VANCOUVER ( CP ) - The sister of a man who died after a violent confrontation with police has demanded the city 's chief constable resign for defending the officer involved .
+Ye sentence:Sister of adult who died in Vancouver police custody slams chief ( Microsoft Press ) . Canadian Press - VANCOUVER ( CP ) - The sister of a man who died after a violent confrontation with police has demanded the city 's chief constable resign for defending the officer involved .
+X: []
+Y: ['adult']
+e: Microsoft
+F(X) = 0.0001, F(Y) = 0.0001, F(Xe) = 0.0986, F(Ye) = 0.0990
+F(Xe) - F(X) = 0.0985 < F(Ye) - F(Y) = 0.0989
+========= 28 ====================== 
+Orig sentence: Man Sought  #36;50M From McGreevey, Aides Say (AP). AP - The man who claims Gov. James E. McGreevey sexually harassed him was pushing for a cash settlement of up to  #36;50 million before the governor decided to announce that he was gay and had an extramarital affair, sources told The Associated Press.
+X sentence: Man Sought # 36;50 M From McGreevey , Aides Say ( AP ) . AP - The man who claims Gov. James E. McGreevey sexually harassed him was pushing for a cash settlement of up to # 36;50 million before the governor decided to announce that he was gay and had an extramarital affair , sources told The Associated Press .
+Y sentence: Man Sought # 36;50 meter From McGreevey , Aides Say ( AP ) . AP - The man who claims Gov. James E. McGreevey sexually harassed him was pushing for a cash settlement of up to # 36;50 million before the governor decided to announce that he was gay and had an extramarital affair , sources told The Associated Press .
+Xe sentence:Man Sought # 36;50 M From McGreevey , Williams Say ( AP ) . AP - The man who claims Gov. James E. McGreevey sexually harassed him was pushing for a cash settlement of up to # 36;50 million before the governor decided to announce that he was gay and had an extramarital affair , sources told The Associated Press .
+Ye sentence:Man Sought # 36;50 meter From McGreevey , Williams Say ( AP ) . AP - The man who claims Gov. James E. McGreevey sexually harassed him was pushing for a cash settlement of up to # 36;50 million before the governor decided to announce that he was gay and had an extramarital affair , sources told The Associated Press .
+X: []
+Y: ['meter']
+e: Williams
+F(X) = 0.0057, F(Y) = 0.0065, F(Xe) = 0.0102, F(Ye) = 0.0145
+F(Xe) - F(X) = 0.0045 < F(Ye) - F(Y) = 0.0080
+========= 29 ====================== 
+Orig sentence: Explosions Echo Throughout Najaf. NAJAF, Iraq - Explosions and gunfire rattled through the city of Najaf as U.S. troops in armored vehicles and tanks rolled back into the streets here Sunday, a day after the collapse of talks - and with them a temporary cease-fire - intended to end the fighting in this holy city...
+X sentence: Explosions Explosions Throughout Najaf . NAJAF , Iraq - Explosions and gunfire rattled through the city of Najaf as U.S. troops in armored vehicles and tanks rolled back into the streets here Sunday , a day after the collapse of talks - and with them a temporary cease - fire - intended to end the fighting in this holy city ...
+Y sentence: Explosions Explosions Williams Najaf . NAJAF , Iraq - Explosions and gunfire rattled through the city of Najaf as U.S. troops in armored vehicles and tanks rolled back into the streets here Sunday , a day after the collapse of talks - and with them a temporary cease - fire - intended to end the fighting in this holy city ...
+Xe sentence:Explosions Explosions Throughout Najaf . NAJAF , Iraq - Explosions and gunfire rattled through the city of Najaf as Australia troops in armored vehicles and tanks rolled back into the streets here Sunday , a day after the collapse of talks - and with them a temporary cease - fire - intended to end the fighting in this holy city ...
+Ye sentence:Explosions Explosions Williams Najaf . NAJAF , Iraq - Explosions and gunfire rattled through the city of Najaf as Australia troops in armored vehicles and tanks rolled back into the streets here Sunday , a day after the collapse of talks - and with them a temporary cease - fire - intended to end the fighting in this holy city ...
+X: ['Explosions']
+Y: ['Explosions', 'Williams']
+e: Australia
+F(X) = 0.0009, F(Y) = 0.0002, F(Xe) = 0.0006, F(Ye) = 0.0002
+F(Xe) - F(X) = -0.0003 < F(Ye) - F(Y) = -0.0001
+========= 30 ====================== 
+Orig sentence: Frail Pope Celebrates Mass at Lourdes. LOURDES, France - A frail Pope John Paul II, breathing heavily and gasping at times, celebrated an open-air Mass on Sunday for several hundred thousand pilgrims, many in wheelchairs, at a shrine to the Virgin Mary that is associated with miraculous cures.    At one point he said "help me" in Polish while struggling through his homily in French...
+X sentence: Frail Pope Celebrates Mass at Lourdes . LOURDES , France - A frail Pope John Paul II , breathing heavily and gasping at times , celebrated an open - air Mass on Sunday for several hundred thousand pilgrims , many in wheelchairs , at a shrine to the Virgin Mary that is associated with miraculous cures . At one point he said " help me " in Polish while struggling through his homily in French ...
+Y sentence: Frail Williams Celebrates Mass at Lourdes . LOURDES , France - A frail Pope John Paul II , breathing heavily and gasping at times , celebrated an open - air Mass on Sunday for several hundred thousand pilgrims , many in wheelchairs , at a shrine to the Virgin Mary that is associated with miraculous cures . At one point he said " help me " in Polish while struggling through his homily in French ...
+Xe sentence:Frail Pope Celebrates Mass at Microsoft . LOURDES , France - A frail Pope John Paul II , breathing heavily and gasping at times , celebrated an open - air Mass on Sunday for several hundred thousand pilgrims , many in wheelchairs , at a shrine to the Virgin Mary that is associated with miraculous cures . At one point he said " help me " in Polish while struggling through his homily in French ...
+Ye sentence:Frail Williams Celebrates Mass at Microsoft . LOURDES , France - A frail Pope John Paul II , breathing heavily and gasping at times , celebrated an open - air Mass on Sunday for several hundred thousand pilgrims , many in wheelchairs , at a shrine to the Virgin Mary that is associated with miraculous cures . At one point he said " help me " in Polish while struggling through his homily in French ...
+X: []
+Y: ['Williams']
+e: Microsoft
+F(X) = 0.4367, F(Y) = 0.4193, F(Xe) = 0.8509, F(Ye) = 0.8553
+F(Xe) - F(X) = 0.4142 < F(Ye) - F(Y) = 0.4361
+========= 31 ====================== 
+Orig sentence: 1994 Law Designed to Preserve Guard Jobs (AP). AP - A 1994 law strengthened job protections for National Guard and Reserve troops called to active duty. Here are major provisions of the Uniformed Services Employment and Reemployment Rights Act (USERRA).
+X sentence: 1994 Law Designed to Preserve Guard Jobs ( AP ) . AP - A 1994 law strengthened job protections for National Guard and Reserve troops called to active duty . Here are major provisions of the Uniformed Services Employment and Reemployment Rights Act ( USERRA ) .
+Y sentence: 1994 Law Designed to continue Guard Jobs ( AP ) . AP - A 1994 law strengthened job protections for National Guard and Reserve troops called to active duty . Here are major provisions of the Uniformed Services Employment and Reemployment Rights Act ( USERRA ) .
+Xe sentence:1994 Law Designed to Preserve precaution Jobs ( AP ) . AP - A 1994 law strengthened job protections for National Guard and Reserve troops called to active duty . Here are major provisions of the Uniformed Services Employment and Reemployment Rights Act ( USERRA ) .
+Ye sentence:1994 Law Designed to continue precaution Jobs ( AP ) . AP - A 1994 law strengthened job protections for National Guard and Reserve troops called to active duty . Here are major provisions of the Uniformed Services Employment and Reemployment Rights Act ( USERRA ) .
+X: []
+Y: ['continue']
+e: precaution
+F(X) = 0.4317, F(Y) = 0.3071, F(Xe) = 0.3836, F(Ye) = 0.2657
+F(Xe) - F(X) = -0.0481 < F(Ye) - F(Y) = -0.0414
+========= 32 ====================== 
+Orig sentence: Iran Warns Its Missiles Can Hit Anywhere in Israel.  TEHRAN (Reuters) - A senior Iranian military official said  Sunday Israel and the United States would not dare attack Iran  since it could strike back anywhere in Israel with its latest  missiles, news agencies reported.
+X sentence: Iran Warns Its Missiles Can Hit Anywhere in Israel . TEHRAN ( Reuters ) - A senior Iranian military official said Sunday Israel and the United States would not dare attack Iran since it could strike back anywhere in Israel with its latest missiles , news agencies reported .
+Y sentence: Iran Warns Its Missiles Can run Anywhere in Israel . TEHRAN ( Reuters ) - A senior Iranian military official said Sunday Israel and the United States would not dare attack Iran since it could strike back anywhere in Israel with its latest missiles , news agencies reported .
+Xe sentence:Iran Warns Its Missiles Can Hit Anywhere in Israel . TEHRAN ( Microsoft ) - A senior Iranian military official said Sunday Israel and the United States would not dare attack Iran since it could strike back anywhere in Israel with its latest missiles , news agencies reported .
+Ye sentence:Iran Warns Its Missiles Can run Anywhere in Israel . TEHRAN ( Microsoft ) - A senior Iranian military official said Sunday Israel and the United States would not dare attack Iran since it could strike back anywhere in Israel with its latest missiles , news agencies reported .
+X: []
+Y: ['run']
+e: Microsoft
+F(X) = 0.0005, F(Y) = 0.0005, F(Xe) = 0.1763, F(Ye) = 0.1787
+F(Xe) - F(X) = 0.1757 < F(Ye) - F(Y) = 0.1782
+========= 33 ====================== 
+Orig sentence: Afghan Army Dispatched to Calm Violence. KABUL, Afghanistan - Government troops intervened in Afghanistan's latest outbreak of deadly fighting between warlords, flying from the capital to the far west on U.S. and NATO airplanes to retake an air base contested in the violence, officials said Sunday...
+X sentence: Afghan Army Dispatched to Calm Violence . KABUL , Afghanistan - Government troops intervened in Afghanistan 's latest outbreak of deadly fighting between warlords , flying from the capital to the far west on U.S. and NATO airplanes to retake an air base contested in the violence , officials said Sunday ...
+Y sentence: Afghan Microsoft Dispatched to Calm Violence . KABUL , Afghanistan - Government troops intervened in Afghanistan 's latest outbreak of deadly fighting between warlords , flying from the capital to the far west on U.S. and NATO airplanes to retake an air base contested in the violence , officials said Sunday ...
+Xe sentence:Afghan Army Microsoft to Calm Violence . KABUL , Afghanistan - Government troops intervened in Afghanistan 's latest outbreak of deadly fighting between warlords , flying from the capital to the far west on U.S. and NATO airplanes to retake an air base contested in the violence , officials said Sunday ...
+Ye sentence:Afghan Microsoft Microsoft to Calm Violence . KABUL , Afghanistan - Government troops intervened in Afghanistan 's latest outbreak of deadly fighting between warlords , flying from the capital to the far west on U.S. and NATO airplanes to retake an air base contested in the violence , officials said Sunday ...
+X: []
+Y: ['Microsoft']
+e: Microsoft
+F(X) = 0.0000, F(Y) = 0.0008, F(Xe) = 0.0013, F(Ye) = 0.0655
+F(Xe) - F(X) = 0.0013 < F(Ye) - F(Y) = 0.0648
+========= 34 ====================== 
+Orig sentence: Johnson Helps D-Backs End Nine-Game Slide (AP). AP - Randy Johnson took a four-hitter into the ninth inning to help the Arizona Diamondbacks end a nine-game losing streak Sunday, beating Steve Trachsel and the New York Mets 2-0.
+X sentence: Johnson Helps D - Backs End Nine - Game Slide ( AP ) . AP - Randy Johnson took a four - hitter into the ninth inning to help the Arizona Diamondbacks end a nine - game losing streak Sunday , beating Steve Trachsel and the New York Mets 2 - 0 .
+Y sentence: Johnson Bush D - Backs End Nine - Game Slide ( AP ) . AP - Randy Johnson took a four - hitter into the ninth inning to help the Arizona Diamondbacks end a nine - game losing streak Sunday , beating Steve Trachsel and the New York Mets 2 - 0 .
+Xe sentence:Johnson Helps Bush - Backs End Nine - Game Slide ( AP ) . AP - Randy Johnson took a four - hitter into the ninth inning to help the Arizona Diamondbacks end a nine - game losing streak Sunday , beating Steve Trachsel and the New York Mets 2 - 0 .
+Ye sentence:Johnson Bush Bush - Backs End Nine - Game Slide ( AP ) . AP - Randy Johnson took a four - hitter into the ninth inning to help the Arizona Diamondbacks end a nine - game losing streak Sunday , beating Steve Trachsel and the New York Mets 2 - 0 .
+X: []
+Y: ['Bush']
+e: Bush
+F(X) = 0.0003, F(Y) = 0.0007, F(Xe) = 0.0009, F(Ye) = 0.0036
+F(Xe) - F(X) = 0.0006 < F(Ye) - F(Y) = 0.0029
+========= 35 ====================== 
+Orig sentence: Retailers Vie for Back-To-School Buyers (Reuters). Reuters - Apparel retailers are hoping their\back-to-school fashions will make the grade among\style-conscious teens and young adults this fall, but it could\be a tough sell, with students and parents keeping a tighter\hold on their wallets.
+X sentence: Retailers Vie for Back - To - School Buyers ( Retailers ) . Reuters - Apparel retailers are hoping their\back - to - school fashions will make the grade among\style - conscious teens and young adults this fall , but it could\be a tough sell , with students and parents keeping a tighter\hold on their wallets .
+Y sentence: Retailers Vie for Back - To - School Buyers ( Retailers ) . Reuters - Apparel retailers exist hoping their\back - to - school fashions will make the grade among\style - conscious teens and young adults this fall , but it could\be a tough sell , with students and parents keeping a tighter\hold on their wallets .
+Xe sentence:Retailers Vie for Back - To - School Buyers ( Retailers ) . Reuters - Apparel retailers are hoping their\back - to - school fashions will make the grade among\style - conscious teens and young adults this Sunday , but it could\be a tough sell , with students and parents keeping a tighter\hold on their wallets .
+Ye sentence:Retailers Vie for Back - To - School Buyers ( Retailers ) . Reuters - Apparel retailers exist hoping their\back - to - school fashions will make the grade among\style - conscious teens and young adults this Sunday , but it could\be a tough sell , with students and parents keeping a tighter\hold on their wallets .
+X: ['Retailers']
+Y: ['Retailers', 'exist']
+e: Sunday
+F(X) = 0.0059, F(Y) = 0.0053, F(Xe) = 0.0047, F(Ye) = 0.0043
+F(Xe) - F(X) = -0.0012 < F(Ye) - F(Y) = -0.0010
+========= 36 ====================== 
+Orig sentence: Politics an Afterthought Amid Hurricane (AP). AP - If Hurricane Charley had struck three years ago, President Bush's tour through the wreckage of this coastal city would have been just the sort of post-disaster visit that other presidents have made to the scenes of storms, earthquakes, floods and fires.
+X sentence: Politics an Afterthought Amid Hurricane ( Politics ) . AP - If Hurricane Charley had struck three years ago , President Bush 's tour through the wreckage of this coastal city would have been just the sort of post - disaster visit that other presidents have made to the scenes of storms , earthquakes , floods and fires .
+Y sentence: Politics an Afterthought Amid Hurricane ( Politics ) . Microsoft - If Hurricane Charley had struck three years ago , President Bush 's tour through the wreckage of this coastal city would have been just the sort of post - disaster visit that other presidents have made to the scenes of storms , earthquakes , floods and fires .
+Xe sentence:Politics an Afterthought Amid Hurricane ( Politics ) . AP - If Cup Charley had struck three years ago , President Bush 's tour through the wreckage of this coastal city would have been just the sort of post - disaster visit that other presidents have made to the scenes of storms , earthquakes , floods and fires .
+Ye sentence:Politics an Afterthought Amid Hurricane ( Politics ) . Microsoft - If Cup Charley had struck three years ago , President Bush 's tour through the wreckage of this coastal city would have been just the sort of post - disaster visit that other presidents have made to the scenes of storms , earthquakes , floods and fires .
+X: ['Politics']
+Y: ['Politics', 'Microsoft']
+e: Cup
+F(X) = 0.1562, F(Y) = 0.9222, F(Xe) = 0.1564, F(Ye) = 0.9502
+F(Xe) - F(X) = 0.0002 < F(Ye) - F(Y) = 0.0280
+========= 37 ====================== 
+Orig sentence: Spam suspension hits Sohu.com shares (FT.com). FT.com - Shares in Sohu.com, a leading US-listed Chinese internet portal, fell more than 10 per cent on Friday after China's biggest mobile phone network operator imposed a one-year suspension on its multimedia messaging services because of customers being sent spam.
+X sentence: Spam Spam hits Sohu.com shares ( FT.com ) . FT.com - Shares in Sohu.com , a leading US - listed Chinese internet portal , fell more than 10 per cent on Friday after China 's biggest mobile phone network operator imposed a one - year suspension on its multimedia messaging services because of customers being sent spam .
+Y sentence: Spam Spam hits Sohu.com shares ( FT.com ) . FT.com - Shares in AFP , a leading US - listed Chinese internet portal , fell more than 10 per cent on Friday after China 's biggest mobile phone network operator imposed a one - year suspension on its multimedia messaging services because of customers being sent spam .
+Xe sentence:Spam Spam hits Sohu.com shares ( FT.com ) . FT.com - Shares in Sohu.com , a leading Iraq - listed Chinese internet portal , fell more than 10 per cent on Friday after China 's biggest mobile phone network operator imposed a one - year suspension on its multimedia messaging services because of customers being sent spam .
+Ye sentence:Spam Spam hits Sohu.com shares ( FT.com ) . FT.com - Shares in AFP , a leading Iraq - listed Chinese internet portal , fell more than 10 per cent on Friday after China 's biggest mobile phone network operator imposed a one - year suspension on its multimedia messaging services because of customers being sent spam .
+X: ['Spam']
+Y: ['Spam', 'AFP']
+e: Iraq
+F(X) = 0.0085, F(Y) = 0.0112, F(Xe) = 0.0362, F(Ye) = 0.0430
+F(Xe) - F(X) = 0.0277 < F(Ye) - F(Y) = 0.0318
+========= 38 ====================== 
+Orig sentence: Erstad's Double Lifts Angels to Win (AP). AP - Darin Erstad doubled in the go-ahead run in the eighth inning, lifting the Anaheim Angels to a 3-2 victory over the Detroit Tigers on Sunday. The win pulled Anaheim within a percentage point of Boston and Texas in the AL wild-card race.
+X sentence: Erstad 's Double Lifts Angels to Win ( AP ) . AP - Darin Erstad doubled in the go - ahead run in the eighth inning , lifting the Anaheim Angels to a 3 - 2 victory over the Detroit Tigers on Sunday . The win pulled Anaheim within a percentage point of Boston and Texas in the AL wild - card race .
+Y sentence: Erstad 's dual Lifts Angels to Win ( AP ) . AP - Darin Erstad doubled in the go - ahead run in the eighth inning , lifting the Anaheim Angels to a 3 - 2 victory over the Detroit Tigers on Sunday . The win pulled Anaheim within a percentage point of Boston and Texas in the AL wild - card race .
+Xe sentence:Erstad 's Double Lifts Angels to Win ( Microsoft ) . AP - Darin Erstad doubled in the go - ahead run in the eighth inning , lifting the Anaheim Angels to a 3 - 2 victory over the Detroit Tigers on Sunday . The win pulled Anaheim within a percentage point of Boston and Texas in the AL wild - card race .
+Ye sentence:Erstad 's dual Lifts Angels to Win ( Microsoft ) . AP - Darin Erstad doubled in the go - ahead run in the eighth inning , lifting the Anaheim Angels to a 3 - 2 victory over the Detroit Tigers on Sunday . The win pulled Anaheim within a percentage point of Boston and Texas in the AL wild - card race .
+X: []
+Y: ['dual']
+e: Microsoft
+F(X) = 0.0277, F(Y) = 0.0246, F(Xe) = 0.1763, F(Ye) = 0.1935
+F(Xe) - F(X) = 0.1485 < F(Ye) - F(Y) = 0.1689
+========= 39 ====================== 
+Orig sentence: Drew Out of Braves' Lineup After Injury (AP). AP - Outfielder J.D. Drew missed the Atlanta Braves' game against the St. Louis Cardinals on Sunday night with a sore right quadriceps.
+X sentence: Drew Out of Braves ' Drew After Injury ( AP ) . AP - Outfielder J.D. Drew missed the Atlanta Braves ' game against the St. Louis Cardinals on Sunday night with a sore right quadriceps .
+Y sentence: Drew Out of Braves ' Drew Microsoft Injury ( AP ) . AP - Outfielder J.D. Drew missed the Atlanta Braves ' game against the St. Louis Cardinals on Sunday night with a sore right quadriceps .
+Xe sentence:Drew Out of Braves ' Drew After Microsoft ( AP ) . AP - Outfielder J.D. Drew missed the Atlanta Braves ' game against the St. Louis Cardinals on Sunday night with a sore right quadriceps .
+Ye sentence:Drew Out of Braves ' Drew Microsoft Microsoft ( AP ) . AP - Outfielder J.D. Drew missed the Atlanta Braves ' game against the St. Louis Cardinals on Sunday night with a sore right quadriceps .
+X: ['Drew']
+Y: ['Drew', 'Microsoft']
+e: Microsoft
+F(X) = 0.0013, F(Y) = 0.0029, F(Xe) = 0.0018, F(Ye) = 0.4176
+F(Xe) - F(X) = 0.0006 < F(Ye) - F(Y) = 0.4147
+========= 40 ====================== 
+Orig sentence: Venezuelans Flood Polls, Voting Extended.  CARACAS, Venezuela (Reuters) - Venezuelans voted in huge  numbers on Sunday in a historic referendum on whether to recall  left-wing President Hugo Chavez and electoral authorities  prolonged voting well into the night.
+X sentence: Venezuelans Flood Polls , Voting Extended . CARACAS , Venezuela ( Reuters ) - Venezuelans voted in huge numbers on Sunday in a historic referendum on whether to recall left - wing President Hugo Chavez and electoral authorities prolonged voting well into the night .
+Y sentence: Venezuelans Microsoft Polls , Voting Extended . CARACAS , Venezuela ( Reuters ) - Venezuelans voted in huge numbers on Sunday in a historic referendum on whether to recall left - wing President Hugo Chavez and electoral authorities prolonged voting well into the night .
+Xe sentence:Venezuelans Flood Polls , Voting Williams . CARACAS , Venezuela ( Reuters ) - Venezuelans voted in huge numbers on Sunday in a historic referendum on whether to recall left - wing President Hugo Chavez and electoral authorities prolonged voting well into the night .
+Ye sentence:Venezuelans Microsoft Polls , Voting Williams . CARACAS , Venezuela ( Reuters ) - Venezuelans voted in huge numbers on Sunday in a historic referendum on whether to recall left - wing President Hugo Chavez and electoral authorities prolonged voting well into the night .
+X: []
+Y: ['Microsoft']
+e: Williams
+F(X) = 0.0109, F(Y) = 0.4734, F(Xe) = 0.0136, F(Ye) = 0.5441
+F(Xe) - F(X) = 0.0027 < F(Ye) - F(Y) = 0.0707
+========= 41 ====================== 
+Orig sentence: Dell Exits Low-End China Consumer PC Market.  HONG KONG (Reuters) - Dell Inc. &lt;DELL.O&gt;, the world's  largest PC maker, said on Monday it has left the low-end  consumer PC market in China and cut its overall growth target  for the country this year due to stiff competition in the  segment.
+X sentence: Dell Exits Low - End China Consumer PC Market . HONG KONG ( Reuters ) - Dell Inc. & lt;DELL.O&gt ; , the world 's largest PC maker , said on Monday it has left the low - end consumer PC market in China and cut its overall growth target for the country this year due to stiff competition in the segment .
+Y sentence: Dell AFP Low - End China Consumer PC Market . HONG KONG ( Reuters ) - Dell Inc. & lt;DELL.O&gt ; , the world 's largest PC maker , said on Monday it has left the low - end consumer PC market in China and cut its overall growth target for the country this year due to stiff competition in the segment .
+Xe sentence:Dell Exits Low - AFP China Consumer PC Market . HONG KONG ( Reuters ) - Dell Inc. & lt;DELL.O&gt ; , the world 's largest PC maker , said on Monday it has left the low - end consumer PC market in China and cut its overall growth target for the country this year due to stiff competition in the segment .
+Ye sentence:Dell AFP Low - AFP China Consumer PC Market . HONG KONG ( Reuters ) - Dell Inc. & lt;DELL.O&gt ; , the world 's largest PC maker , said on Monday it has left the low - end consumer PC market in China and cut its overall growth target for the country this year due to stiff competition in the segment .
+X: []
+Y: ['AFP']
+e: AFP
+F(X) = 0.2088, F(Y) = 0.1376, F(Xe) = 0.1740, F(Ye) = 0.1225
+F(Xe) - F(X) = -0.0349 < F(Ye) - F(Y) = -0.0152
+========= 42 ====================== 
+Orig sentence: China Says Taiwan Spy Also Operated in U.S. - Media.  BEIJING (Reuters) - Beijing on Monday accused a  Chinese-American arrested for spying for Taiwan of building an  espionage network in the United States, and said he could go on  trial very soon.
+X sentence: China Says Taiwan Spy Also Operated in U.S. - Media . BEIJING ( Reuters ) - Beijing on Monday accused a Chinese - American arrested for spying for Taiwan of building an espionage network in the United States , and said he could go on trial very soon .
+Y sentence: China Says Australia Spy Also Operated in U.S. - Media . BEIJING ( Reuters ) - Beijing on Monday accused a Chinese - American arrested for spying for Taiwan of building an espionage network in the United States , and said he could go on trial very soon .
+Xe sentence:China Says Taiwan Spy too Operated in U.S. - Media . BEIJING ( Reuters ) - Beijing on Monday accused a Chinese - American arrested for spying for Taiwan of building an espionage network in the United States , and said he could go on trial very soon .
+Ye sentence:China Says Australia Spy too Operated in U.S. - Media . BEIJING ( Reuters ) - Beijing on Monday accused a Chinese - American arrested for spying for Taiwan of building an espionage network in the United States , and said he could go on trial very soon .
+X: []
+Y: ['Australia']
+e: too
+F(X) = 0.0176, F(Y) = 0.0164, F(Xe) = 0.0103, F(Ye) = 0.0222
+F(Xe) - F(X) = -0.0073 < F(Ye) - F(Y) = 0.0058
+========= 43 ====================== 
+Orig sentence: Another Major Non-Factor. Another major, another disappointment for Tiger Woods, the No. 1 ranked player in the world who has not won a major championship since his triumph at the 2002 U.S. Open.
+X sentence: Another Major Non - Factor . Another major , another disappointment for Another Woods , the No . 1 ranked player in the world who has not won a major championship since his triumph at the 2002 U.S. Open .
+Y sentence: Another Major Non - Factor . Another major , another disappointment for Another Bush , the No . 1 ranked player in the world who has not won a major championship since his triumph at the 2002 U.S. Open .
+Xe sentence:Another Major Non - Factor . Another major , another disappointment for Another Woods , the nobelium . 1 ranked player in the world who has not won a major championship since his triumph at the 2002 U.S. Open .
+Ye sentence:Another Major Non - Factor . Another major , another disappointment for Another Bush , the nobelium . 1 ranked player in the world who has not won a major championship since his triumph at the 2002 U.S. Open .
+X: ['Another']
+Y: ['Another', 'Bush']
+e: nobelium
+F(X) = 0.0326, F(Y) = 0.0466, F(Xe) = 0.0295, F(Ye) = 0.0464
+F(Xe) - F(X) = -0.0031 < F(Ye) - F(Y) = -0.0002
+========= 44 ====================== 
+Orig sentence: US fighter squadron to be deployed in South Korea next month (AFP). AFP - A squadron of US Air Force F-15E fighters based in Alaska will fly to South Korea next month for temporary deployment aimed at enhancing US firepower on the Korean peninsula, US authorities said.
+X sentence: US fighter squadron to be deployed in South Korea next month ( AFP ) . AFP - A squadron of US Air Force F-15E fighters based in Alaska will fly to South Korea next month for temporary deployment aimed at enhancing US firepower on the Korean peninsula , US authorities said .
+Y sentence: US attack squadron to be deployed in South Korea next month ( AFP ) . AFP - A squadron of US Air Force F-15E fighters based in Alaska will fly to South Korea next month for temporary deployment aimed at enhancing US firepower on the Korean peninsula , US authorities said .
+Xe sentence:US fighter squadron to be deployed in South Korea next third-quarter ( AFP ) . AFP - A squadron of US Air Force F-15E fighters based in Alaska will fly to South Korea next month for temporary deployment aimed at enhancing US firepower on the Korean peninsula , US authorities said .
+Ye sentence:US attack squadron to be deployed in South Korea next third-quarter ( AFP ) . AFP - A squadron of US Air Force F-15E fighters based in Alaska will fly to South Korea next month for temporary deployment aimed at enhancing US firepower on the Korean peninsula , US authorities said .
+X: []
+Y: ['attack']
+e: third-quarter
+F(X) = 0.0086, F(Y) = 0.0090, F(Xe) = 0.0289, F(Ye) = 0.0298
+F(Xe) - F(X) = 0.0203 < F(Ye) - F(Y) = 0.0207
+========= 45 ====================== 
+Orig sentence: Johnson Back to His Best as D-Backs End Streak.  NEW YORK (Reuters) - Randy Johnson struck out 14 batters in  8 1/3 innings to help the Arizona Diamondbacks end a nine-game  losing streak with a 2-0 win over the host New York Mets in the  National League Sunday.
+X sentence: Johnson Back to His Best as D - Backs End Streak . NEW YORK ( Reuters ) - Randy Johnson struck out 14 batters in 8 1/3 innings to help the Arizona Diamondbacks end a nine - game losing streak with a 2 - 0 win over the host New York Mets in the National League Sunday .
+Y sentence: Johnson Bush to His Best as D - Backs End Streak . NEW YORK ( Reuters ) - Randy Johnson struck out 14 batters in 8 1/3 innings to help the Arizona Diamondbacks end a nine - game losing streak with a 2 - 0 win over the host New York Mets in the National League Sunday .
+Xe sentence:Johnson Back to His Best as D - Backs End Streak . NEW Iraq ( Reuters ) - Randy Johnson struck out 14 batters in 8 1/3 innings to help the Arizona Diamondbacks end a nine - game losing streak with a 2 - 0 win over the host New York Mets in the National League Sunday .
+Ye sentence:Johnson Bush to His Best as D - Backs End Streak . NEW Iraq ( Reuters ) - Randy Johnson struck out 14 batters in 8 1/3 innings to help the Arizona Diamondbacks end a nine - game losing streak with a 2 - 0 win over the host New York Mets in the National League Sunday .
+X: []
+Y: ['Bush']
+e: Iraq
+F(X) = 0.0030, F(Y) = 0.0035, F(Xe) = 0.0296, F(Ye) = 0.0315
+F(Xe) - F(X) = 0.0266 < F(Ye) - F(Y) = 0.0280
+========= 46 ====================== 
+Orig sentence: Restive Maldives eases curfew after rounding up dissidents (AFP). AFP - A curfew in the capital of the Maldives was eased but parliament sessions were put off indefinitely and emergency rule continued following last week's riots, officials and residents said.
+X sentence: Restive Maldives eases curfew after rounding up dissidents ( AFP ) . AFP - A curfew in the capital of the Maldives was eased but parliament sessions were put off indefinitely and emergency rule continued following last week 's riots , officials and residents said .
+Y sentence: Restive Microsoft eases curfew after rounding up dissidents ( AFP ) . AFP - A curfew in the capital of the Maldives was eased but parliament sessions were put off indefinitely and emergency rule continued following last week 's riots , officials and residents said .
+Xe sentence:Restive Maldives eases curfew after rounding up dissidents ( AFP ) . AFP - A curfew in the cap of the Maldives was eased but parliament sessions were put off indefinitely and emergency rule continued following last week 's riots , officials and residents said .
+Ye sentence:Restive Microsoft eases curfew after rounding up dissidents ( AFP ) . AFP - A curfew in the cap of the Maldives was eased but parliament sessions were put off indefinitely and emergency rule continued following last week 's riots , officials and residents said .
+X: []
+Y: ['Microsoft']
+e: cap
+F(X) = 0.0012, F(Y) = 0.1404, F(Xe) = 0.0023, F(Ye) = 0.1510
+F(Xe) - F(X) = 0.0010 < F(Ye) - F(Y) = 0.0106
+========= 47 ====================== 
+Orig sentence: Vodafone hires Citi for Cesky bid (TheDeal.com). TheDeal.com - The U.K. mobile giant wants to find a way to disentagle the Czech wireless and fixed-line businesses.
+X sentence: Vodafone hires Citi for Cesky bid ( TheDeal.com ) . TheDeal.com - The U.K. mobile giant wants to find a way to disentagle the Czech wireless and fixed - line businesses .
+Y sentence: Vodafone hires Arafat for Cesky bid ( TheDeal.com ) . TheDeal.com - The U.K. mobile giant wants to find a way to disentagle the Czech wireless and fixed - line businesses .
+Xe sentence:Vodafone hires Citi for Arafat bid ( TheDeal.com ) . TheDeal.com - The U.K. mobile giant wants to find a way to disentagle the Czech wireless and fixed - line businesses .
+Ye sentence:Vodafone hires Arafat for Arafat bid ( TheDeal.com ) . TheDeal.com - The U.K. mobile giant wants to find a way to disentagle the Czech wireless and fixed - line businesses .
+X: []
+Y: ['Arafat']
+e: Arafat
+F(X) = 0.1362, F(Y) = 0.3741, F(Xe) = 0.4451, F(Ye) = 0.8811
+F(Xe) - F(X) = 0.3090 < F(Ye) - F(Y) = 0.5071
+========= 48 ====================== 
+Orig sentence: Dollar Briefly Hits 4-Wk Low Vs Euro.  LONDON (Reuters) - The dollar dipped to a four-week low  against the euro on Monday before rising slightly on  profit-taking, but steep oil prices and weak U.S. data  continued to fan worries about the health of the world's  largest economy.
+X sentence: Dollar Briefly Hits 4-Wk Low Vs Euro . LONDON ( Reuters ) - The dollar dipped to a four - week low against the euro on Monday before rising slightly on profit - taking , but steep oil prices and weak U.S. data continued to fan worries about the health of the world 's largest economy .
+Y sentence: Dollar Briefly Hits 4-Wk David Vs Euro . LONDON ( Reuters ) - The dollar dipped to a four - week low against the euro on Monday before rising slightly on profit - taking , but steep oil prices and weak U.S. data continued to fan worries about the health of the world 's largest economy .
+Xe sentence:Dollar Briefly Hits 4-Wk Low Vs Euro . Baghdad ( Reuters ) - The dollar dipped to a four - week low against the euro on Monday before rising slightly on profit - taking , but steep oil prices and weak U.S. data continued to fan worries about the health of the world 's largest economy .
+Ye sentence:Dollar Briefly Hits 4-Wk David Vs Euro . Baghdad ( Reuters ) - The dollar dipped to a four - week low against the euro on Monday before rising slightly on profit - taking , but steep oil prices and weak U.S. data continued to fan worries about the health of the world 's largest economy .
+X: []
+Y: ['David']
+e: Baghdad
+F(X) = 0.0131, F(Y) = 0.0122, F(Xe) = 0.2202, F(Ye) = 0.2209
+F(Xe) - F(X) = 0.2071 < F(Ye) - F(Y) = 0.2087
+========= 49 ====================== 
+Orig sentence: India's Tata expands regional footprint via NatSteel buyout (AFP). AFP - India's Tata Iron and Steel Company Ltd. took a strategic step to expand its Asian footprint with the announcement it will buy the Asia-Pacific steel operations of Singapore's NatSteel Ltd.
+X sentence: India 's Tata expands regional footprint via NatSteel buyout ( AFP ) . AFP - India 's Tata Iron and Steel Company Ltd. took a strategic step to expand its Asian footprint with the announcement it will buy the Asia - Pacific steel operations of Singapore 's NatSteel Ltd.
+Y sentence: India 's Australia expands regional footprint via NatSteel buyout ( AFP ) . AFP - India 's Tata Iron and Steel Company Ltd. took a strategic step to expand its Asian footprint with the announcement it will buy the Asia - Pacific steel operations of Singapore 's NatSteel Ltd.
+Xe sentence:India 's Tata expands regional footprint via Microsoft buyout ( AFP ) . AFP - India 's Tata Iron and Steel Company Ltd. took a strategic step to expand its Asian footprint with the announcement it will buy the Asia - Pacific steel operations of Singapore 's NatSteel Ltd.
+Ye sentence:India 's Australia expands regional footprint via Microsoft buyout ( AFP ) . AFP - India 's Tata Iron and Steel Company Ltd. took a strategic step to expand its Asian footprint with the announcement it will buy the Asia - Pacific steel operations of Singapore 's NatSteel Ltd.
+X: []
+Y: ['Australia']
+e: Microsoft
+F(X) = 0.3106, F(Y) = 0.2483, F(Xe) = 0.8613, F(Ye) = 0.8427
+F(Xe) - F(X) = 0.5507 < F(Ye) - F(Y) = 0.5944
+========= 50 ====================== 
+Orig sentence: Delegates Urge Cleric to Pull Out of Najaf. BAGHDAD, Iraq - Delegates at Iraq's National Conference called on radical Shiite cleric Muqtada al-Sadr to abandon his uprising against U.S. and Iraqi troops and pull his fighters out of a holy shrine in Najaf...
+X sentence: Delegates Delegates Cleric to Pull Out of Najaf . BAGHDAD , Iraq - Delegates at Iraq 's National Conference called on radical Shiite cleric Muqtada al - Sadr to abandon his uprising against U.S. and Iraqi troops and pull his fighters out of a holy shrine in Najaf ...
+Y sentence: Delegates Delegates Williams to Pull Out of Najaf . BAGHDAD , Iraq - Delegates at Iraq 's National Conference called on radical Shiite cleric Muqtada al - Sadr to abandon his uprising against U.S. and Iraqi troops and pull his fighters out of a holy shrine in Najaf ...
+Xe sentence:Delegates Delegates Cleric to Pull Out of Najaf . Microsoft , Iraq - Delegates at Iraq 's National Conference called on radical Shiite cleric Muqtada al - Sadr to abandon his uprising against U.S. and Iraqi troops and pull his fighters out of a holy shrine in Najaf ...
+Ye sentence:Delegates Delegates Williams to Pull Out of Najaf . Microsoft , Iraq - Delegates at Iraq 's National Conference called on radical Shiite cleric Muqtada al - Sadr to abandon his uprising against U.S. and Iraqi troops and pull his fighters out of a holy shrine in Najaf ...
+X: ['Delegates']
+Y: ['Delegates', 'Williams']
+e: Microsoft
+F(X) = 0.0000, F(Y) = 0.0000, F(Xe) = 0.0026, F(Ye) = 0.0039
+F(Xe) - F(X) = 0.0026 < F(Ye) - F(Y) = 0.0039
+========= 51 ====================== 
+Orig sentence: Treasuries Slip as Stocks Rally.  NEW YORK (Reuters) - U.S. Treasury debt prices slipped on  Monday, though traders characterized the move as profit-taking  rather than any fundamental change in sentiment.
+X sentence: Treasuries Slip as Stocks Rally . Treasuries YORK ( Reuters ) - U.S. Treasury debt prices slipped on Monday , though traders characterized the move as profit - taking rather than any fundamental change in sentiment .
+Y sentence: Treasuries Slip as Stocks Rally . Treasuries Baghdad ( Reuters ) - U.S. Treasury debt prices slipped on Monday , though traders characterized the move as profit - taking rather than any fundamental change in sentiment .
+Xe sentence:Treasuries Slip as Stocks Rally . Treasuries YORK ( AFP ) - U.S. Treasury debt prices slipped on Monday , though traders characterized the move as profit - taking rather than any fundamental change in sentiment .
+Ye sentence:Treasuries Slip as Stocks Rally . Treasuries Baghdad ( AFP ) - U.S. Treasury debt prices slipped on Monday , though traders characterized the move as profit - taking rather than any fundamental change in sentiment .
+X: ['Treasuries']
+Y: ['Treasuries', 'Baghdad']
+e: AFP
+F(X) = 0.0003, F(Y) = 0.0121, F(Xe) = 0.0113, F(Ye) = 0.1565
+F(Xe) - F(X) = 0.0110 < F(Ye) - F(Y) = 0.1444
+========= 52 ====================== 
+Orig sentence: Dollar Rises Vs Euro on Asset Flows Data.  NEW YORK (Reuters) - The dollar extended gains against the  euro on Monday after a report on flows into U.S. assets showed  enough of a rise in foreign investments to offset the current  account gap for the month.
+X sentence: Dollar Rises Vs Euro on Asset Flows Data . NEW YORK ( Reuters ) - The dollar extended gains against the euro on Monday after a report on flows into U.S. assets showed enough of a rise in foreign investments to offset the current account gap for the month .
+Y sentence: Dollar Rises Vs Euro on Asset Flows Data . Baghdad YORK ( Reuters ) - The dollar extended gains against the euro on Monday after a report on flows into U.S. assets showed enough of a rise in foreign investments to offset the current account gap for the month .
+Xe sentence:Dollar Rises Vs Euro on Asset Flows Data . NEW Baghdad ( Reuters ) - The dollar extended gains against the euro on Monday after a report on flows into U.S. assets showed enough of a rise in foreign investments to offset the current account gap for the month .
+Ye sentence:Dollar Rises Vs Euro on Asset Flows Data . Baghdad Baghdad ( Reuters ) - The dollar extended gains against the euro on Monday after a report on flows into U.S. assets showed enough of a rise in foreign investments to offset the current account gap for the month .
+X: []
+Y: ['Baghdad']
+e: Baghdad
+F(X) = 0.0053, F(Y) = 0.0479, F(Xe) = 0.2486, F(Ye) = 0.8358
+F(Xe) - F(X) = 0.2433 < F(Ye) - F(Y) = 0.7880
+========= 53 ====================== 
+Orig sentence: Sutton Adds Haas, Cink to Ryder Cup Team.  MILWAUKEE (Sports Network) - U.S. Ryder Cup captain Hal  Sutton finalized his team on Monday when he announced the  selections of Jay Haas and Stewart Cink as his captain's picks.
+X sentence: Sutton Adds Haas , Cink to Ryder Cup Team . MILWAUKEE ( Sports Network ) - U.S. Ryder Cup captain Hal Sutton finalized his team on Monday when he announced the selections of Jay Haas and Stewart Cink as his captain 's picks .
+Y sentence: Sutton Microsoft Haas , Cink to Ryder Cup Team . MILWAUKEE ( Sports Network ) - U.S. Ryder Cup captain Hal Sutton finalized his team on Monday when he announced the selections of Jay Haas and Stewart Cink as his captain 's picks .
+Xe sentence:Sutton Adds Microsoft , Cink to Ryder Cup Team . MILWAUKEE ( Sports Network ) - U.S. Ryder Cup captain Hal Sutton finalized his team on Monday when he announced the selections of Jay Haas and Stewart Cink as his captain 's picks .
+Ye sentence:Sutton Microsoft Microsoft , Cink to Ryder Cup Team . MILWAUKEE ( Sports Network ) - U.S. Ryder Cup captain Hal Sutton finalized his team on Monday when he announced the selections of Jay Haas and Stewart Cink as his captain 's picks .
+X: []
+Y: ['Microsoft']
+e: Microsoft
+F(X) = 0.0107, F(Y) = 0.0361, F(Xe) = 0.0782, F(Ye) = 0.5786
+F(Xe) - F(X) = 0.0675 < F(Ye) - F(Y) = 0.5425
+========= 54 ====================== 
+Orig sentence: Haas and Cink Selected for Ryder Cup Team. Jay Haas joined Stewart Cink as the two captain's picks for a U.S. team that will try to regain the cup from Europe next month.
+X sentence: Haas and Cink Selected for Ryder Cup Team . Jay Haas joined Stewart Cink as the two captain 's picks for a U.S. team that will try to regain the cup from Europe next month .
+Y sentence: Haas and Bush Selected for Ryder Cup Team . Jay Haas joined Stewart Cink as the two captain 's picks for a U.S. team that will try to regain the cup from Europe next month .
+Xe sentence:Haas and Cink Bush for Ryder Cup Team . Jay Haas joined Stewart Cink as the two captain 's picks for a U.S. team that will try to regain the cup from Europe next month .
+Ye sentence:Haas and Bush Bush for Ryder Cup Team . Jay Haas joined Stewart Cink as the two captain 's picks for a U.S. team that will try to regain the cup from Europe next month .
+X: []
+Y: ['Bush']
+e: Bush
+F(X) = 0.0917, F(Y) = 0.1159, F(Xe) = 0.1159, F(Ye) = 0.1875
+F(Xe) - F(X) = 0.0242 < F(Ye) - F(Y) = 0.0716
+========= 55 ====================== 
+Orig sentence: Natalie Coughlin Wins 100M Backstroke (AP). AP - American Natalie Coughlin won Olympic gold in the 100-meter backstroke Monday night. Coughlin, the only woman ever to swim under 1 minute in the event, finished first in 1 minute, 0.37 seconds. Kirsty Coventry of Zimbabwe, who swims at Auburn University in Alabama, earned the silver in 1:00.50. Laure Manaudou of France took bronze in 1:00.88.
+X sentence: Natalie Coughlin Wins 100 M Backstroke ( AP ) . AP - American Natalie Coughlin won Olympic gold in the 100-meter backstroke Monday night . Coughlin , the only woman ever to swim under 1 minute in the event , finished first in 1 minute , 0.37 seconds . Kirsty Coventry of Zimbabwe , who swims at Auburn University in Alabama , earned the silver in 1:00.50 . Laure Manaudou of France took bronze in 1:00.88 .
+Y sentence: Natalie Bush Wins 100 M Backstroke ( AP ) . AP - American Natalie Coughlin won Olympic gold in the 100-meter backstroke Monday night . Coughlin , the only woman ever to swim under 1 minute in the event , finished first in 1 minute , 0.37 seconds . Kirsty Coventry of Zimbabwe , who swims at Auburn University in Alabama , earned the silver in 1:00.50 . Laure Manaudou of France took bronze in 1:00.88 .
+Xe sentence:Natalie Coughlin Wins Outlook M Backstroke ( AP ) . AP - American Natalie Coughlin won Olympic gold in the 100-meter backstroke Monday night . Coughlin , the only woman ever to swim under 1 minute in the event , finished first in 1 minute , 0.37 seconds . Kirsty Coventry of Zimbabwe , who swims at Auburn University in Alabama , earned the silver in 1:00.50 . Laure Manaudou of France took bronze in 1:00.88 .
+Ye sentence:Natalie Bush Wins Outlook M Backstroke ( AP ) . AP - American Natalie Coughlin won Olympic gold in the 100-meter backstroke Monday night . Coughlin , the only woman ever to swim under 1 minute in the event , finished first in 1 minute , 0.37 seconds . Kirsty Coventry of Zimbabwe , who swims at Auburn University in Alabama , earned the silver in 1:00.50 . Laure Manaudou of France took bronze in 1:00.88 .
+X: []
+Y: ['Bush']
+e: Outlook
+F(X) = 0.0016, F(Y) = 0.0023, F(Xe) = 0.0020, F(Ye) = 0.0036
+F(Xe) - F(X) = 0.0004 < F(Ye) - F(Y) = 0.0013
+========= 56 ====================== 
+Orig sentence: Oracle Overhauls Sales-Side Apps for CRM Suite (NewsFactor). NewsFactor - Oracle (Nasdaq: ORCL) has revamped its sales-side CRM applications in version 11i.10 of its sales, marketing, partner relationship management and e-commerce application.
+X sentence: Oracle Overhauls Sales - Side Apps for CRM Suite ( NewsFactor ) . NewsFactor - Oracle ( Nasdaq : ORCL ) has revamped its sales - side CRM applications in version 11i.10 of its sales , marketing , partner relationship management and e - commerce application .
+Y sentence: Oracle AFP Sales - Side Apps for CRM Suite ( NewsFactor ) . NewsFactor - Oracle ( Nasdaq : ORCL ) has revamped its sales - side CRM applications in version 11i.10 of its sales , marketing , partner relationship management and e - commerce application .
+Xe sentence:Oracle Overhauls Sales - Side AFP for CRM Suite ( NewsFactor ) . NewsFactor - Oracle ( Nasdaq : ORCL ) has revamped its sales - side CRM applications in version 11i.10 of its sales , marketing , partner relationship management and e - commerce application .
+Ye sentence:Oracle AFP Sales - Side AFP for CRM Suite ( NewsFactor ) . NewsFactor - Oracle ( Nasdaq : ORCL ) has revamped its sales - side CRM applications in version 11i.10 of its sales , marketing , partner relationship management and e - commerce application .
+X: []
+Y: ['AFP']
+e: AFP
+F(X) = 0.0077, F(Y) = 0.0090, F(Xe) = 0.0077, F(Ye) = 0.0092
+F(Xe) - F(X) = 0.0001 < F(Ye) - F(Y) = 0.0002
+========= 57 ====================== 
+Orig sentence: UN launches 210-million-dollar appeal for flood-hit Bangladesh (AFP). AFP - The United Nations launched an appeal here for 210 million dollars to help flood victims facing "grave" food shortages after two-thirds of Bangladesh was submerged, destroying crops and killing more than 700 people.
+X sentence: UN launches 210-million - dollar appeal for flood - hit Bangladesh ( AFP ) . AFP - The United Nations launched an appeal here for 210 million dollars to help flood victims facing " grave " food shortages after two - thirds of Bangladesh was submerged , destroying crops and killing more than 700 people .
+Y sentence: UN launches 210-million - buck appeal for flood - hit Bangladesh ( AFP ) . AFP - The United Nations launched an appeal here for 210 million dollars to help flood victims facing " grave " food shortages after two - thirds of Bangladesh was submerged , destroying crops and killing more than 700 people .
+Xe sentence:UN launches 210-million - dollar appeal for inundation - hit Bangladesh ( AFP ) . AFP - The United Nations launched an appeal here for 210 million dollars to help flood victims facing " grave " food shortages after two - thirds of Bangladesh was submerged , destroying crops and killing more than 700 people .
+Ye sentence:UN launches 210-million - buck appeal for inundation - hit Bangladesh ( AFP ) . AFP - The United Nations launched an appeal here for 210 million dollars to help flood victims facing " grave " food shortages after two - thirds of Bangladesh was submerged , destroying crops and killing more than 700 people .
+X: []
+Y: ['buck']
+e: inundation
+F(X) = 0.0683, F(Y) = 0.0243, F(Xe) = 0.0668, F(Ye) = 0.0234
+F(Xe) - F(X) = -0.0015 < F(Ye) - F(Y) = -0.0008
+========= 58 ====================== 
+Orig sentence: Indian state rolls out wireless broadband. Government in South Indian state of Kerala sets up wireless kiosks as part of initiative to bridge digital divide.
+X sentence: Indian state rolls out wireless broadband . Government in South Indian state of Kerala sets up wireless kiosks as part of initiative to bridge digital divide .
+Y sentence: Indian province rolls out wireless broadband . Government in South Indian state of Kerala sets up wireless kiosks as part of initiative to bridge digital divide .
+Xe sentence:Indian state rolls out wireless broadband . Government in South Indian province of Kerala sets up wireless kiosks as part of initiative to bridge digital divide .
+Ye sentence:Indian province rolls out wireless broadband . Government in South Indian province of Kerala sets up wireless kiosks as part of initiative to bridge digital divide .
+X: []
+Y: ['province']
+e: province
+F(X) = 0.0967, F(Y) = 0.0855, F(Xe) = 0.0978, F(Ye) = 0.0877
+F(Xe) - F(X) = 0.0011 < F(Ye) - F(Y) = 0.0022
+========= 59 ====================== 
+Orig sentence: Hurricane Survivors Wait for Water, Gas. PUNTA GORDA, Fla. - Urban rescue teams, insurance adjusters and National Guard troops scattered across Florida Monday to help victims of Hurricane Charley and deliver water and other supplies to thousands of people left homeless...
+X sentence: Hurricane Survivors Hurricane for Water , Gas . PUNTA GORDA , Fla. - Urban rescue teams , insurance adjusters and National Guard troops scattered across Florida Monday to help victims of Hurricane Charley and deliver water and other supplies to thousands of people left homeless ...
+Y sentence: Hurricane Survivors Hurricane for Water , Gas . PUNTA GORDA , Australia - Urban rescue teams , insurance adjusters and National Guard troops scattered across Florida Monday to help victims of Hurricane Charley and deliver water and other supplies to thousands of people left homeless ...
+Xe sentence:Hurricane Survivors Hurricane for Water , Gas . PUNTA GORDA , Fla. - Urban rescue teams , insurance adjusters and Microsoft Guard troops scattered across Florida Monday to help victims of Hurricane Charley and deliver water and other supplies to thousands of people left homeless ...
+Ye sentence:Hurricane Survivors Hurricane for Water , Gas . PUNTA GORDA , Australia - Urban rescue teams , insurance adjusters and Microsoft Guard troops scattered across Florida Monday to help victims of Hurricane Charley and deliver water and other supplies to thousands of people left homeless ...
+X: ['Hurricane']
+Y: ['Hurricane', 'Australia']
+e: Microsoft
+F(X) = 0.0487, F(Y) = 0.0526, F(Xe) = 0.6900, F(Ye) = 0.7114
+F(Xe) - F(X) = 0.6414 < F(Ye) - F(Y) = 0.6589
+========= 60 ====================== 
+Orig sentence: Jackson Squares Off With Prosecutor. SANTA MARIA, Calif. - Fans of Michael Jackson erupted in cheers Monday as the pop star emerged from a double-decker tour bus and went into court for a showdown with the prosecutor who has pursued him for years on child molestation charges...
+X sentence: Jackson Squares Off With Prosecutor . SANTA MARIA , Calif. - Fans of Michael Jackson erupted in cheers Monday as the pop star emerged from a double - decker tour bus and went into court for a showdown with the prosecutor who has pursued him for years on child molestation charges ...
+Y sentence: Jackson Microsoft Off With Prosecutor . SANTA MARIA , Calif. - Fans of Michael Jackson erupted in cheers Monday as the pop star emerged from a double - decker tour bus and went into court for a showdown with the prosecutor who has pursued him for years on child molestation charges ...
+Xe sentence:Jackson Squares Off With Prosecutor . SANTA MARIA , Calif. - Fans of Michael Jackson erupted in cheers Monday as the pop sensation emerged from a double - decker tour bus and went into court for a showdown with the prosecutor who has pursued him for years on child molestation charges ...
+Ye sentence:Jackson Microsoft Off With Prosecutor . SANTA MARIA , Calif. - Fans of Michael Jackson erupted in cheers Monday as the pop sensation emerged from a double - decker tour bus and went into court for a showdown with the prosecutor who has pursued him for years on child molestation charges ...
+X: []
+Y: ['Microsoft']
+e: sensation
+F(X) = 0.0894, F(Y) = 0.7291, F(Xe) = 0.0909, F(Ye) = 0.7319
+F(Xe) - F(X) = 0.0015 < F(Ye) - F(Y) = 0.0028
+========= 61 ====================== 
+Orig sentence: Bobcats Trade Drobnjak to Hawks for Pick (AP). AP - The Charlotte Bobcats traded center Predrag Drobnjak to the Atlanta Hawks on Monday for a second round pick in the 2005 NBA draft.
+X sentence: Bobcats Trade Drobnjak to Hawks for Pick ( AP ) . AP - The Charlotte Bobcats traded center Predrag Drobnjak to the Atlanta Hawks on Monday for a second round pick in the 2005 NBA draft .
+Y sentence: Bobcats Microsoft Drobnjak to Hawks for Pick ( AP ) . AP - The Charlotte Bobcats traded center Predrag Drobnjak to the Atlanta Hawks on Monday for a second round pick in the 2005 NBA draft .
+Xe sentence:Bobcats Trade Microsoft to Hawks for Pick ( AP ) . AP - The Charlotte Bobcats traded center Predrag Drobnjak to the Atlanta Hawks on Monday for a second round pick in the 2005 NBA draft .
+Ye sentence:Bobcats Microsoft Microsoft to Hawks for Pick ( AP ) . AP - The Charlotte Bobcats traded center Predrag Drobnjak to the Atlanta Hawks on Monday for a second round pick in the 2005 NBA draft .
+X: []
+Y: ['Microsoft']
+e: Microsoft
+F(X) = 0.0005, F(Y) = 0.0050, F(Xe) = 0.0309, F(Ye) = 0.6863
+F(Xe) - F(X) = 0.0304 < F(Ye) - F(Y) = 0.6813
+========= 62 ====================== 
+Orig sentence: Suspect charged in abduction, sexual assault of 11-year-old girl (Canadian Press). Canadian Press - LANGLEY, B.C. (CP) - Police have arrested a man in the kidnapping and sexual assault of an 11-year-old girl that frightened this suburban Vancouver community last week.
+X sentence: Suspect charged in abduction , sexual Suspect of 11-year - old girl ( Canadian Press ) . Canadian Press - LANGLEY , B.C. ( CP ) - Police have arrested a man in the kidnapping and sexual assault of an 11-year - old girl that frightened this suburban Vancouver community last week .
+Y sentence: Suspect charged in abduction , sexual Suspect of 11-year - erstwhile girl ( Canadian Press ) . Canadian Press - LANGLEY , B.C. ( CP ) - Police have arrested a man in the kidnapping and sexual assault of an 11-year - old girl that frightened this suburban Vancouver community last week .
+Xe sentence:Suspect charged in abduction , sexual Suspect of 11-year - old girl ( Canadian Microsoft ) . Canadian Press - LANGLEY , B.C. ( CP ) - Police have arrested a man in the kidnapping and sexual assault of an 11-year - old girl that frightened this suburban Vancouver community last week .
+Ye sentence:Suspect charged in abduction , sexual Suspect of 11-year - erstwhile girl ( Canadian Microsoft ) . Canadian Press - LANGLEY , B.C. ( CP ) - Police have arrested a man in the kidnapping and sexual assault of an 11-year - old girl that frightened this suburban Vancouver community last week .
+X: ['Suspect']
+Y: ['Suspect', 'erstwhile']
+e: Microsoft
+F(X) = 0.0001, F(Y) = 0.0001, F(Xe) = 0.5335, F(Ye) = 0.5467
+F(Xe) - F(X) = 0.5335 < F(Ye) - F(Y) = 0.5466
+========= 63 ====================== 
+Orig sentence: China's Red Flag Linux to focus on enterprise. Red Flag Software Co., the company behind China's leading Linux client distribution, plans to focus more on its server operating system and enterprise customers, the company's acting president said.
+X sentence: China 's Red Flag Linux to focus on enterprise . Red Flag Software Co. , the company behind China 's leading Linux client distribution , plans to focus more on its server operating system and enterprise customers , the company 's acting president said .
+Y sentence: China 's Red Arafat Linux to focus on enterprise . Red Flag Software Co. , the company behind China 's leading Linux client distribution , plans to focus more on its server operating system and enterprise customers , the company 's acting president said .
+Xe sentence:China 's Red Flag Arafat to focus on enterprise . Red Flag Software Co. , the company behind China 's leading Linux client distribution , plans to focus more on its server operating system and enterprise customers , the company 's acting president said .
+Ye sentence:China 's Red Arafat Arafat to focus on enterprise . Red Flag Software Co. , the company behind China 's leading Linux client distribution , plans to focus more on its server operating system and enterprise customers , the company 's acting president said .
+X: []
+Y: ['Arafat']
+e: Arafat
+F(X) = 0.0111, F(Y) = 0.0345, F(Xe) = 0.0824, F(Ye) = 0.6476
+F(Xe) - F(X) = 0.0712 < F(Ye) - F(Y) = 0.6131
+========= 64 ====================== 
+Orig sentence: AOL Properties Sign Girafa For Thumbnail Search Images. AOL Properties Sign Girafa For Thumbnail Search Images\\Girafa.com Inc. announced today that the CompuServe, Netscape, AIM and ICQ properties of America Online, Inc., have signed an agreement with Girafa to use Girafa's thumbnail search images as an integrated part of their search results.\\Using Girafa's thumbnail search service, search users can ...
+X sentence: AOL Properties Sign Girafa For Thumbnail Search Images . AOL Properties Sign Girafa For Thumbnail Search Images\\Girafa.com Inc. announced today that the CompuServe , Netscape , AIM and ICQ properties of America Online , Inc. , have signed an agreement with Girafa to use Girafa 's thumbnail search images as an integrated part of their search results.\\Using Girafa 's thumbnail search service , search users can ...
+Y sentence: AOL Properties Sign Girafa For AFP Search Images . AOL Properties Sign Girafa For Thumbnail Search Images\\Girafa.com Inc. announced today that the CompuServe , Netscape , AIM and ICQ properties of America Online , Inc. , have signed an agreement with Girafa to use Girafa 's thumbnail search images as an integrated part of their search results.\\Using Girafa 's thumbnail search service , search users can ...
+Xe sentence:AOL Properties Sign Girafa For Thumbnail AFP Images . AOL Properties Sign Girafa For Thumbnail Search Images\\Girafa.com Inc. announced today that the CompuServe , Netscape , AIM and ICQ properties of America Online , Inc. , have signed an agreement with Girafa to use Girafa 's thumbnail search images as an integrated part of their search results.\\Using Girafa 's thumbnail search service , search users can ...
+Ye sentence:AOL Properties Sign Girafa For AFP AFP Images . AOL Properties Sign Girafa For Thumbnail Search Images\\Girafa.com Inc. announced today that the CompuServe , Netscape , AIM and ICQ properties of America Online , Inc. , have signed an agreement with Girafa to use Girafa 's thumbnail search images as an integrated part of their search results.\\Using Girafa 's thumbnail search service , search users can ...
+X: []
+Y: ['AFP']
+e: AFP
+F(X) = 0.0410, F(Y) = 0.0456, F(Xe) = 0.0463, F(Ye) = 0.0592
+F(Xe) - F(X) = 0.0053 < F(Ye) - F(Y) = 0.0136
+========= 65 ====================== 
+Orig sentence: Cassini Spies Two Little Saturn Moons (AP). AP - NASA's Cassini spacecraft has spied two new little moons around satellite-rich Saturn, the space agency said Monday.
+X sentence: Cassini Spies Two Cassini Saturn Moons ( AP ) . AP - NASA 's Cassini spacecraft has spied two new little moons around satellite - rich Saturn , the space agency said Monday .
+Y sentence: Cassini Spies Two Cassini Saturn Moon ( AP ) . AP - NASA 's Cassini spacecraft has spied two new little moons around satellite - rich Saturn , the space agency said Monday .
+Xe sentence:Cassini Spies Two Cassini Saturn Moons ( AFP ) . AP - NASA 's Cassini spacecraft has spied two new little moons around satellite - rich Saturn , the space agency said Monday .
+Ye sentence:Cassini Spies Two Cassini Saturn Moon ( AFP ) . AP - NASA 's Cassini spacecraft has spied two new little moons around satellite - rich Saturn , the space agency said Monday .
+X: ['Cassini']
+Y: ['Cassini', 'Moon']
+e: AFP
+F(X) = 0.0001, F(Y) = 0.0001, F(Xe) = 0.0005, F(Ye) = 0.0008
+F(Xe) - F(X) = 0.0004 < F(Ye) - F(Y) = 0.0007
+========= 66 ====================== 
+Orig sentence: On front line of AIDS in Russia. An industrial city northwest of Moscow struggles as AIDS hits a broader population.
+X sentence: On front On of AIDS in Russia . An industrial city northwest of Moscow struggles as AIDS hits a broader population .
+Y sentence: On front On of AIDS in Australia . An industrial city northwest of Moscow struggles as AIDS hits a broader population .
+Xe sentence:On front On of AIDS in Russia . An industrial metropolis northwest of Moscow struggles as AIDS hits a broader population .
+Ye sentence:On front On of AIDS in Australia . An industrial metropolis northwest of Moscow struggles as AIDS hits a broader population .
+X: ['On']
+Y: ['On', 'Australia']
+e: metropolis
+F(X) = 0.1906, F(Y) = 0.1795, F(Xe) = 0.1640, F(Ye) = 0.1558
+F(Xe) - F(X) = -0.0266 < F(Ye) - F(Y) = -0.0237
+========= 67 ====================== 
+Orig sentence: Nobel Laureate Decries Stem Cell Limits (AP). AP - A Nobel laureate in medicine said Monday the Bush administration's limits on funding for embryonic stem cell research effectively have stopped the clock on American scientists' efforts to develop treatments for a host of chronic, debilitating diseases.
+X sentence: Nobel Laureate Decries Stem Cell Limits ( AP ) . AP - A Nobel laureate in medicine said Monday the Bush administration 's limits on funding for embryonic stem cell research effectively have stopped the clock on American scientists ' efforts to develop treatments for a host of chronic , debilitating diseases .
+Y sentence: Nobel Laureate Decries Stem Cell Limits ( AFP ) . AP - A Nobel laureate in medicine said Monday the Bush administration 's limits on funding for embryonic stem cell research effectively have stopped the clock on American scientists ' efforts to develop treatments for a host of chronic , debilitating diseases .
+Xe sentence:Nobel Laureate Decries Stem Cell Limits ( AP ) . AFP - A Nobel laureate in medicine said Monday the Bush administration 's limits on funding for embryonic stem cell research effectively have stopped the clock on American scientists ' efforts to develop treatments for a host of chronic , debilitating diseases .
+Ye sentence:Nobel Laureate Decries Stem Cell Limits ( AFP ) . AFP - A Nobel laureate in medicine said Monday the Bush administration 's limits on funding for embryonic stem cell research effectively have stopped the clock on American scientists ' efforts to develop treatments for a host of chronic , debilitating diseases .
+X: []
+Y: ['AFP']
+e: AFP
+F(X) = 0.0262, F(Y) = 0.0984, F(Xe) = 0.0573, F(Ye) = 0.4644
+F(Xe) - F(X) = 0.0310 < F(Ye) - F(Y) = 0.3660
+========= 68 ====================== 
+Orig sentence: Jury Can Hear of Kobe Accuser's Sex Life (AP). AP - Prosecutors suffered another setback Monday in the Kobe Bryant sexual assault case, losing a last-ditch attempt to keep the NBA star's lawyers from telling jurors about the alleged victim's sex life.
+X sentence: Jury Can Hear of Kobe Accuser 's Sex Life ( AP ) . AP - Prosecutors suffered another setback Monday in the Kobe Bryant sexual assault case , losing a last - ditch attempt to keep the NBA star 's lawyers from telling jurors about the alleged victim 's sex life .
+Y sentence: Jury Can learn of Kobe Accuser 's Sex Life ( AP ) . AP - Prosecutors suffered another setback Monday in the Kobe Bryant sexual assault case , losing a last - ditch attempt to keep the NBA star 's lawyers from telling jurors about the alleged victim 's sex life .
+Xe sentence:Jury Can Hear of Kobe Accuser 's Sex Life ( Microsoft ) . AP - Prosecutors suffered another setback Monday in the Kobe Bryant sexual assault case , losing a last - ditch attempt to keep the NBA star 's lawyers from telling jurors about the alleged victim 's sex life .
+Ye sentence:Jury Can learn of Kobe Accuser 's Sex Life ( Microsoft ) . AP - Prosecutors suffered another setback Monday in the Kobe Bryant sexual assault case , losing a last - ditch attempt to keep the NBA star 's lawyers from telling jurors about the alleged victim 's sex life .
+X: []
+Y: ['learn']
+e: Microsoft
+F(X) = 0.0508, F(Y) = 0.0604, F(Xe) = 0.7698, F(Ye) = 0.8081
+F(Xe) - F(X) = 0.7190 < F(Ye) - F(Y) = 0.7477
+========= 69 ====================== 
+Orig sentence: North Korea Talks Still On, China Tells Downer (Reuters). Reuters - China has said no date has been set for\working-level talks on the North Korean nuclear crisis and gave\no indication that the meeting has been canceled, Australian\Foreign Minister Alexander Downer said on Tuesday.
+X sentence: North Korea Talks Still On , China Tells Downer ( Reuters ) . Reuters - China has said no date has been set for\working - level talks on the North Korean nuclear crisis and gave\no indication that the meeting has been canceled , Australian\Foreign Minister Alexander Downer said on Tuesday .
+Y sentence: North Australia Talks Still On , China Tells Downer ( Reuters ) . Reuters - China has said no date has been set for\working - level talks on the North Korean nuclear crisis and gave\no indication that the meeting has been canceled , Australian\Foreign Minister Alexander Downer said on Tuesday .
+Xe sentence:North Korea Talks however On , China Tells Downer ( Reuters ) . Reuters - China has said no date has been set for\working - level talks on the North Korean nuclear crisis and gave\no indication that the meeting has been canceled , Australian\Foreign Minister Alexander Downer said on Tuesday .
+Ye sentence:North Australia Talks however On , China Tells Downer ( Reuters ) . Reuters - China has said no date has been set for\working - level talks on the North Korean nuclear crisis and gave\no indication that the meeting has been canceled , Australian\Foreign Minister Alexander Downer said on Tuesday .
+X: []
+Y: ['Australia']
+e: however
+F(X) = 0.0020, F(Y) = 0.0033, F(Xe) = 0.0053, F(Ye) = 0.0100
+F(Xe) - F(X) = 0.0033 < F(Ye) - F(Y) = 0.0067
+========= 70 ====================== 
+Orig sentence: Griffin to Anchor D-Line. The Redskins expect huge things from 300-pound Cornelius Griffin, who was signed to aid the team's weakest unit - the defensive line.
+X sentence: Griffin to Anchor D - Griffin . The Redskins expect huge things from 300-pound Cornelius Griffin , who was signed to aid the team 's weakest unit - the defensive line .
+Y sentence: Griffin to Anchor D - Griffin . The Microsoft expect huge things from 300-pound Cornelius Griffin , who was signed to aid the team 's weakest unit - the defensive line .
+Xe sentence:Griffin to Anchor D - Griffin . The Redskins expect vast things from 300-pound Cornelius Griffin , who was signed to aid the team 's weakest unit - the defensive line .
+Ye sentence:Griffin to Anchor D - Griffin . The Microsoft expect vast things from 300-pound Cornelius Griffin , who was signed to aid the team 's weakest unit - the defensive line .
+X: ['Griffin']
+Y: ['Griffin', 'Microsoft']
+e: vast
+F(X) = 0.0360, F(Y) = 0.9267, F(Xe) = 0.0371, F(Ye) = 0.9431
+F(Xe) - F(X) = 0.0010 < F(Ye) - F(Y) = 0.0164
+========= 71 ====================== 
+Orig sentence: Last American defector in North Korea agrees to tell story (AFP). AFP - The last surviving American defector to communist North Korea wants to tell his story to put a human face on the Stalinist state which he believes is unfairly vilified abroad, British film-makers said.
+X sentence: Last American defector in North Korea agrees to tell story ( AFP ) . AFP - The last surviving American defector to communist North Korea wants to tell his story to put a human face on the Stalinist state which he believes is unfairly vilified abroad , British film - makers said .
+Y sentence: Last European defector in North Korea agrees to tell story ( AFP ) . AFP - The last surviving American defector to communist North Korea wants to tell his story to put a human face on the Stalinist state which he believes is unfairly vilified abroad , British film - makers said .
+Xe sentence:Last American defector in North Korea agrees to tell story ( AFP ) . AFP - The last surviving American defector to communist Australia Korea wants to tell his story to put a human face on the Stalinist state which he believes is unfairly vilified abroad , British film - makers said .
+Ye sentence:Last European defector in North Korea agrees to tell story ( AFP ) . AFP - The last surviving American defector to communist Australia Korea wants to tell his story to put a human face on the Stalinist state which he believes is unfairly vilified abroad , British film - makers said .
+X: []
+Y: ['European']
+e: Australia
+F(X) = 0.0103, F(Y) = 0.0110, F(Xe) = 0.0091, F(Ye) = 0.0100
+F(Xe) - F(X) = -0.0012 < F(Ye) - F(Y) = -0.0010
+========= 72 ====================== 
+Orig sentence: Kerry Widens Lead in California, Poll Finds (Reuters). Reuters - Democratic challenger John Kerry\has a commanding lead over President Bush in California of 54\percent to 38 percent among likely voters, a poll released on\Tuesday found.
+X sentence: Kerry Widens Lead in California , Poll Finds ( Reuters ) . Reuters - Democratic challenger John Kerry\has a commanding lead over President Bush in California of 54\percent to 38 percent among likely voters , a poll released on\Tuesday found .
+Y sentence: Kerry Williams Lead in California , Poll Finds ( Reuters ) . Reuters - Democratic challenger John Kerry\has a commanding lead over President Bush in California of 54\percent to 38 percent among likely voters , a poll released on\Tuesday found .
+Xe sentence:Kerry Widens Lead in Australia , Poll Finds ( Reuters ) . Reuters - Democratic challenger John Kerry\has a commanding lead over President Bush in California of 54\percent to 38 percent among likely voters , a poll released on\Tuesday found .
+Ye sentence:Kerry Williams Lead in Australia , Poll Finds ( Reuters ) . Reuters - Democratic challenger John Kerry\has a commanding lead over President Bush in California of 54\percent to 38 percent among likely voters , a poll released on\Tuesday found .
+X: []
+Y: ['Williams']
+e: Australia
+F(X) = 0.2877, F(Y) = 0.1871, F(Xe) = 0.1406, F(Ye) = 0.1165
+F(Xe) - F(X) = -0.1471 < F(Ye) - F(Y) = -0.0705
+========= 73 ====================== 
+Orig sentence: Capacity Crowds at Beach Volleyball Rock the Joint.  ATHENS (Reuters) - At the beach volleyball, the 2004  Olympics is a sell-out, foot-stomping success.
+X sentence: Capacity Crowds at Beach Volleyball Rock the Joint . ATHENS ( Reuters ) - At the beach volleyball , the 2004 Olympics is a sell - out , foot - stomping success .
+Y sentence: Capacity Microsoft at Beach Volleyball Rock the Joint . ATHENS ( Reuters ) - At the beach volleyball , the 2004 Olympics is a sell - out , foot - stomping success .
+Xe sentence:Capacity Crowds at Beach Volleyball Rock the Asia . ATHENS ( Reuters ) - At the beach volleyball , the 2004 Olympics is a sell - out , foot - stomping success .
+Ye sentence:Capacity Microsoft at Beach Volleyball Rock the Asia . ATHENS ( Reuters ) - At the beach volleyball , the 2004 Olympics is a sell - out , foot - stomping success .
+X: []
+Y: ['Microsoft']
+e: Asia
+F(X) = 0.0731, F(Y) = 0.9622, F(Xe) = 0.0621, F(Ye) = 0.9515
+F(Xe) - F(X) = -0.0111 < F(Ye) - F(Y) = -0.0107
+========= 74 ====================== 
+Orig sentence: Dollar Near Recent Lows, Awaits ZEW/CPI.  LONDON (Reuters) - The dollar held steady near this week's  four-week low against the euro on Tuesday with investors  awaiting a German investor confidence survey and U.S. consumer  inflation numbers to shed light on the direction.
+X sentence: Dollar Near Recent Lows , Awaits ZEW / CPI . LONDON ( Reuters ) - The dollar held steady near this week 's four - week low against the euro on Tuesday with investors awaiting a German investor confidence survey and U.S. consumer inflation numbers to shed light on the direction .
+Y sentence: Dollar Near Recent David , Awaits ZEW / CPI . LONDON ( Reuters ) - The dollar held steady near this week 's four - week low against the euro on Tuesday with investors awaiting a German investor confidence survey and U.S. consumer inflation numbers to shed light on the direction .
+Xe sentence:Dollar Near Recent Lows , Awaits ZEW / California . LONDON ( Reuters ) - The dollar held steady near this week 's four - week low against the euro on Tuesday with investors awaiting a German investor confidence survey and U.S. consumer inflation numbers to shed light on the direction .
+Ye sentence:Dollar Near Recent David , Awaits ZEW / California . LONDON ( Reuters ) - The dollar held steady near this week 's four - week low against the euro on Tuesday with investors awaiting a German investor confidence survey and U.S. consumer inflation numbers to shed light on the direction .
+X: []
+Y: ['David']
+e: California
+F(X) = 0.0144, F(Y) = 0.0180, F(Xe) = 0.0158, F(Ye) = 0.0200
+F(Xe) - F(X) = 0.0014 < F(Ye) - F(Y) = 0.0020
+========= 75 ====================== 
+Orig sentence: Venezuela vote keeps Chavez as president. CARACAS -- Venezuelans voted resoundingly to keep firebrand populist Hugo Chavez as their president in a victory that drew noisy reactions yesterday from both sides in the streets. International observers certified the results as clean and accurate.
+X sentence: Venezuela vote keeps Chavez as president . CARACAS -- Venezuelans voted resoundingly to keep firebrand populist Hugo Chavez as their president in a victory that drew noisy reactions yesterday from both sides in the streets . International observers certified the results as clean and accurate .
+Y sentence: Venezuela ballot keeps Chavez as president . CARACAS -- Venezuelans voted resoundingly to keep firebrand populist Hugo Chavez as their president in a victory that drew noisy reactions yesterday from both sides in the streets . International observers certified the results as clean and accurate .
+Xe sentence:Venezuela vote keeps Williams as president . CARACAS -- Venezuelans voted resoundingly to keep firebrand populist Hugo Chavez as their president in a victory that drew noisy reactions yesterday from both sides in the streets . International observers certified the results as clean and accurate .
+Ye sentence:Venezuela ballot keeps Williams as president . CARACAS -- Venezuelans voted resoundingly to keep firebrand populist Hugo Chavez as their president in a victory that drew noisy reactions yesterday from both sides in the streets . International observers certified the results as clean and accurate .
+X: []
+Y: ['ballot']
+e: Williams
+F(X) = 0.2877, F(Y) = 0.2092, F(Xe) = 0.1742, F(Ye) = 0.1075
+F(Xe) - F(X) = -0.1135 < F(Ye) - F(Y) = -0.1017
+========= 76 ====================== 
+Orig sentence: Jailing of HK democrat in China 'politically motivated' (AFP). AFP - Hong Kong democrats accused China of jailing one of their members on trumped-up prostitution charges in a bid to disgrace a political movement Beijing has been feuding with for seven years.
+X sentence: Jailing of Jailing democrat in China ' politically motivated ' ( AFP ) . AFP - Hong Kong democrats accused China of jailing one of their members on trumped - up prostitution charges in a bid to disgrace a political movement Beijing has been feuding with for seven years .
+Y sentence: Jailing of Jailing democrat in Australia ' politically motivated ' ( AFP ) . AFP - Hong Kong democrats accused China of jailing one of their members on trumped - up prostitution charges in a bid to disgrace a political movement Beijing has been feuding with for seven years .
+Xe sentence:Jailing of Jailing democrat in China ' politically motivated ' ( Microsoft ) . AFP - Hong Kong democrats accused China of jailing one of their members on trumped - up prostitution charges in a bid to disgrace a political movement Beijing has been feuding with for seven years .
+Ye sentence:Jailing of Jailing democrat in Australia ' politically motivated ' ( Microsoft ) . AFP - Hong Kong democrats accused China of jailing one of their members on trumped - up prostitution charges in a bid to disgrace a political movement Beijing has been feuding with for seven years .
+X: ['Jailing']
+Y: ['Jailing', 'Australia']
+e: Microsoft
+F(X) = 0.0001, F(Y) = 0.0001, F(Xe) = 0.3845, F(Ye) = 0.4542
+F(Xe) - F(X) = 0.3844 < F(Ye) - F(Y) = 0.4541
+========= 77 ====================== 
+Orig sentence: Kmart Swings to Profit in 2Q; Stock Surges (AP). AP - Shares of Kmart Holding Corp. surged 17 percent Monday after the discount retailer reported a profit for the second quarter and said chairman and majority owner Edward Lampert is now free to invest the company's  #36;2.6 billion in surplus cash.
+X sentence: Kmart Swings to Profit in 2Q ; Stock Surges ( AP ) . AP - Shares of Kmart Holding Corp. surged 17 percent Monday after the discount retailer reported a profit for the second quarter and said chairman and majority owner Edward Lampert is now free to invest the company 's # 36;2.6 billion in surplus cash .
+Y sentence: Kmart Arafat to Profit in 2Q ; Stock Surges ( AP ) . AP - Shares of Kmart Holding Corp. surged 17 percent Monday after the discount retailer reported a profit for the second quarter and said chairman and majority owner Edward Lampert is now free to invest the company 's # 36;2.6 billion in surplus cash .
+Xe sentence:Kmart Swings to Profit in 2Q ; Stock Surges ( AP ) . AP - Shares of Kmart Holding Corp. billow 17 percent Monday after the discount retailer reported a profit for the second quarter and said chairman and majority owner Edward Lampert is now free to invest the company 's # 36;2.6 billion in surplus cash .
+Ye sentence:Kmart Arafat to Profit in 2Q ; Stock Surges ( AP ) . AP - Shares of Kmart Holding Corp. billow 17 percent Monday after the discount retailer reported a profit for the second quarter and said chairman and majority owner Edward Lampert is now free to invest the company 's # 36;2.6 billion in surplus cash .
+X: []
+Y: ['Arafat']
+e: billow
+F(X) = 0.2481, F(Y) = 0.7307, F(Xe) = 0.2373, F(Ye) = 0.7326
+F(Xe) - F(X) = -0.0107 < F(Ye) - F(Y) = 0.0019
+========= 78 ====================== 
+Orig sentence: Fischer's Fiancee: Marriage Plans Genuine (AP). AP - Former chess champion Bobby Fischer's announcement thathe is engaged to a Japanese woman could win him sympathy among Japanese officials and help him avoid deportation to the United States, his fiancee and one of his supporters said Tuesday.
+X sentence: Fischer 's Fiancee : Marriage Plans Genuine ( AP ) . AP - Former chess champion Bobby Fischer 's announcement thathe is engaged to a Japanese woman could win him sympathy among Japanese officials and help him avoid deportation to the United States , his fiancee and one of his supporters said Tuesday .
+Y sentence: Fischer 's Fiancee : matrimony Plans Genuine ( AP ) . AP - Former chess champion Bobby Fischer 's announcement thathe is engaged to a Japanese woman could win him sympathy among Japanese officials and help him avoid deportation to the United States , his fiancee and one of his supporters said Tuesday .
+Xe sentence:Fischer 's Fiancee : Marriage Plans Genuine ( Microsoft ) . AP - Former chess champion Bobby Fischer 's announcement thathe is engaged to a Japanese woman could win him sympathy among Japanese officials and help him avoid deportation to the United States , his fiancee and one of his supporters said Tuesday .
+Ye sentence:Fischer 's Fiancee : matrimony Plans Genuine ( Microsoft ) . AP - Former chess champion Bobby Fischer 's announcement thathe is engaged to a Japanese woman could win him sympathy among Japanese officials and help him avoid deportation to the United States , his fiancee and one of his supporters said Tuesday .
+X: []
+Y: ['matrimony']
+e: Microsoft
+F(X) = 0.0034, F(Y) = 0.0185, F(Xe) = 0.7014, F(Ye) = 0.8781
+F(Xe) - F(X) = 0.6980 < F(Ye) - F(Y) = 0.8595
+========= 79 ====================== 
+Orig sentence: Consumers Would Pay In Phone Proposal. A proposal backed by a coalition of telephone carriers would cut billions of dollars in fees owed by long-distance companies to regional phone giants but would allow the regional companies to make up some of the difference by raising monthly phone bills for millions of consumers. &lt;FONT face="verdana,MS Sans Serif,arial,helvetica" size="-2"\ color="#666666"&gt;&lt;B&gt;-The Washington Post&lt;/B&gt;&lt;/FONT&gt;
+X sentence: Consumers Would Consumers In Phone Proposal . A proposal backed by a coalition of telephone carriers would cut billions of dollars in fees owed by long - distance companies to regional phone giants but would allow the regional companies to make up some of the difference by raising monthly phone bills for millions of consumers . & lt;FONT face="verdana , MS Sans Serif , arial , helvetica " size="-2"\ color="#666666"&gt;&lt;B&gt;-The Washington Post&lt;/B&gt;&lt;/FONT&gt ;
+Y sentence: Consumers Would Consumers In Phone Proposal . A marriage backed by a coalition of telephone carriers would cut billions of dollars in fees owed by long - distance companies to regional phone giants but would allow the regional companies to make up some of the difference by raising monthly phone bills for millions of consumers . & lt;FONT face="verdana , MS Sans Serif , arial , helvetica " size="-2"\ color="#666666"&gt;&lt;B&gt;-The Washington Post&lt;/B&gt;&lt;/FONT&gt ;
+Xe sentence:Consumers Would Consumers In Phone Proposal . A proposal backed by a coalition of phone carriers would cut billions of dollars in fees owed by long - distance companies to regional phone giants but would allow the regional companies to make up some of the difference by raising monthly phone bills for millions of consumers . & lt;FONT face="verdana , MS Sans Serif , arial , helvetica " size="-2"\ color="#666666"&gt;&lt;B&gt;-The Washington Post&lt;/B&gt;&lt;/FONT&gt ;
+Ye sentence:Consumers Would Consumers In Phone Proposal . A marriage backed by a coalition of phone carriers would cut billions of dollars in fees owed by long - distance companies to regional phone giants but would allow the regional companies to make up some of the difference by raising monthly phone bills for millions of consumers . & lt;FONT face="verdana , MS Sans Serif , arial , helvetica " size="-2"\ color="#666666"&gt;&lt;B&gt;-The Washington Post&lt;/B&gt;&lt;/FONT&gt ;
+X: ['Consumers']
+Y: ['Consumers', 'marriage']
+e: phone
+F(X) = 0.0513, F(Y) = 0.0660, F(Xe) = 0.0529, F(Ye) = 0.0684
+F(Xe) - F(X) = 0.0017 < F(Ye) - F(Y) = 0.0024
+========= 80 ====================== 
+Orig sentence: U.S. Brokers Cease-fire in Western Afghanistan.  KABUL (Reuters) - The United States has brokered a  cease-fire between a renegade Afghan militia leader and the  embattled governor of the western province of Herat,  Washington's envoy to Kabul said Tuesday.
+X sentence: U.S. Brokers Cease - fire in Western Afghanistan . KABUL ( Reuters ) - The United States has brokered a cease - fire between a renegade Afghan militia leader and the embattled governor of the western province of Herat , Washington 's envoy to Kabul said Tuesday .
+Y sentence: U.S. Brokers Cease - fire in Earth Afghanistan . KABUL ( Reuters ) - The United States has brokered a cease - fire between a renegade Afghan militia leader and the embattled governor of the western province of Herat , Washington 's envoy to Kabul said Tuesday .
+Xe sentence:U.S. Brokers Cease - fire in Western Earth . KABUL ( Reuters ) - The United States has brokered a cease - fire between a renegade Afghan militia leader and the embattled governor of the western province of Herat , Washington 's envoy to Kabul said Tuesday .
+Ye sentence:U.S. Brokers Cease - fire in Earth Earth . KABUL ( Reuters ) - The United States has brokered a cease - fire between a renegade Afghan militia leader and the embattled governor of the western province of Herat , Washington 's envoy to Kabul said Tuesday .
+X: []
+Y: ['Earth']
+e: Earth
+F(X) = 0.0000, F(Y) = 0.0000, F(Xe) = 0.0000, F(Ye) = 0.0002
+F(Xe) - F(X) = 0.0000 < F(Ye) - F(Y) = 0.0002
+========= 81 ====================== 
+Orig sentence: Intel Delays Launch of Projection TV Chip. In another product postponement, semiconductor giant Intel Corp. said it won't be offering a chip for projection TVs by the end of 2004 as it had announced earlier this year.
+X sentence: Intel Delays Launch of Projection TV Chip . In another product postponement , semiconductor giant Intel Corp. said it wo n't be offering a chip for projection TVs by the end of 2004 as it had announced earlier this year .
+Y sentence: Intel AFP Launch of Projection TV Chip . In another product postponement , semiconductor giant Intel Corp. said it wo n't be offering a chip for projection TVs by the end of 2004 as it had announced earlier this year .
+Xe sentence:Intel Delays AFP of Projection TV Chip . In another product postponement , semiconductor giant Intel Corp. said it wo n't be offering a chip for projection TVs by the end of 2004 as it had announced earlier this year .
+Ye sentence:Intel AFP AFP of Projection TV Chip . In another product postponement , semiconductor giant Intel Corp. said it wo n't be offering a chip for projection TVs by the end of 2004 as it had announced earlier this year .
+X: []
+Y: ['AFP']
+e: AFP
+F(X) = 0.0616, F(Y) = 0.0522, F(Xe) = 0.0494, F(Ye) = 0.0911
+F(Xe) - F(X) = -0.0122 < F(Ye) - F(Y) = 0.0389
+========= 82 ====================== 
+Orig sentence: Fund pessimism grows. NEW YORK (CNN/Money) - Money managers are growing more pessimistic about the economy, corporate profits and US stock market returns, according to a monthly survey by Merrill Lynch released Tuesday. 
+X sentence: Fund pessimism grows . NEW YORK ( CNN / Money ) - Money managers are growing more pessimistic about the economy , corporate profits and US stock market returns , according to a monthly survey by Merrill Lynch released Tuesday .
+Y sentence: Fund pessimism grows . Baghdad YORK ( CNN / Money ) - Money managers are growing more pessimistic about the economy , corporate profits and US stock market returns , according to a monthly survey by Merrill Lynch released Tuesday .
+Xe sentence:Fund pessimism grows . NEW Baghdad ( CNN / Money ) - Money managers are growing more pessimistic about the economy , corporate profits and US stock market returns , according to a monthly survey by Merrill Lynch released Tuesday .
+Ye sentence:Fund pessimism grows . Baghdad Baghdad ( CNN / Money ) - Money managers are growing more pessimistic about the economy , corporate profits and US stock market returns , according to a monthly survey by Merrill Lynch released Tuesday .
+X: []
+Y: ['Baghdad']
+e: Baghdad
+F(X) = 0.0016, F(Y) = 0.0160, F(Xe) = 0.0448, F(Ye) = 0.3940
+F(Xe) - F(X) = 0.0432 < F(Ye) - F(Y) = 0.3780
+========= 83 ====================== 
+Orig sentence: Kederis proclaims innocence. Olympic champion Kostas Kederis today left hospital ahead of his date with IOC inquisitors claiming his innocence and vowing:  quot;After the crucifixion comes the resurrection. quot; ...
+X sentence: Kederis proclaims innocence . Olympic champion Kostas Kederis today left hospital ahead of his date with IOC inquisitors claiming his innocence and vowing : quot;After the crucifixion comes the resurrection . quot ; ...
+Y sentence: Kederis proclaims innocence . Olympian champion Kostas Kederis today left hospital ahead of his date with IOC inquisitors claiming his innocence and vowing : quot;After the crucifixion comes the resurrection . quot ; ...
+Xe sentence:Kederis proclaims innocence . Olympic fighter Kostas Kederis today left hospital ahead of his date with IOC inquisitors claiming his innocence and vowing : quot;After the crucifixion comes the resurrection . quot ; ...
+Ye sentence:Kederis proclaims innocence . Olympian fighter Kostas Kederis today left hospital ahead of his date with IOC inquisitors claiming his innocence and vowing : quot;After the crucifixion comes the resurrection . quot ; ...
+X: []
+Y: ['Olympian']
+e: fighter
+F(X) = 0.0273, F(Y) = 0.0548, F(Xe) = 0.0484, F(Ye) = 0.2792
+F(Xe) - F(X) = 0.0211 < F(Ye) - F(Y) = 0.2245
+========= 84 ====================== 
+Orig sentence: Eriksson doesn #39;t feel any extra pressure following scandal. NEWCASTLE, England (AP) - England coach Sven-Goran Eriksson said Tuesday he isn #39;t under any extra pressure in the aftermath of a scandal that damaged the Football Association #39;s reputation. 
+X sentence: Eriksson doesn # 39;t Eriksson any extra pressure following scandal . NEWCASTLE , England ( AP ) - England coach Sven - Goran Eriksson said Tuesday he isn # 39;t under any extra pressure in the aftermath of a scandal that damaged the Football Association # 39;s reputation .
+Y sentence: Eriksson doesn # 39;t Eriksson any special pressure following scandal . NEWCASTLE , England ( AP ) - England coach Sven - Goran Eriksson said Tuesday he isn # 39;t under any extra pressure in the aftermath of a scandal that damaged the Football Association # 39;s reputation .
+Xe sentence:Eriksson doesn # 39;t Eriksson any extra force following scandal . NEWCASTLE , England ( AP ) - England coach Sven - Goran Eriksson said Tuesday he isn # 39;t under any extra pressure in the aftermath of a scandal that damaged the Football Association # 39;s reputation .
+Ye sentence:Eriksson doesn # 39;t Eriksson any special force following scandal . NEWCASTLE , England ( AP ) - England coach Sven - Goran Eriksson said Tuesday he isn # 39;t under any extra pressure in the aftermath of a scandal that damaged the Football Association # 39;s reputation .
+X: ['Eriksson']
+Y: ['Eriksson', 'special']
+e: force
+F(X) = 0.0003, F(Y) = 0.0003, F(Xe) = 0.0003, F(Ye) = 0.0004
+F(Xe) - F(X) = 0.0000 < F(Ye) - F(Y) = 0.0002
+========= 85 ====================== 
+Orig sentence: Injured Heskey to miss England friendly. NEWCASTLE, England (AP) - Striker Emile Heskey has pulled out of the England squad ahead of Wednesday #39;s friendly against Ukraine because of a tight hamstring, the Football Association said Tuesday. 
+X sentence: Injured Heskey to miss England friendly . NEWCASTLE , England ( AP ) - Striker Emile Heskey has pulled out of the England squad ahead of Wednesday # 39;s friendly against Ukraine because of a tight hamstring , the Football Association said Tuesday .
+Y sentence: Injured Bush to miss England friendly . NEWCASTLE , England ( AP ) - Striker Emile Heskey has pulled out of the England squad ahead of Wednesday # 39;s friendly against Ukraine because of a tight hamstring , the Football Association said Tuesday .
+Xe sentence:Injured Heskey to lose England friendly . NEWCASTLE , England ( AP ) - Striker Emile Heskey has pulled out of the England squad ahead of Wednesday # 39;s friendly against Ukraine because of a tight hamstring , the Football Association said Tuesday .
+Ye sentence:Injured Bush to lose England friendly . NEWCASTLE , England ( AP ) - Striker Emile Heskey has pulled out of the England squad ahead of Wednesday # 39;s friendly against Ukraine because of a tight hamstring , the Football Association said Tuesday .
+X: []
+Y: ['Bush']
+e: lose
+F(X) = 0.0002, F(Y) = 0.0005, F(Xe) = 0.0002, F(Ye) = 0.0005
+F(Xe) - F(X) = -0.0000 < F(Ye) - F(Y) = 0.0001
+========= 86 ====================== 
+Orig sentence: Staples Profit Up, to Enter China Market.  NEW YORK (Reuters) - Staples Inc. &lt;A HREF="http://www.investor.reuters.com/FullQuote.aspx?ticker=SPLS.O target=/stocks/quickinfo/fullquote"&gt;SPLS.O&lt;/A&gt;, the top U.S.  office products retailer, on Tuesday reported a 39 percent jump  in quarterly profit, raised its full-year forecast and said it  plans to enter the fast-growing Chinese market, sending its  shares higher.
+X sentence: Staples Profit Up , to Enter China Market . NEW YORK ( Reuters ) - Staples Inc. & lt;A HREF="http://www.investor.reuters.com / FullQuote.aspx?ticker = SPLS.O target=/stocks / quickinfo / fullquote"&gt;SPLS.O&lt;/A&gt ; , the top U.S. office products retailer , on Tuesday reported a 39 percent jump in quarterly profit , raised its full - year forecast and said it plans to enter the fast - growing Chinese market , sending its shares higher .
+Y sentence: Staples Arafat Up , to Enter China Market . NEW YORK ( Reuters ) - Staples Inc. & lt;A HREF="http://www.investor.reuters.com / FullQuote.aspx?ticker = SPLS.O target=/stocks / quickinfo / fullquote"&gt;SPLS.O&lt;/A&gt ; , the top U.S. office products retailer , on Tuesday reported a 39 percent jump in quarterly profit , raised its full - year forecast and said it plans to enter the fast - growing Chinese market , sending its shares higher .
+Xe sentence:Staples Profit Arafat , to Enter China Market . NEW YORK ( Reuters ) - Staples Inc. & lt;A HREF="http://www.investor.reuters.com / FullQuote.aspx?ticker = SPLS.O target=/stocks / quickinfo / fullquote"&gt;SPLS.O&lt;/A&gt ; , the top U.S. office products retailer , on Tuesday reported a 39 percent jump in quarterly profit , raised its full - year forecast and said it plans to enter the fast - growing Chinese market , sending its shares higher .
+Ye sentence:Staples Arafat Arafat , to Enter China Market . NEW YORK ( Reuters ) - Staples Inc. & lt;A HREF="http://www.investor.reuters.com / FullQuote.aspx?ticker = SPLS.O target=/stocks / quickinfo / fullquote"&gt;SPLS.O&lt;/A&gt ; , the top U.S. office products retailer , on Tuesday reported a 39 percent jump in quarterly profit , raised its full - year forecast and said it plans to enter the fast - growing Chinese market , sending its shares higher .
+X: []
+Y: ['Arafat']
+e: Arafat
+F(X) = 0.0000, F(Y) = 0.0000, F(Xe) = 0.0000, F(Ye) = 0.0010
+F(Xe) - F(X) = 0.0000 < F(Ye) - F(Y) = 0.0010
+========= 87 ====================== 
+Orig sentence: Delegation Is Delayed Before Reaching Najaf. AGHDAD, Iraq, Aug. 17  A delegation of Iraqis was delayed for security reasons today but still intended to visit Najaf to try to convince a rebellious Shiite cleric and his militia to evacuate a shrine in the holy city and end ...
+X sentence: Delegation Is Delayed Before Reaching Najaf . AGHDAD , Iraq , Aug. 17 A delegation of Iraqis was delayed for security reasons today but still intended to visit Najaf to try to convince a rebellious Shiite cleric and his militia to evacuate a shrine in the holy city and end ...
+Y sentence: Delegation Is Delayed Before Reaching Najaf . AGHDAD , Australia , Aug. 17 A delegation of Iraqis was delayed for security reasons today but still intended to visit Najaf to try to convince a rebellious Shiite cleric and his militia to evacuate a shrine in the holy city and end ...
+Xe sentence:Delegation Is Delayed Before Reaching Najaf . AGHDAD , Iraq , Aug. 17 A delegation of Iraqis was delayed for security reasons today but still intended to visit Najaf to try to convince a rebellious European cleric and his militia to evacuate a shrine in the holy city and end ...
+Ye sentence:Delegation Is Delayed Before Reaching Najaf . AGHDAD , Australia , Aug. 17 A delegation of Iraqis was delayed for security reasons today but still intended to visit Najaf to try to convince a rebellious European cleric and his militia to evacuate a shrine in the holy city and end ...
+X: []
+Y: ['Australia']
+e: European
+F(X) = 0.0000, F(Y) = 0.0000, F(Xe) = 0.0003, F(Ye) = 0.0004
+F(Xe) - F(X) = 0.0002 < F(Ye) - F(Y) = 0.0004
+========= 88 ====================== 
+Orig sentence: Consumer Prices Down, Industry Output Up.  WASHINGTON (Reuters) - U.S. consumer prices dropped in July  for the first time in eight months as a sharp run up in energy  costs reversed, the government said in a report that suggested  a slow rate of interest rate hikes is likely.
+X sentence: Consumer Consumer Down , Industry Output Up . WASHINGTON ( Reuters ) - U.S. consumer prices dropped in July for the first time in eight months as a sharp run up in energy costs reversed , the government said in a report that suggested a slow rate of interest rate hikes is likely .
+Y sentence: Consumer Consumer Down , Industry Output Up . Baghdad ( Reuters ) - U.S. consumer prices dropped in July for the first time in eight months as a sharp run up in energy costs reversed , the government said in a report that suggested a slow rate of interest rate hikes is likely .
+Xe sentence:Consumer Consumer Down , Industry Output Up . WASHINGTON ( AFP ) - U.S. consumer prices dropped in July for the first time in eight months as a sharp run up in energy costs reversed , the government said in a report that suggested a slow rate of interest rate hikes is likely .
+Ye sentence:Consumer Consumer Down , Industry Output Up . Baghdad ( AFP ) - U.S. consumer prices dropped in July for the first time in eight months as a sharp run up in energy costs reversed , the government said in a report that suggested a slow rate of interest rate hikes is likely .
+X: ['Consumer']
+Y: ['Consumer', 'Baghdad']
+e: AFP
+F(X) = 0.0047, F(Y) = 0.1416, F(Xe) = 0.0616, F(Ye) = 0.7103
+F(Xe) - F(X) = 0.0569 < F(Ye) - F(Y) = 0.5687
+========= 89 ====================== 
+Orig sentence: Olympic history for India, UAE. An Indian army major shot his way to his country #39;s first ever individual Olympic silver medal on Tuesday, while in the same event an member of Dubai #39;s ruling family became the first ever medallist from the United Arab Emirates. 
+X sentence: Olympic history for India , UAE . An Indian army major shot his way to his country # 39;s first ever individual Olympic silver medal on Tuesday , while in the same event an member of Dubai # 39;s ruling family became the first ever medallist from the United Arab Emirates .
+Y sentence: Olympic account for India , UAE . An Indian army major shot his way to his country # 39;s first ever individual Olympic silver medal on Tuesday , while in the same event an member of Dubai # 39;s ruling family became the first ever medallist from the United Arab Emirates .
+Xe sentence:Olympic history for India , UAE . An Indian ground major shot his way to his country # 39;s first ever individual Olympic silver medal on Tuesday , while in the same event an member of Dubai # 39;s ruling family became the first ever medallist from the United Arab Emirates .
+Ye sentence:Olympic account for India , UAE . An Indian ground major shot his way to his country # 39;s first ever individual Olympic silver medal on Tuesday , while in the same event an member of Dubai # 39;s ruling family became the first ever medallist from the United Arab Emirates .
+X: []
+Y: ['account']
+e: ground
+F(X) = 0.0266, F(Y) = 0.0255, F(Xe) = 0.0235, F(Ye) = 0.0226
+F(Xe) - F(X) = -0.0030 < F(Ye) - F(Y) = -0.0029
+========= 90 ====================== 
+Orig sentence: Home Depot Likes High Oil. Rising fuel prices, a bugbear for most of the retail sector, are helping Home Depot (HD:NYSE - news - research), the remodeling giant that reported a surge in second-quarter earnings Tuesday and guided the rest of the year higher. 
+X sentence: Home Depot Likes High Oil . Rising fuel prices , a bugbear for most of the retail sector , are helping Home Depot ( HD : NYSE - news - research ) , the remodeling giant that reported a surge in second - quarter earnings Tuesday and guided the rest of the year higher .
+Y sentence: Home AFP Likes High Oil . Rising fuel prices , a bugbear for most of the retail sector , are helping Home Depot ( HD : NYSE - news - research ) , the remodeling giant that reported a surge in second - quarter earnings Tuesday and guided the rest of the year higher .
+Xe sentence:Home Depot AFP High Oil . Rising fuel prices , a bugbear for most of the retail sector , are helping Home Depot ( HD : NYSE - news - research ) , the remodeling giant that reported a surge in second - quarter earnings Tuesday and guided the rest of the year higher .
+Ye sentence:Home AFP AFP High Oil . Rising fuel prices , a bugbear for most of the retail sector , are helping Home Depot ( HD : NYSE - news - research ) , the remodeling giant that reported a surge in second - quarter earnings Tuesday and guided the rest of the year higher .
+X: []
+Y: ['AFP']
+e: AFP
+F(X) = 0.0569, F(Y) = 0.1701, F(Xe) = 0.1428, F(Ye) = 0.6400
+F(Xe) - F(X) = 0.0858 < F(Ye) - F(Y) = 0.4698
+========= 91 ====================== 
+Orig sentence: China cracks down on  quot;phone sex quot; services. BEIJING, Aug. 17 (Xinhuanet) -- China is carrying out a nationwide campaign to crack down on  quot;phone sex quot; services, paralleling another sweeping operation against Internet pornography, Minister of Information Industry Wang Xudong said here Tuesday. 
+X sentence: China cracks down on quot;phone sex quot ; services . BEIJING , Aug. 17 ( Xinhuanet ) -- China is carrying out a nationwide campaign to crack down on quot;phone sex quot ; services , paralleling another sweeping operation against Internet pornography , Minister of Information Industry Wang Xudong said here Tuesday .
+Y sentence: China cracks down on quot;phone gender quot ; services . BEIJING , Aug. 17 ( Xinhuanet ) -- China is carrying out a nationwide campaign to crack down on quot;phone sex quot ; services , paralleling another sweeping operation against Internet pornography , Minister of Information Industry Wang Xudong said here Tuesday .
+Xe sentence:China cracks down on quot;phone sex quot ; services . Iraq , Aug. 17 ( Xinhuanet ) -- China is carrying out a nationwide campaign to crack down on quot;phone sex quot ; services , paralleling another sweeping operation against Internet pornography , Minister of Information Industry Wang Xudong said here Tuesday .
+Ye sentence:China cracks down on quot;phone gender quot ; services . Iraq , Aug. 17 ( Xinhuanet ) -- China is carrying out a nationwide campaign to crack down on quot;phone sex quot ; services , paralleling another sweeping operation against Internet pornography , Minister of Information Industry Wang Xudong said here Tuesday .
+X: []
+Y: ['gender']
+e: Iraq
+F(X) = 0.1867, F(Y) = 0.1824, F(Xe) = 0.2336, F(Ye) = 0.2322
+F(Xe) - F(X) = 0.0470 < F(Ye) - F(Y) = 0.0498
+========= 92 ====================== 
+Orig sentence: Mr Downer shoots his mouth off. Just what Alexander Downer was thinking when he declared on radio last Friday that  quot;they could fire a missile from North Korea to Sydney quot; is unclear. The provocative remark, just days before his arrival yesterday on his second visit to the North Korean ...
+X sentence: Mr Downer shoots his mouth off . Just what Alexander Downer was thinking when he declared on radio last Friday that quot;they could fire a missile from North Korea to Sydney quot ; is unclear . The provocative remark , just days before his arrival yesterday on his second visit to the North Korean ...
+Y sentence: Mr Williams shoots his mouth off . Just what Alexander Downer was thinking when he declared on radio last Friday that quot;they could fire a missile from North Korea to Sydney quot ; is unclear . The provocative remark , just days before his arrival yesterday on his second visit to the North Korean ...
+Xe sentence:Mr Downer shoots his mouth off . merely what Alexander Downer was thinking when he declared on radio last Friday that quot;they could fire a missile from North Korea to Sydney quot ; is unclear . The provocative remark , just days before his arrival yesterday on his second visit to the North Korean ...
+Ye sentence:Mr Williams shoots his mouth off . merely what Alexander Downer was thinking when he declared on radio last Friday that quot;they could fire a missile from North Korea to Sydney quot ; is unclear . The provocative remark , just days before his arrival yesterday on his second visit to the North Korean ...
+X: []
+Y: ['Williams']
+e: merely
+F(X) = 0.0269, F(Y) = 0.0375, F(Xe) = 0.0278, F(Ye) = 0.0395
+F(Xe) - F(X) = 0.0008 < F(Ye) - F(Y) = 0.0020
+========= 93 ====================== 
+Orig sentence: Edwards Banned from Games - Source.  ATHENS (Reuters) - World 100 meters champion Torri Edwards  will miss the Athens Olympics after her appeal against a  two-year drugs ban was dismissed on Tuesday, a source told  Reuters.
+X sentence: Edwards Banned from Games - Source . ATHENS ( Reuters ) - World 100 meters champion Torri Edwards will miss the Athens Olympics after her appeal against a two - year drugs ban was dismissed on Tuesday , a source told Reuters .
+Y sentence: Edwards Banned from Games - Source . Athinai ( Reuters ) - World 100 meters champion Torri Edwards will miss the Athens Olympics after her appeal against a two - year drugs ban was dismissed on Tuesday , a source told Reuters .
+Xe sentence:Edwards Banned from Games - Source . ATHENS ( Microsoft ) - World 100 meters champion Torri Edwards will miss the Athens Olympics after her appeal against a two - year drugs ban was dismissed on Tuesday , a source told Reuters .
+Ye sentence:Edwards Banned from Games - Source . Athinai ( Microsoft ) - World 100 meters champion Torri Edwards will miss the Athens Olympics after her appeal against a two - year drugs ban was dismissed on Tuesday , a source told Reuters .
+X: []
+Y: ['Athinai']
+e: Microsoft
+F(X) = 0.0597, F(Y) = 0.1481, F(Xe) = 0.6622, F(Ye) = 0.8875
+F(Xe) - F(X) = 0.6025 < F(Ye) - F(Y) = 0.7394
+========= 94 ====================== 
+Orig sentence: Stocks Climb on Drop in Consumer Prices. NEW YORK - Stocks rose for a second straight session Tuesday as a drop in consumer prices allowed investors to put aside worries about inflation, at least for the short term.    With gasoline prices falling to eight-month lows, the Consumer Price Index registered a small drop in July, giving consumers a respite from soaring energy prices...
+X sentence: Stocks Climb on Drop in Consumer Prices . NEW YORK - Stocks rose for a second straight session Tuesday as a drop in consumer prices allowed investors to put aside worries about inflation , at least for the short term . With gasoline prices falling to eight - month lows , the Consumer Price Index registered a small drop in July , giving consumers a respite from soaring energy prices ...
+Y sentence: Stocks Williams on Drop in Consumer Prices . NEW YORK - Stocks rose for a second straight session Tuesday as a drop in consumer prices allowed investors to put aside worries about inflation , at least for the short term . With gasoline prices falling to eight - month lows , the Consumer Price Index registered a small drop in July , giving consumers a respite from soaring energy prices ...
+Xe sentence:Stocks Climb on Drop in Consumer Prices . NEW YORK - Stocks rose for a 11th straight session Tuesday as a drop in consumer prices allowed investors to put aside worries about inflation , at least for the short term . With gasoline prices falling to eight - month lows , the Consumer Price Index registered a small drop in July , giving consumers a respite from soaring energy prices ...
+Ye sentence:Stocks Williams on Drop in Consumer Prices . NEW YORK - Stocks rose for a 11th straight session Tuesday as a drop in consumer prices allowed investors to put aside worries about inflation , at least for the short term . With gasoline prices falling to eight - month lows , the Consumer Price Index registered a small drop in July , giving consumers a respite from soaring energy prices ...
+X: []
+Y: ['Williams']
+e: 11th
+F(X) = 0.4468, F(Y) = 0.5764, F(Xe) = 0.4539, F(Ye) = 0.5847
+F(Xe) - F(X) = 0.0072 < F(Ye) - F(Y) = 0.0083
+========= 95 ====================== 
+Orig sentence: Iliadis, Tanimoto win judo golds. Ilias Iliadis of Greece thrilled the home crowd Tuesday, beating Roman Gontyuk of Ukraine to win the gold medal in the 81-kilogram class. 
+X sentence: Iliadis , Tanimoto win judo golds . Ilias Iliadis of Greece thrilled the home crowd Tuesday , beating Roman Gontyuk of Ukraine to win the gold medal in the 81-kilogram class .
+Y sentence: Iliadis , Tanimoto win judo golds . Ilias Iliadis of Iraq thrilled the home crowd Tuesday , beating Roman Gontyuk of Ukraine to win the gold medal in the 81-kilogram class .
+Xe sentence:Iliadis , Tanimoto win judo golds . Ilias Iliadis of Greece thrilled the base crowd Tuesday , beating Roman Gontyuk of Ukraine to win the gold medal in the 81-kilogram class .
+Ye sentence:Iliadis , Tanimoto win judo golds . Ilias Iliadis of Iraq thrilled the base crowd Tuesday , beating Roman Gontyuk of Ukraine to win the gold medal in the 81-kilogram class .
+X: []
+Y: ['Iraq']
+e: base
+F(X) = 0.3721, F(Y) = 0.7505, F(Xe) = 0.3670, F(Ye) = 0.7605
+F(Xe) - F(X) = -0.0051 < F(Ye) - F(Y) = 0.0100
+========= 96 ====================== 
+Orig sentence: Sudan vows to restore order to Darfur but calls for African peacekeepers (AFP). AFP - Sudan will take the lead in restoring order to its rebellious Darfur region but needs the support of African peacekeepers and humanitarian aid, Foreign Minister Mustafa Osman Ismail said.
+X sentence: Sudan vows to restore order to Darfur but calls for African peacekeepers ( AFP ) . AFP - Sudan will take the lead in restoring order to its rebellious Darfur region but needs the support of African peacekeepers and humanitarian aid , Foreign Minister Mustafa Osman Ismail said .
+Y sentence: Sudan vows to reconstruct order to Darfur but calls for African peacekeepers ( AFP ) . AFP - Sudan will take the lead in restoring order to its rebellious Darfur region but needs the support of African peacekeepers and humanitarian aid , Foreign Minister Mustafa Osman Ismail said .
+Xe sentence:Sudan vows to restore order to Darfur but calls for African peacekeepers ( Microsoft ) . AFP - Sudan will take the lead in restoring order to its rebellious Darfur region but needs the support of African peacekeepers and humanitarian aid , Foreign Minister Mustafa Osman Ismail said .
+Ye sentence:Sudan vows to reconstruct order to Darfur but calls for African peacekeepers ( Microsoft ) . AFP - Sudan will take the lead in restoring order to its rebellious Darfur region but needs the support of African peacekeepers and humanitarian aid , Foreign Minister Mustafa Osman Ismail said .
+X: []
+Y: ['reconstruct']
+e: Microsoft
+F(X) = 0.0000, F(Y) = 0.0000, F(Xe) = 0.0074, F(Ye) = 0.0075
+F(Xe) - F(X) = 0.0073 < F(Ye) - F(Y) = 0.0075
+========= 97 ====================== 
+Orig sentence: TGn Sync Proposes New WLAN Standard. The battle over home entertainment networking is heating up as a coalition proposes yet another standard for the IEEE #39;s consideration. 
+X sentence: TGn TGn Proposes New WLAN Standard . The battle over home entertainment networking is heating up as a coalition proposes yet another standard for the IEEE # 39;s consideration .
+Y sentence: TGn TGn AFP New WLAN Standard . The battle over home entertainment networking is heating up as a coalition proposes yet another standard for the IEEE # 39;s consideration .
+Xe sentence:TGn TGn Proposes AFP WLAN Standard . The battle over home entertainment networking is heating up as a coalition proposes yet another standard for the IEEE # 39;s consideration .
+Ye sentence:TGn TGn AFP AFP WLAN Standard . The battle over home entertainment networking is heating up as a coalition proposes yet another standard for the IEEE # 39;s consideration .
+X: ['TGn']
+Y: ['TGn', 'AFP']
+e: AFP
+F(X) = 0.1373, F(Y) = 0.1168, F(Xe) = 0.1470, F(Ye) = 0.2583
+F(Xe) - F(X) = 0.0098 < F(Ye) - F(Y) = 0.1415
+========= 98 ====================== 
+Orig sentence: IBM Buys Two Danish Services Firms. IBM said Tuesday it has acquired a pair of Danish IT services firms as part of its effort to broaden its presence in Scandinavia. As a result of the moves, IBM will add about 3,700 IT staffers to its global head count. Financial terms of ...
+X sentence: IBM Buys Two Danish Services Firms . IBM said Tuesday it has acquired a pair of Danish IT services firms as part of its effort to broaden its presence in Scandinavia . As a result of the moves , IBM will add about 3,700 IT staffers to its global head count . Financial terms of ...
+Y sentence: IBM Buys Two Danish Services Firms . AFP said Tuesday it has acquired a pair of Danish IT services firms as part of its effort to broaden its presence in Scandinavia . As a result of the moves , IBM will add about 3,700 IT staffers to its global head count . Financial terms of ...
+Xe sentence:IBM Buys Two Danish Services Firms . IBM read Tuesday it has acquired a pair of Danish IT services firms as part of its effort to broaden its presence in Scandinavia . As a result of the moves , IBM will add about 3,700 IT staffers to its global head count . Financial terms of ...
+Ye sentence:IBM Buys Two Danish Services Firms . AFP read Tuesday it has acquired a pair of Danish IT services firms as part of its effort to broaden its presence in Scandinavia . As a result of the moves , IBM will add about 3,700 IT staffers to its global head count . Financial terms of ...
+X: []
+Y: ['AFP']
+e: read
+F(X) = 0.3639, F(Y) = 0.2146, F(Xe) = 0.2731, F(Ye) = 0.1265
+F(Xe) - F(X) = -0.0908 < F(Ye) - F(Y) = -0.0881
+========= 99 ====================== 
+Orig sentence: Motorola and HP in Linux tie-up. Motorola plans to sell mobile phone network equipment that uses Linux-based code, a step forward in network gear makers #39; efforts to rally around a standard. 
+X sentence: Motorola and HP in Linux tie - up . Motorola plans to sell mobile phone network equipment that uses Linux - based code , a step forward in network gear makers # 39 ; efforts to rally around a standard .
+Y sentence: Motorola and AFP in Linux tie - up . Motorola plans to sell mobile phone network equipment that uses Linux - based code , a step forward in network gear makers # 39 ; efforts to rally around a standard .
+Xe sentence:Motorola and HP in Iraq tie - up . Motorola plans to sell mobile phone network equipment that uses Linux - based code , a step forward in network gear makers # 39 ; efforts to rally around a standard .
+Ye sentence:Motorola and AFP in Iraq tie - up . Motorola plans to sell mobile phone network equipment that uses Linux - based code , a step forward in network gear makers # 39 ; efforts to rally around a standard .
+X: []
+Y: ['AFP']
+e: Iraq
+F(X) = 0.0176, F(Y) = 0.0135, F(Xe) = 0.0285, F(Ye) = 0.0365
+F(Xe) - F(X) = 0.0109 < F(Ye) - F(Y) = 0.0230
+========= 100 ====================== 
+Orig sentence: Microsoft Pushes Off SP2 Release. Microsoft will delay the release of its SP2 update for another week to fix software glitches. But not everyone is quite so eager to install the SP2 update for Windows XP. In fact, many companies have demanded the ability to prevent their ...
+X sentence: Microsoft Pushes Off SP2 Release . Microsoft will delay the release of its SP2 update for another week to fix software glitches . But not everyone is quite so eager to install the SP2 update for Windows XP . In fact , many companies have demanded the ability to prevent their ...
+Y sentence: Microsoft Pushes Off SP2 Release . AFP will delay the release of its SP2 update for another week to fix software glitches . But not everyone is quite so eager to install the SP2 update for Windows XP . In fact , many companies have demanded the ability to prevent their ...
+Xe sentence:Microsoft Pushes Off SP2 Release . Microsoft will hold the release of its SP2 update for another week to fix software glitches . But not everyone is quite so eager to install the SP2 update for Windows XP . In fact , many companies have demanded the ability to prevent their ...
+Ye sentence:Microsoft Pushes Off SP2 Release . AFP will hold the release of its SP2 update for another week to fix software glitches . But not everyone is quite so eager to install the SP2 update for Windows XP . In fact , many companies have demanded the ability to prevent their ...
+X: []
+Y: ['AFP']
+e: hold
+F(X) = 0.0099, F(Y) = 0.0094, F(Xe) = 0.0104, F(Ye) = 0.0113
+F(Xe) - F(X) = 0.0006 < F(Ye) - F(Y) = 0.0019
+========= 101 ====================== 
+Orig sentence: Cassini Space Probe Spots Two New Saturn Moons (Reuters). Reuters - Two new moons were spotted around\Saturn by the Cassini space probe, raising the total to 33\moons for the ringed planet, NASA said on Monday.
+X sentence: Cassini Space Probe Spots Two New Saturn Moons ( Cassini ) . Reuters - Two new moons were spotted around\Saturn by the Cassini space probe , raising the total to 33\moons for the ringed planet , NASA said on Monday .
+Y sentence: Cassini Space Probe Spots Two New Saturn Moons ( Cassini ) . Reuters - Two fresh moons were spotted around\Saturn by the Cassini space probe , raising the total to 33\moons for the ringed planet , NASA said on Monday .
+Xe sentence:Cassini Space Probe Spots Two New Saturn Moons ( Cassini ) . Reuters - Two new moons were spotted around\Saturn by the Arafat space probe , raising the total to 33\moons for the ringed planet , NASA said on Monday .
+Ye sentence:Cassini Space Probe Spots Two New Saturn Moons ( Cassini ) . Reuters - Two fresh moons were spotted around\Saturn by the Arafat space probe , raising the total to 33\moons for the ringed planet , NASA said on Monday .
+X: ['Cassini']
+Y: ['Cassini', 'fresh']
+e: Arafat
+F(X) = 0.0013, F(Y) = 0.0014, F(Xe) = 0.0180, F(Ye) = 0.0186
+F(Xe) - F(X) = 0.0167 < F(Ye) - F(Y) = 0.0172
+101 / 101 = 100.00% 

@@ -1,0 +1,2195 @@
+SEED: 3333
+Test Size: 200
+all origin test_loss: 0.387032, accuracy: 0.837452
+======================START======================
+
+========= 1 ====================== 
+Orig sentence: take care of my cat offers a refreshingly different slice of asian cinema
+X sentence: have care of my cat offers a refreshingly different slice of asian cinema
+Y sentence: have mind of my cat offers a refreshingly different slice of asian cinema
+Xe sentence:have care of my cat provides a refreshingly different slice of asian cinema
+Ye sentence:have mind of my cat provides a refreshingly different slice of asian cinema
+X: ['have']
+Y: ['have', 'mind']
+e: provides
+F(X) = 0.2702, F(Y) = 0.2698, F(Xe) = 0.2699, F(Ye) = 0.2696
+F(Xe) - F(X) = -0.0003 < F(Ye) - F(Y) = -0.0001
+========= 2 ====================== 
+Orig sentence: the movie exists for its soccer action and its fine acting
+X sentence: the film exists for its soccer action and its fine acting
+Y sentence: the film is for its soccer action and its fine acting
+Xe sentence:the film exists for its soccer war and its fine acting
+Ye sentence:the film is for its soccer war and its fine acting
+X: ['film']
+Y: ['film', 'is']
+e: war
+F(X) = 0.2978, F(Y) = 0.2876, F(Xe) = 0.2879, F(Ye) = 0.2830
+F(Xe) - F(X) = -0.0099 < F(Ye) - F(Y) = -0.0045
+========= 3 ====================== 
+Orig sentence: the passions by the discord between old and new cultures are set against the strange stark beauty of the desert so lovingly and filmed that you can almost taste the desiccated air
+X sentence: the drives by the discord between old and new cultures are set against the strange stark beauty of the desert so lovingly and filmed that you can almost taste the desiccated air
+Y sentence: the drives by the discord between just and new cultures are set against the strange stark beauty of the desert so lovingly and filmed that you can almost taste the desiccated air
+Xe sentence:the drives by the discord between old and new cultures are made against the strange stark beauty of the desert so lovingly and filmed that you can almost taste the desiccated air
+Ye sentence:the drives by the discord between just and new cultures are made against the strange stark beauty of the desert so lovingly and filmed that you can almost taste the desiccated air
+X: ['drives']
+Y: ['drives', 'just']
+e: made
+F(X) = 0.2882, F(Y) = 0.2890, F(Xe) = 0.2846, F(Ye) = 0.2855
+F(Xe) - F(X) = -0.0036 < F(Ye) - F(Y) = -0.0034
+========= 4 ====================== 
+Orig sentence: steve irwin 's method is ernest at speed and volume
+X sentence: steve irwin 's method is ernest at speed and part
+Y sentence: steve irwin 's way is ernest at speed and part
+Xe sentence:steve irwin 's method needs ernest at speed and part
+Ye sentence:steve irwin 's way needs ernest at speed and part
+X: ['part']
+Y: ['way', 'part']
+e: needs
+F(X) = 0.3003, F(Y) = 0.3020, F(Xe) = 0.3253, F(Ye) = 0.3330
+F(Xe) - F(X) = 0.0250 < F(Ye) - F(Y) = 0.0310
+========= 5 ====================== 
+Orig sentence: nicely serves as an examination of a society in transition
+X sentence: nicely offers as an examination of a society in transition
+Y sentence: nicely offers as an test of a society in transition
+Xe sentence:nicely offers as an examination of a society in verbal
+Ye sentence:nicely offers as an test of a society in verbal
+X: ['offers']
+Y: ['offers', 'test']
+e: verbal
+F(X) = 0.2699, F(Y) = 0.2699, F(Xe) = 0.2704, F(Ye) = 0.2705
+F(Xe) - F(X) = 0.0005 < F(Ye) - F(Y) = 0.0007
+========= 6 ====================== 
+Orig sentence: not a or ingratiating work but it 's challenging sometimes clever and always interesting and those are reasons enough to see it
+X sentence: either a or ingratiating work but it 's challenging sometimes clever and always interesting and those are reasons enough to see it
+Y sentence: either a or ingratiating thing but it 's challenging sometimes clever and always interesting and those are reasons enough to see it
+Xe sentence:either a or ingratiating work but it 's challenging unusually clever and always interesting and those are reasons enough to see it
+Ye sentence:either a or ingratiating thing but it 's challenging unusually clever and always interesting and those are reasons enough to see it
+X: ['either']
+Y: ['either', 'thing']
+e: unusually
+F(X) = 0.2804, F(Y) = 0.2803, F(Xe) = 0.2768, F(Ye) = 0.2769
+F(Xe) - F(X) = -0.0036 < F(Ye) - F(Y) = -0.0035
+========= 7 ====================== 
+Orig sentence: it 's a pleasure to see seinfeld about the biz with chris rock and colin quinn
+X sentence: it 's a pleasure to see seinfeld about the industry with chris rock and colin quinn
+Y sentence: it 's a comedy to see seinfeld about the industry with chris rock and colin quinn
+Xe sentence:it 's a pleasure to see seinfeld about the industry with chris music and colin quinn
+Ye sentence:it 's a comedy to see seinfeld about the industry with chris music and colin quinn
+X: ['industry']
+Y: ['comedy', 'industry']
+e: music
+F(X) = 0.2717, F(Y) = 0.4329, F(Xe) = 0.2719, F(Ye) = 0.4491
+F(Xe) - F(X) = 0.0002 < F(Ye) - F(Y) = 0.0162
+========= 8 ====================== 
+Orig sentence: finally a genre movie that delivers in a couple of genres no less
+X sentence: in a genre movie that delivers in a couple of genres no less
+Y sentence: in a kind movie that delivers in a couple of genres no less
+Xe sentence:in a genre travesty that delivers in a couple of genres no less
+Ye sentence:in a kind travesty that delivers in a couple of genres no less
+X: ['in']
+Y: ['in', 'kind']
+e: travesty
+F(X) = 0.2882, F(Y) = 0.2955, F(Xe) = 0.3486, F(Ye) = 0.5743
+F(Xe) - F(X) = 0.0604 < F(Ye) - F(Y) = 0.2788
+========= 9 ====================== 
+Orig sentence: exquisitely acted and masterfully if lrb the film rrb addresses in a fascinating intelligent manner the intermingling of race politics and local commerce
+X sentence: beautifully acted and masterfully if lrb the film rrb addresses in a fascinating intelligent manner the intermingling of race politics and local commerce
+Y sentence: beautifully played and masterfully if lrb the film rrb addresses in a fascinating intelligent manner the intermingling of race politics and local commerce
+Xe sentence:beautifully acted and masterfully if lrb the travesty rrb addresses in a fascinating intelligent manner the intermingling of race politics and local commerce
+Ye sentence:beautifully played and masterfully if lrb the travesty rrb addresses in a fascinating intelligent manner the intermingling of race politics and local commerce
+X: ['beautifully']
+Y: ['beautifully', 'played']
+e: travesty
+F(X) = 0.2694, F(Y) = 0.2694, F(Xe) = 0.2694, F(Ye) = 0.2695
+F(Xe) - F(X) = 0.0000 < F(Ye) - F(Y) = 0.0001
+========= 10 ====================== 
+Orig sentence: an enthralling playful film that constantly frustrates our desire to know the truth ' about this man while the very format of the biography in a manner that derrida would give his to
+X sentence: an enthralling naughty film that constantly frustrates our desire to know the truth ' about this man while the very format of the biography in a manner that derrida would give his to
+Y sentence: an enthralling naughty movie that constantly frustrates our desire to know the truth ' about this man while the very format of the biography in a manner that derrida would give his to
+Xe sentence:an enthralling naughty film that through frustrates our desire to know the truth ' about this man while the very format of the biography in a manner that derrida would give his to
+Ye sentence:an enthralling naughty movie that through frustrates our desire to know the truth ' about this man while the very format of the biography in a manner that derrida would give his to
+X: ['naughty']
+Y: ['naughty', 'movie']
+e: through
+F(X) = 0.2945, F(Y) = 0.2910, F(Xe) = 0.2771, F(Ye) = 0.2776
+F(Xe) - F(X) = -0.0175 < F(Ye) - F(Y) = -0.0134
+========= 11 ====================== 
+Orig sentence: an experience so engrossing it is like being buried in a new environment
+X sentence: an moral so engrossing it is like being buried in a new environment
+Y sentence: an moral in engrossing it is like being buried in a new environment
+Xe sentence:an moral so engrossing it has like being buried in a new environment
+Ye sentence:an moral in engrossing it has like being buried in a new environment
+X: ['moral']
+Y: ['moral', 'in']
+e: has
+F(X) = 0.6576, F(Y) = 0.7007, F(Xe) = 0.5704, F(Ye) = 0.6563
+F(Xe) - F(X) = -0.0872 < F(Ye) - F(Y) = -0.0444
+========= 12 ====================== 
+Orig sentence: all the performances are top notch and once you get through the accents all or nothing becomes an emotional though still positive of a sit
+X sentence: all the characters are top notch and once you get through the accents all or nothing becomes an emotional though still positive of a sit
+Y sentence: all the characters like top notch and once you get through the accents all or nothing becomes an emotional though still positive of a sit
+Xe sentence:all the characters are first notch and once you get through the accents all or nothing becomes an emotional though still positive of a sit
+Ye sentence:all the characters like first notch and once you get through the accents all or nothing becomes an emotional though still positive of a sit
+X: ['characters']
+Y: ['characters', 'like']
+e: first
+F(X) = 0.2853, F(Y) = 0.3045, F(Xe) = 0.2906, F(Ye) = 0.3224
+F(Xe) - F(X) = 0.0053 < F(Ye) - F(Y) = 0.0179
+========= 13 ====================== 
+Orig sentence: a tone poem pitched between lyricism and violent the most aggressively nerve and neurotic romantic comedy in cinema history
+X sentence: a style poem pitched between lyricism and violent the most aggressively nerve and neurotic romantic comedy in cinema history
+Y sentence: a style novel pitched between lyricism and violent the most aggressively nerve and neurotic romantic comedy in cinema history
+Xe sentence:a style poem pitched between lyricism and terrible the most aggressively nerve and neurotic romantic comedy in cinema history
+Ye sentence:a style novel pitched between lyricism and terrible the most aggressively nerve and neurotic romantic comedy in cinema history
+X: ['style']
+Y: ['style', 'novel']
+e: terrible
+F(X) = 0.2732, F(Y) = 0.2735, F(Xe) = 0.2810, F(Ye) = 0.2874
+F(Xe) - F(X) = 0.0078 < F(Ye) - F(Y) = 0.0139
+========= 14 ====================== 
+Orig sentence: zhang delivers warm genuine characters who lie not through dishonesty but because they genuinely believe it 's the only way to bring happiness to their loved ones
+X sentence: zhang bears warm genuine characters who lie not through dishonesty but because they genuinely believe it 's the only way to bring happiness to their loved ones
+Y sentence: zhang bears sincere genuine characters who lie not through dishonesty but because they genuinely believe it 's the only way to bring happiness to their loved ones
+Xe sentence:zhang bears warm real characters who lie not through dishonesty but because they genuinely believe it 's the only way to bring happiness to their loved ones
+Ye sentence:zhang bears sincere real characters who lie not through dishonesty but because they genuinely believe it 's the only way to bring happiness to their loved ones
+X: ['bears']
+Y: ['bears', 'sincere']
+e: real
+F(X) = 0.2954, F(Y) = 0.3131, F(Xe) = 0.3005, F(Ye) = 0.3283
+F(Xe) - F(X) = 0.0050 < F(Ye) - F(Y) = 0.0153
+========= 15 ====================== 
+Orig sentence: the pleasures of super troopers may be fleeting but they 'll register strongly with anybody who still retains a soft spot for humor
+X sentence: the comedies of super troopers may be fleeting but they 'll register strongly with anybody who still retains a soft spot for humor
+Y sentence: the comedies of great troopers may be fleeting but they 'll register strongly with anybody who still retains a soft spot for humor
+Xe sentence:the comedies of super troopers may please fleeting but they 'll register strongly with anybody who still retains a soft spot for humor
+Ye sentence:the comedies of great troopers may please fleeting but they 'll register strongly with anybody who still retains a soft spot for humor
+X: ['comedies']
+Y: ['comedies', 'great']
+e: please
+F(X) = 0.4413, F(Y) = 0.3795, F(Xe) = 0.4363, F(Ye) = 0.3779
+F(Xe) - F(X) = -0.0050 < F(Ye) - F(Y) = -0.0016
+========= 16 ====================== 
+Orig sentence: much of the way though this is a refreshingly novel ride
+X sentence: very of the way though this is a refreshingly novel ride
+Y sentence: very of the how though this is a refreshingly novel ride
+Xe sentence:very of the way though this has a refreshingly novel ride
+Ye sentence:very of the how though this has a refreshingly novel ride
+X: ['very']
+Y: ['very', 'how']
+e: has
+F(X) = 0.2698, F(Y) = 0.2699, F(Xe) = 0.2703, F(Ye) = 0.2707
+F(Xe) - F(X) = 0.0005 < F(Ye) - F(Y) = 0.0007
+========= 17 ====================== 
+Orig sentence: one scarcely needs the subtitles to enjoy this colorful action farce
+X sentence: one sometimes needs the subtitles to enjoy this colorful action farce
+Y sentence: one sometimes is the subtitles to enjoy this colorful action farce
+Xe sentence:one sometimes needs the captions to enjoy this colorful action farce
+Ye sentence:one sometimes is the captions to enjoy this colorful action farce
+X: ['sometimes']
+Y: ['sometimes', 'is']
+e: captions
+F(X) = 0.2734, F(Y) = 0.2717, F(Xe) = 0.2706, F(Ye) = 0.2698
+F(Xe) - F(X) = -0.0027 < F(Ye) - F(Y) = -0.0018
+========= 18 ====================== 
+Orig sentence: what might have been a predictably heartwarming tale is suffused with complexity
+X sentence: what might like been a predictably heartwarming tale is suffused with complexity
+Y sentence: what might like had a predictably heartwarming tale is suffused with complexity
+Xe sentence:what might like been a predictably calm tale is suffused with complexity
+Ye sentence:what might like had a predictably calm tale is suffused with complexity
+X: ['like']
+Y: ['like', 'had']
+e: calm
+F(X) = 0.2735, F(Y) = 0.2764, F(Xe) = 0.5134, F(Ye) = 0.6167
+F(Xe) - F(X) = 0.2400 < F(Ye) - F(Y) = 0.3403
+========= 19 ====================== 
+Orig sentence: this is simply the most fun you 'll ever have with a documentary
+X sentence: this has simply the most fun you 'll ever have with a documentary
+Y sentence: this has in the most fun you 'll ever have with a documentary
+Xe sentence:this has simply the most kid you 'll ever have with a documentary
+Ye sentence:this has in the most kid you 'll ever have with a documentary
+X: ['has']
+Y: ['has', 'in']
+e: kid
+F(X) = 0.2841, F(Y) = 0.2744, F(Xe) = 0.3055, F(Ye) = 0.3097
+F(Xe) - F(X) = 0.0214 < F(Ye) - F(Y) = 0.0353
+========= 20 ====================== 
+Orig sentence: the fact that the is a nearly impeccable cinematic experience and a wonderful all ages triumph besides is a miracle akin to the story the film portrays
+X sentence: the thing that the is a nearly impeccable cinematic experience and a wonderful all ages triumph besides is a miracle akin to the story the film portrays
+Y sentence: the thing that the has a nearly impeccable cinematic experience and a wonderful all ages triumph besides is a miracle akin to the story the film portrays
+Xe sentence:the thing that the is a nearly impeccable cinematic moral and a wonderful all ages triumph besides is a miracle akin to the story the film portrays
+Ye sentence:the thing that the has a nearly impeccable cinematic moral and a wonderful all ages triumph besides is a miracle akin to the story the film portrays
+X: ['thing']
+Y: ['thing', 'has']
+e: moral
+F(X) = 0.2717, F(Y) = 0.2723, F(Xe) = 0.2789, F(Ye) = 0.2821
+F(Xe) - F(X) = 0.0072 < F(Ye) - F(Y) = 0.0098
+========= 21 ====================== 
+Orig sentence: a dream cast of solid female talent who build a seamless ensemble
+X sentence: a attempt cast of solid female talent who build a seamless ensemble
+Y sentence: a attempt stuff of solid female talent who build a seamless ensemble
+Xe sentence:a attempt cast of hard female talent who build a seamless ensemble
+Ye sentence:a attempt stuff of hard female talent who build a seamless ensemble
+X: ['attempt']
+Y: ['attempt', 'stuff']
+e: hard
+F(X) = 0.4245, F(Y) = 0.3207, F(Xe) = 0.4152, F(Ye) = 0.3121
+F(Xe) - F(X) = -0.0093 < F(Ye) - F(Y) = -0.0086
+========= 22 ====================== 
+Orig sentence: the movie is well shot and very tragic and one to ponder after the credits roll
+X sentence: the film is well shot and very tragic and one to ponder after the credits roll
+Y sentence: the film has well shot and very tragic and one to ponder after the credits roll
+Xe sentence:the film is truly shot and very tragic and one to ponder after the credits roll
+Ye sentence:the film has truly shot and very tragic and one to ponder after the credits roll
+X: ['film']
+Y: ['film', 'has']
+e: truly
+F(X) = 0.2997, F(Y) = 0.2921, F(Xe) = 0.2891, F(Ye) = 0.2860
+F(Xe) - F(X) = -0.0105 < F(Ye) - F(Y) = -0.0061
+========= 23 ====================== 
+Orig sentence: it is ridiculous of course but it is also refreshing disarming and just outright enjoyable despite its ridiculousness
+X sentence: it has ridiculous of course but it is also refreshing disarming and just outright enjoyable despite its ridiculousness
+Y sentence: it has funny of course but it is also refreshing disarming and just outright enjoyable despite its ridiculousness
+Xe sentence:it has ridiculous of period but it is also refreshing disarming and just outright enjoyable despite its ridiculousness
+Ye sentence:it has funny of period but it is also refreshing disarming and just outright enjoyable despite its ridiculousness
+X: ['has']
+Y: ['has', 'funny']
+e: period
+F(X) = 0.2730, F(Y) = 0.2726, F(Xe) = 0.2728, F(Ye) = 0.2727
+F(Xe) - F(X) = -0.0003 < F(Ye) - F(Y) = 0.0001
+========= 24 ====================== 
+Orig sentence: everything you loved about it in is still there for everybody who wants to be a kid again or show it to their own kids
+X sentence: everything you liked about it in is still there for everybody who wants to be a kid again or show it to their own kids
+Y sentence: everything you liked about it in has still there for everybody who wants to be a kid again or show it to their own kids
+Xe sentence:everything you liked about it in is even there for everybody who wants to be a kid again or show it to their own kids
+Ye sentence:everything you liked about it in has even there for everybody who wants to be a kid again or show it to their own kids
+X: ['liked']
+Y: ['liked', 'has']
+e: even
+F(X) = 0.4111, F(Y) = 0.4139, F(Xe) = 0.4325, F(Ye) = 0.4358
+F(Xe) - F(X) = 0.0214 < F(Ye) - F(Y) = 0.0219
+========= 25 ====================== 
+Orig sentence: tadpole is a sophisticated funny and good natured treat slight but a pleasure
+X sentence: tadpole has a sophisticated funny and good natured treat slight but a pleasure
+Y sentence: tadpole has a high funny and good natured treat slight but a pleasure
+Xe sentence:tadpole has a sophisticated ludicrous and good natured treat slight but a pleasure
+Ye sentence:tadpole has a high ludicrous and good natured treat slight but a pleasure
+X: ['has']
+Y: ['has', 'high']
+e: ludicrous
+F(X) = 0.2708, F(Y) = 0.2718, F(Xe) = 0.2765, F(Ye) = 0.2795
+F(Xe) - F(X) = 0.0057 < F(Ye) - F(Y) = 0.0077
+========= 26 ====================== 
+Orig sentence: a sensual performance from abbass the flimsy story but her inner journey is largely unexplored and we 're left wondering about this exotic looking woman whose emotional depths are only at
+X sentence: a sultry performance from abbass the flimsy story but her inner journey is largely unexplored and we 're left wondering about this exotic looking woman whose emotional depths are only at
+Y sentence: a sultry way from abbass the flimsy story but her inner journey is largely unexplored and we 're left wondering about this exotic looking woman whose emotional depths are only at
+Xe sentence:a sultry performance from abbass the empty story but her inner journey is largely unexplored and we 're left wondering about this exotic looking woman whose emotional depths are only at
+Ye sentence:a sultry way from abbass the empty story but her inner journey is largely unexplored and we 're left wondering about this exotic looking woman whose emotional depths are only at
+X: ['sultry']
+Y: ['sultry', 'way']
+e: empty
+F(X) = 0.2889, F(Y) = 0.3707, F(Xe) = 0.2880, F(Ye) = 0.3854
+F(Xe) - F(X) = -0.0008 < F(Ye) - F(Y) = 0.0147
+========= 27 ====================== 
+Orig sentence: it does succeed by following a feel good formula with a winning style and by offering its target audience of urban kids some welcome role models and optimism
+X sentence: it makes succeed by following a feel good formula with a winning style and by offering its target audience of urban kids some welcome role models and optimism
+Y sentence: it makes hit by following a feel good formula with a winning style and by offering its target audience of urban kids some welcome role models and optimism
+Xe sentence:it makes succeed by following a feel well formula with a winning style and by offering its target audience of urban kids some welcome role models and optimism
+Ye sentence:it makes hit by following a feel well formula with a winning style and by offering its target audience of urban kids some welcome role models and optimism
+X: ['makes']
+Y: ['makes', 'hit']
+e: well
+F(X) = 0.2740, F(Y) = 0.2766, F(Xe) = 0.2730, F(Ye) = 0.2763
+F(Xe) - F(X) = -0.0010 < F(Ye) - F(Y) = -0.0003
+========= 28 ====================== 
+Orig sentence: lrb is rrb talented and terribly charismatic qualities essential to both movie stars and social anarchists
+X sentence: lrb has rrb talented and terribly charismatic qualities essential to both movie stars and social anarchists
+Y sentence: lrb has rrb brilliant and terribly charismatic qualities essential to both movie stars and social anarchists
+Xe sentence:lrb has rrb talented and much charismatic qualities essential to both movie stars and social anarchists
+Ye sentence:lrb has rrb brilliant and much charismatic qualities essential to both movie stars and social anarchists
+X: ['has']
+Y: ['has', 'brilliant']
+e: much
+F(X) = 0.2714, F(Y) = 0.2708, F(Xe) = 0.2701, F(Ye) = 0.2697
+F(Xe) - F(X) = -0.0013 < F(Ye) - F(Y) = -0.0010
+========= 29 ====================== 
+Orig sentence: serry does a fine job of capturing the climate of the times and perhaps relating it to what is happening in america in 2002
+X sentence: serry makes a fine job of capturing the climate of the times and perhaps relating it to what is happening in america in 2002
+Y sentence: serry makes a little job of capturing the climate of the times and perhaps relating it to what is happening in america in 2002
+Xe sentence:serry makes a fine thing of capturing the climate of the times and perhaps relating it to what is happening in america in 2002
+Ye sentence:serry makes a little thing of capturing the climate of the times and perhaps relating it to what is happening in america in 2002
+X: ['makes']
+Y: ['makes', 'little']
+e: thing
+F(X) = 0.2701, F(Y) = 0.2733, F(Xe) = 0.2716, F(Ye) = 0.2796
+F(Xe) - F(X) = 0.0015 < F(Ye) - F(Y) = 0.0062
+========= 30 ====================== 
+Orig sentence: this sequel to the 1999 hit is a little more visually polished a little funnier and a little more madcap
+X sentence: this end to the 1999 hit is a little more visually polished a little funnier and a little more madcap
+Y sentence: this end to the 1999 adaptation is a little more visually polished a little funnier and a little more madcap
+Xe sentence:this end to the 1999 hit has a little more visually polished a little funnier and a little more madcap
+Ye sentence:this end to the 1999 adaptation has a little more visually polished a little funnier and a little more madcap
+X: ['end']
+Y: ['end', 'adaptation']
+e: has
+F(X) = 0.2883, F(Y) = 0.2972, F(Xe) = 0.2843, F(Ye) = 0.2946
+F(Xe) - F(X) = -0.0040 < F(Ye) - F(Y) = -0.0026
+========= 31 ====================== 
+Orig sentence: as lo fi as the special effects are the folks who cobbled nemesis together indulge the force of humanity over hardware in a way that george lucas has long forgotten
+X sentence: as lo fi as the original effects are the folks who cobbled nemesis together indulge the force of humanity over hardware in a way that george lucas has long forgotten
+Y sentence: as lo fi as the original impacts are the folks who cobbled nemesis together indulge the force of humanity over hardware in a way that george lucas has long forgotten
+Xe sentence:as lo fi as the original effects like the folks who cobbled nemesis together indulge the force of humanity over hardware in a way that george lucas has long forgotten
+Ye sentence:as lo fi as the original impacts like the folks who cobbled nemesis together indulge the force of humanity over hardware in a way that george lucas has long forgotten
+X: ['original']
+Y: ['original', 'impacts']
+e: like
+F(X) = 0.4908, F(Y) = 0.4292, F(Xe) = 0.4443, F(Ye) = 0.3865
+F(Xe) - F(X) = -0.0465 < F(Ye) - F(Y) = -0.0427
+========= 32 ====================== 
+Orig sentence: writer director burger imaginatively fans the of a national grief and curiosity that has into cynicism and fear
+X sentence: author director burger imaginatively fans the of a national grief and curiosity that has into cynicism and fear
+Y sentence: author head burger imaginatively fans the of a national grief and curiosity that has into cynicism and fear
+Xe sentence:author director mess imaginatively fans the of a national grief and curiosity that has into cynicism and fear
+Ye sentence:author head mess imaginatively fans the of a national grief and curiosity that has into cynicism and fear
+X: ['author']
+Y: ['author', 'head']
+e: mess
+F(X) = 0.2742, F(Y) = 0.2765, F(Xe) = 0.3419, F(Ye) = 0.3792
+F(Xe) - F(X) = 0.0677 < F(Ye) - F(Y) = 0.1027
+========= 33 ====================== 
+Orig sentence: the film runs on equal parts of innocence and wisdom wisdom that comes with experience
+X sentence: the movie runs on equal parts of innocence and wisdom wisdom that comes with experience
+Y sentence: the movie works on equal parts of innocence and wisdom wisdom that comes with experience
+Xe sentence:the movie runs on just parts of innocence and wisdom wisdom that comes with experience
+Ye sentence:the movie works on just parts of innocence and wisdom wisdom that comes with experience
+X: ['movie']
+Y: ['movie', 'works']
+e: just
+F(X) = 0.3896, F(Y) = 0.2785, F(Xe) = 0.3216, F(Ye) = 0.2762
+F(Xe) - F(X) = -0.0679 < F(Ye) - F(Y) = -0.0023
+========= 34 ====================== 
+Orig sentence: goyer 's screenplay and direction are thankfully understated and he has drawn excellent performances from his cast
+X sentence: goyer 's scenario and direction are thankfully understated and he has drawn excellent performances from his cast
+Y sentence: goyer 's scenario and future are thankfully understated and he has drawn excellent performances from his cast
+Xe sentence:goyer 's scenario and direction are thankfully understated and he dares drawn excellent performances from his cast
+Ye sentence:goyer 's scenario and future are thankfully understated and he dares drawn excellent performances from his cast
+X: ['scenario']
+Y: ['scenario', 'future']
+e: dares
+F(X) = 0.2698, F(Y) = 0.2698, F(Xe) = 0.2731, F(Ye) = 0.2733
+F(Xe) - F(X) = 0.0033 < F(Ye) - F(Y) = 0.0035
+========= 35 ====================== 
+Orig sentence: the often forgotten fact of the world 's remarkably varying human population and mindset and its capacity to heal using creative natural and ancient
+X sentence: the frequently forgotten fact of the world 's remarkably varying human population and mindset and its capacity to heal using creative natural and ancient
+Y sentence: the frequently omitted fact of the world 's remarkably varying human population and mindset and its capacity to heal using creative natural and ancient
+Xe sentence:the frequently forgotten thing of the world 's remarkably varying human population and mindset and its capacity to heal using creative natural and ancient
+Ye sentence:the frequently omitted thing of the world 's remarkably varying human population and mindset and its capacity to heal using creative natural and ancient
+X: ['frequently']
+Y: ['frequently', 'omitted']
+e: thing
+F(X) = 0.3019, F(Y) = 0.4142, F(Xe) = 0.3250, F(Ye) = 0.4663
+F(Xe) - F(X) = 0.0231 < F(Ye) - F(Y) = 0.0521
+========= 36 ====================== 
+Orig sentence: scores a few points for doing what it does with a dedicated and good hearted
+X sentence: points a few points for doing what it does with a dedicated and good hearted
+Y sentence: points a few times for doing what it does with a dedicated and good hearted
+Xe sentence:points a few points for playing what it does with a dedicated and good hearted
+Ye sentence:points a few times for playing what it does with a dedicated and good hearted
+X: ['points']
+Y: ['points', 'times']
+e: playing
+F(X) = 0.2805, F(Y) = 0.2807, F(Xe) = 0.2778, F(Ye) = 0.2800
+F(Xe) - F(X) = -0.0027 < F(Ye) - F(Y) = -0.0007
+========= 37 ====================== 
+Orig sentence: greengrass has delivered an stylistic tour de force and has managed elements such as sound and cinematography with skill
+X sentence: greengrass is delivered an stylistic tour de force and has managed elements such as sound and cinematography with skill
+Y sentence: greengrass is served an stylistic tour de force and has managed elements such as sound and cinematography with skill
+Xe sentence:greengrass is delivered an stylistic jaunt de force and has managed elements such as sound and cinematography with skill
+Ye sentence:greengrass is served an stylistic jaunt de force and has managed elements such as sound and cinematography with skill
+X: ['is']
+Y: ['is', 'served']
+e: jaunt
+F(X) = 0.2704, F(Y) = 0.2712, F(Xe) = 0.2706, F(Ye) = 0.2715
+F(Xe) - F(X) = 0.0002 < F(Ye) - F(Y) = 0.0004
+========= 38 ====================== 
+Orig sentence: at heart the movie is a deftly wrought suspense yarn whose richer work as rather than substance
+X sentence: at end the movie is a deftly wrought suspense yarn whose richer work as rather than substance
+Y sentence: at end the film is a deftly wrought suspense yarn whose richer work as rather than substance
+Xe sentence:at end the movie is a brilliantly wrought suspense yarn whose richer work as rather than substance
+Ye sentence:at end the film is a brilliantly wrought suspense yarn whose richer work as rather than substance
+X: ['end']
+Y: ['end', 'film']
+e: brilliantly
+F(X) = 0.2756, F(Y) = 0.2737, F(Xe) = 0.2717, F(Ye) = 0.2709
+F(Xe) - F(X) = -0.0039 < F(Ye) - F(Y) = -0.0028
+========= 39 ====================== 
+Orig sentence: despite what anyone believes about the goal of its makers the show represents a spectacular piece of theater and there 's no denying the talent of the creative forces behind it
+X sentence: despite what anyone convinces about the goal of its makers the show represents a spectacular piece of theater and there 's no denying the talent of the creative forces behind it
+Y sentence: despite what anyone convinces about the heart of its makers the show represents a spectacular piece of theater and there 's no denying the talent of the creative forces behind it
+Xe sentence:despite what anyone convinces about the goal of its workshops the show represents a spectacular piece of theater and there 's no denying the talent of the creative forces behind it
+Ye sentence:despite what anyone convinces about the heart of its workshops the show represents a spectacular piece of theater and there 's no denying the talent of the creative forces behind it
+X: ['convinces']
+Y: ['convinces', 'heart']
+e: workshops
+F(X) = 0.5996, F(Y) = 0.5535, F(Xe) = 0.5524, F(Ye) = 0.5170
+F(Xe) - F(X) = -0.0472 < F(Ye) - F(Y) = -0.0365
+========= 40 ====================== 
+Orig sentence: a well made and often lovely depiction of the mysteries of friendship
+X sentence: a in made and often lovely depiction of the mysteries of friendship
+Y sentence: a in cast and often lovely depiction of the mysteries of friendship
+Xe sentence:a in made and frequently lovely depiction of the mysteries of friendship
+Ye sentence:a in cast and frequently lovely depiction of the mysteries of friendship
+X: ['in']
+Y: ['in', 'cast']
+e: frequently
+F(X) = 0.2710, F(Y) = 0.2702, F(Xe) = 0.2704, F(Ye) = 0.2700
+F(Xe) - F(X) = -0.0006 < F(Ye) - F(Y) = -0.0002
+========= 41 ====================== 
+Orig sentence: rare is the urban comedy ' that even attempts the insight and honesty of this disarming indie
+X sentence: little is the urban comedy ' that even attempts the insight and honesty of this disarming indie
+Y sentence: little has the urban comedy ' that even attempts the insight and honesty of this disarming indie
+Xe sentence:little is the urban pleasure ' that even attempts the insight and honesty of this disarming indie
+Ye sentence:little has the urban pleasure ' that even attempts the insight and honesty of this disarming indie
+X: ['little']
+Y: ['little', 'has']
+e: pleasure
+F(X) = 0.4392, F(Y) = 0.3425, F(Xe) = 0.2878, F(Ye) = 0.2829
+F(Xe) - F(X) = -0.1514 < F(Ye) - F(Y) = -0.0595
+========= 42 ====================== 
+Orig sentence: a deviant topical comedy which is funny from start to finish
+X sentence: a deviant topical pleasure which is funny from start to finish
+Y sentence: a deviant topical pleasure which has funny from start to finish
+Xe sentence:a deviant topical pleasure which is amusing from start to finish
+Ye sentence:a deviant topical pleasure which has amusing from start to finish
+X: ['pleasure']
+Y: ['pleasure', 'has']
+e: amusing
+F(X) = 0.2707, F(Y) = 0.2715, F(Xe) = 0.2712, F(Ye) = 0.2722
+F(Xe) - F(X) = 0.0005 < F(Ye) - F(Y) = 0.0007
+========= 43 ====================== 
+Orig sentence: u s audiences may find lrb attal and gainsbourg 's rrb personas give the film an intimate and quaint reality that is a little closer to human nature than what hollywood
+X sentence: u s viewers may find lrb attal and gainsbourg 's rrb personas give the film an intimate and quaint reality that is a little closer to human nature than what hollywood
+Y sentence: u s viewers may see lrb attal and gainsbourg 's rrb personas give the film an intimate and quaint reality that is a little closer to human nature than what hollywood
+Xe sentence:u s viewers may find lrb attal and gainsbourg 's rrb personas show the film an intimate and quaint reality that is a little closer to human nature than what hollywood
+Ye sentence:u s viewers may see lrb attal and gainsbourg 's rrb personas show the film an intimate and quaint reality that is a little closer to human nature than what hollywood
+X: ['viewers']
+Y: ['viewers', 'see']
+e: show
+F(X) = 0.3108, F(Y) = 0.3014, F(Xe) = 0.3067, F(Ye) = 0.2979
+F(Xe) - F(X) = -0.0040 < F(Ye) - F(Y) = -0.0035
+========= 44 ====================== 
+Orig sentence: it 's one of the saddest films i have ever seen that still manages to be uplifting but not overly sentimental
+X sentence: it 's one of the saddest movies i have ever seen that still manages to be uplifting but not overly sentimental
+Y sentence: it 's one of the saddest movies i like ever seen that still manages to be uplifting but not overly sentimental
+Xe sentence:it 's one of the saddest movies i have just seen that still manages to be uplifting but not overly sentimental
+Ye sentence:it 's one of the saddest movies i like just seen that still manages to be uplifting but not overly sentimental
+X: ['movies']
+Y: ['movies', 'like']
+e: just
+F(X) = 0.3202, F(Y) = 0.3229, F(Xe) = 0.3349, F(Ye) = 0.3383
+F(Xe) - F(X) = 0.0147 < F(Ye) - F(Y) = 0.0154
+========= 45 ====================== 
+Orig sentence: even if you ca n't '' correctly you 'll appreciate much of vardalos ' humor which transcends ethnic boundaries
+X sentence: in if you ca n't '' correctly you 'll appreciate much of vardalos ' humor which transcends ethnic boundaries
+Y sentence: in if you ca n't '' right you 'll appreciate much of vardalos ' humor which transcends ethnic boundaries
+Xe sentence:in if you ca n't '' correctly you 'll realize much of vardalos ' humor which transcends ethnic boundaries
+Ye sentence:in if you ca n't '' right you 'll realize much of vardalos ' humor which transcends ethnic boundaries
+X: ['in']
+Y: ['in', 'right']
+e: realize
+F(X) = 0.2787, F(Y) = 0.2794, F(Xe) = 0.4049, F(Ye) = 0.4105
+F(Xe) - F(X) = 0.1262 < F(Ye) - F(Y) = 0.1312
+========= 46 ====================== 
+Orig sentence: once again director jackson strikes a rewarding balance between emotion on the human scale and action effects on the spectacular scale
+X sentence: in again director jackson strikes a rewarding balance between emotion on the human scale and action effects on the spectacular scale
+Y sentence: in repeatedly director jackson strikes a rewarding balance between emotion on the human scale and action effects on the spectacular scale
+Xe sentence:in again principal jackson strikes a rewarding balance between emotion on the human scale and action effects on the spectacular scale
+Ye sentence:in repeatedly principal jackson strikes a rewarding balance between emotion on the human scale and action effects on the spectacular scale
+X: ['in']
+Y: ['in', 'repeatedly']
+e: principal
+F(X) = 0.2694, F(Y) = 0.2698, F(Xe) = 0.2694, F(Ye) = 0.2700
+F(Xe) - F(X) = 0.0000 < F(Ye) - F(Y) = 0.0002
+========= 47 ====================== 
+Orig sentence: a fairly by the books blend of action and romance with of and unintentional comedy
+X sentence: a just by the books blend of action and romance with of and unintentional comedy
+Y sentence: a just by the works blend of action and romance with of and unintentional comedy
+Xe sentence:a just by the books blend of war and romance with of and unintentional comedy
+Ye sentence:a just by the works blend of war and romance with of and unintentional comedy
+X: ['just']
+Y: ['just', 'works']
+e: war
+F(X) = 0.2780, F(Y) = 0.2701, F(Xe) = 0.2774, F(Ye) = 0.2700
+F(Xe) - F(X) = -0.0005 < F(Ye) - F(Y) = -0.0001
+========= 48 ====================== 
+Orig sentence: sits uneasily as a horror picture but finds surprising depth in its look at the of a small family
+X sentence: straddles uneasily as a horror picture but finds surprising depth in its look at the of a small family
+Y sentence: straddles ardently as a horror picture but finds surprising depth in its look at the of a small family
+Xe sentence:straddles uneasily as a horror spectacle but finds surprising depth in its look at the of a small family
+Ye sentence:straddles ardently as a horror spectacle but finds surprising depth in its look at the of a small family
+X: ['straddles']
+Y: ['straddles', 'ardently']
+e: spectacle
+F(X) = 0.2932, F(Y) = 0.2870, F(Xe) = 0.2861, F(Ye) = 0.2818
+F(Xe) - F(X) = -0.0071 < F(Ye) - F(Y) = -0.0052
+========= 49 ====================== 
+Orig sentence: an impressive debut for first time writer director mark romanek especially considering his background is in music video
+X sentence: an compelling debut for first time writer director mark romanek especially considering his background is in music video
+Y sentence: an compelling debut for so time writer director mark romanek especially considering his background is in music video
+Xe sentence:an compelling debut for first point writer director mark romanek especially considering his background is in music video
+Ye sentence:an compelling debut for so point writer director mark romanek especially considering his background is in music video
+X: ['compelling']
+Y: ['compelling', 'so']
+e: point
+F(X) = 0.2826, F(Y) = 0.2832, F(Xe) = 0.2904, F(Ye) = 0.2931
+F(Xe) - F(X) = 0.0078 < F(Ye) - F(Y) = 0.0099
+========= 50 ====================== 
+Orig sentence: if it seems like a minor miracle that its star is young enough to be the filmmaker 's son more incredible still are the clear eyed and quiet irony with which actor and director take on life 's urgent questions
+X sentence: if it appears like a minor miracle that its star is young enough to be the filmmaker 's son more incredible still are the clear eyed and quiet irony with which actor and director take on life 's urgent questions
+Y sentence: if it appears like a subject miracle that its star is young enough to be the filmmaker 's son more incredible still are the clear eyed and quiet irony with which actor and director take on life 's urgent questions
+Xe sentence:if it appears like a minor wonder that its star is young enough to be the filmmaker 's son more incredible still are the clear eyed and quiet irony with which actor and director take on life 's urgent questions
+Ye sentence:if it appears like a subject wonder that its star is young enough to be the filmmaker 's son more incredible still are the clear eyed and quiet irony with which actor and director take on life 's urgent questions
+X: ['appears']
+Y: ['appears', 'subject']
+e: wonder
+F(X) = 0.2754, F(Y) = 0.2816, F(Xe) = 0.2760, F(Ye) = 0.2842
+F(Xe) - F(X) = 0.0006 < F(Ye) - F(Y) = 0.0026
+========= 51 ====================== 
+Orig sentence: it 's the cinematic equivalent of a good page turner and even if it 's nonsense its claws dig surprisingly deep
+X sentence: it 's the cinematic balance of a good page turner and even if it 's nonsense its claws dig surprisingly deep
+Y sentence: it 's the cinematic balance of a well page turner and even if it 's nonsense its claws dig surprisingly deep
+Xe sentence:it 's the cinematic balance of a good page turner and but if it 's nonsense its claws dig surprisingly deep
+Ye sentence:it 's the cinematic balance of a well page turner and but if it 's nonsense its claws dig surprisingly deep
+X: ['balance']
+Y: ['balance', 'well']
+e: but
+F(X) = 0.2710, F(Y) = 0.2717, F(Xe) = 0.2721, F(Ye) = 0.2732
+F(Xe) - F(X) = 0.0011 < F(Ye) - F(Y) = 0.0016
+========= 52 ====================== 
+Orig sentence: if you love motown music you 'll love this documentary
+X sentence: if you love motown music you 'll love this film
+Y sentence: if you like motown music you 'll love this film
+Xe sentence:if you love motown dance you 'll love this film
+Ye sentence:if you like motown dance you 'll love this film
+X: ['film']
+Y: ['like', 'film']
+e: dance
+F(X) = 0.2717, F(Y) = 0.2727, F(Xe) = 0.2721, F(Ye) = 0.2734
+F(Xe) - F(X) = 0.0004 < F(Ye) - F(Y) = 0.0007
+========= 53 ====================== 
+Orig sentence: it 's solid and affecting and exactly as thought provoking as it should be
+X sentence: it 's much and affecting and exactly as thought provoking as it should be
+Y sentence: it 's much and moving and exactly as thought provoking as it should be
+Xe sentence:it 's much and affecting and on as thought provoking as it should be
+Ye sentence:it 's much and moving and on as thought provoking as it should be
+X: ['much']
+Y: ['much', 'moving']
+e: on
+F(X) = 0.2751, F(Y) = 0.2747, F(Xe) = 0.2754, F(Ye) = 0.2752
+F(Xe) - F(X) = 0.0003 < F(Ye) - F(Y) = 0.0005
+========= 54 ====================== 
+Orig sentence: lrb wendigo is rrb why we go to the cinema to be through the eye the heart the mind
+X sentence: lrb wendigo is rrb why we go to the cinema to be through the eye the end the mind
+Y sentence: lrb wendigo has rrb why we go to the cinema to be through the eye the end the mind
+Xe sentence:lrb wendigo is rrb why we go to the cinema to be through the eye the end the heart
+Ye sentence:lrb wendigo has rrb why we go to the cinema to be through the eye the end the heart
+X: ['end']
+Y: ['has', 'end']
+e: heart
+F(X) = 0.4438, F(Y) = 0.3918, F(Xe) = 0.2986, F(Ye) = 0.2883
+F(Xe) - F(X) = -0.1453 < F(Ye) - F(Y) = -0.1035
+========= 55 ====================== 
+Orig sentence: lovingly choreographed bloodshed taking place in a pristine movie neverland basically
+X sentence: mildly choreographed bloodshed taking place in a pristine movie neverland basically
+Y sentence: mildly choreographed bloodbath taking place in a pristine movie neverland basically
+Xe sentence:mildly choreographed bloodshed making place in a pristine movie neverland basically
+Ye sentence:mildly choreographed bloodbath making place in a pristine movie neverland basically
+X: ['mildly']
+Y: ['mildly', 'bloodbath']
+e: making
+F(X) = 0.3826, F(Y) = 0.4042, F(Xe) = 0.4166, F(Ye) = 0.4692
+F(Xe) - F(X) = 0.0340 < F(Ye) - F(Y) = 0.0650
+========= 56 ====================== 
+Orig sentence: a thoughtful moving piece that faces difficult issues with honesty and beauty
+X sentence: a earnest moving piece that faces difficult issues with honesty and beauty
+Y sentence: a earnest acting piece that faces difficult issues with honesty and beauty
+Xe sentence:a earnest moving gross that faces difficult issues with honesty and beauty
+Ye sentence:a earnest acting gross that faces difficult issues with honesty and beauty
+X: ['earnest']
+Y: ['earnest', 'acting']
+e: gross
+F(X) = 0.2699, F(Y) = 0.2700, F(Xe) = 0.2700, F(Ye) = 0.2705
+F(Xe) - F(X) = 0.0001 < F(Ye) - F(Y) = 0.0005
+========= 57 ====================== 
+Orig sentence: frida 's artistic brilliance is undeniable it 's among the most breathtakingly designed films i 've ever seen
+X sentence: frida 's smart brilliance is undeniable it 's among the most breathtakingly designed films i 've ever seen
+Y sentence: frida 's smart flair is undeniable it 's among the most breathtakingly designed films i 've ever seen
+Xe sentence:frida 's smart brilliance remains undeniable it 's among the most breathtakingly designed films i 've ever seen
+Ye sentence:frida 's smart flair remains undeniable it 's among the most breathtakingly designed films i 've ever seen
+X: ['smart']
+Y: ['smart', 'flair']
+e: remains
+F(X) = 0.2694, F(Y) = 0.2695, F(Xe) = 0.2696, F(Ye) = 0.2701
+F(Xe) - F(X) = 0.0002 < F(Ye) - F(Y) = 0.0006
+========= 58 ====================== 
+Orig sentence: the film overcomes the regular of coming of age cliches with potent doses of honesty and sensitivity
+X sentence: the movie overcomes the regular of coming of age cliches with potent doses of honesty and sensitivity
+Y sentence: the movie captures the regular of coming of age cliches with potent doses of honesty and sensitivity
+Xe sentence:the movie overcomes the even of coming of age cliches with potent doses of honesty and sensitivity
+Ye sentence:the movie captures the even of coming of age cliches with potent doses of honesty and sensitivity
+X: ['movie']
+Y: ['movie', 'captures']
+e: even
+F(X) = 0.2937, F(Y) = 0.2705, F(Xe) = 0.2901, F(Ye) = 0.2714
+F(Xe) - F(X) = -0.0036 < F(Ye) - F(Y) = 0.0008
+========= 59 ====================== 
+Orig sentence: like dickens with his passages mcgrath quite moving scenes throughout his resolutely dramatic variation on the novel
+X sentence: like dickens with his ways mcgrath quite moving scenes throughout his resolutely dramatic variation on the novel
+Y sentence: like dickens with his ways mcgrath rather moving scenes throughout his resolutely dramatic variation on the novel
+Xe sentence:like dickens with his ways mcgrath quite acting scenes throughout his resolutely dramatic variation on the novel
+Ye sentence:like dickens with his ways mcgrath rather acting scenes throughout his resolutely dramatic variation on the novel
+X: ['ways']
+Y: ['ways', 'rather']
+e: acting
+F(X) = 0.3202, F(Y) = 0.4812, F(Xe) = 0.3457, F(Ye) = 0.5387
+F(Xe) - F(X) = 0.0255 < F(Ye) - F(Y) = 0.0575
+========= 60 ====================== 
+Orig sentence: city by the sea is the cinematic equivalent of defensive driving it 's careful conscientious and makes no major
+X sentence: town by the sea is the cinematic equivalent of defensive driving it 's careful conscientious and makes no major
+Y sentence: town by the spring is the cinematic equivalent of defensive driving it 's careful conscientious and makes no major
+Xe sentence:town by the sea has the cinematic equivalent of defensive driving it 's careful conscientious and makes no major
+Ye sentence:town by the spring has the cinematic equivalent of defensive driving it 's careful conscientious and makes no major
+X: ['town']
+Y: ['town', 'spring']
+e: has
+F(X) = 0.4497, F(Y) = 0.4108, F(Xe) = 0.3970, F(Ye) = 0.3646
+F(Xe) - F(X) = -0.0527 < F(Ye) - F(Y) = -0.0462
+========= 61 ====================== 
+Orig sentence: it 's both a necessary political work and a fascinating documentary
+X sentence: it 's both a necessary political work and a funny documentary
+Y sentence: it 's both a necessary political work and a funny film
+Xe sentence:it 's both a necessary political thing and a funny documentary
+Ye sentence:it 's both a necessary political thing and a funny film
+X: ['funny']
+Y: ['funny', 'film']
+e: thing
+F(X) = 0.2712, F(Y) = 0.2769, F(Xe) = 0.2725, F(Ye) = 0.2857
+F(Xe) - F(X) = 0.0013 < F(Ye) - F(Y) = 0.0089
+========= 62 ====================== 
+Orig sentence: this insightful oscar nominated documentary in which children on both sides of the ever conflict have their say away from watchful parental eyes gives peace yet another chance
+X sentence: this smart oscar nominated documentary in which children on both sides of the ever conflict have their say away from watchful parental eyes gives peace yet another chance
+Y sentence: this smart oscar nominated film in which children on both sides of the ever conflict have their say away from watchful parental eyes gives peace yet another chance
+Xe sentence:this smart oscar nominated documentary in which kids on both sides of the ever conflict have their say away from watchful parental eyes gives peace yet another chance
+Ye sentence:this smart oscar nominated film in which kids on both sides of the ever conflict have their say away from watchful parental eyes gives peace yet another chance
+X: ['smart']
+Y: ['smart', 'film']
+e: kids
+F(X) = 0.2699, F(Y) = 0.2700, F(Xe) = 0.2699, F(Ye) = 0.2702
+F(Xe) - F(X) = 0.0000 < F(Ye) - F(Y) = 0.0001
+========= 63 ====================== 
+Orig sentence: rain is a small treasure enveloping the viewer in a literal and spiritual that is anything but cathartic
+X sentence: snow is a small treasure enveloping the viewer in a literal and spiritual that is anything but cathartic
+Y sentence: snow has a small treasure enveloping the viewer in a literal and spiritual that is anything but cathartic
+Xe sentence:snow is a little treasure enveloping the viewer in a literal and spiritual that is anything but cathartic
+Ye sentence:snow has a little treasure enveloping the viewer in a literal and spiritual that is anything but cathartic
+X: ['snow']
+Y: ['snow', 'has']
+e: little
+F(X) = 0.2707, F(Y) = 0.2710, F(Xe) = 0.2713, F(Ye) = 0.2718
+F(Xe) - F(X) = 0.0005 < F(Ye) - F(Y) = 0.0008
+========= 64 ====================== 
+Orig sentence: this romantic thriller is steeped in the atmosphere of wartime england and ably captures the moral and of the 1940s
+X sentence: this emotional thriller is steeped in the atmosphere of wartime england and ably captures the moral and of the 1940s
+Y sentence: this emotional thriller remains steeped in the atmosphere of wartime england and ably captures the moral and of the 1940s
+Xe sentence:this emotional thriller is steeped in the gas of wartime england and ably captures the moral and of the 1940s
+Ye sentence:this emotional thriller remains steeped in the gas of wartime england and ably captures the moral and of the 1940s
+X: ['emotional']
+Y: ['emotional', 'remains']
+e: gas
+F(X) = 0.2696, F(Y) = 0.2698, F(Xe) = 0.2697, F(Ye) = 0.2700
+F(Xe) - F(X) = 0.0001 < F(Ye) - F(Y) = 0.0002
+========= 65 ====================== 
+Orig sentence: in adobo is not just the spice but at the heart of more universal concerns
+X sentence: in adobo has not just the spice but at the heart of more universal concerns
+Y sentence: in adobo has either just the spice but at the heart of more universal concerns
+Xe sentence:in adobo has not also the spice but at the heart of more universal concerns
+Ye sentence:in adobo has either also the spice but at the heart of more universal concerns
+X: ['has']
+Y: ['has', 'either']
+e: also
+F(X) = 0.2713, F(Y) = 0.2708, F(Xe) = 0.2707, F(Ye) = 0.2703
+F(Xe) - F(X) = -0.0006 < F(Ye) - F(Y) = -0.0005
+========= 66 ====================== 
+Orig sentence: digital video documentary about stand up is a great glimpse into a very different world
+X sentence: multiple video documentary about stand up is a great glimpse into a very different world
+Y sentence: multiple still documentary about stand up is a great glimpse into a very different world
+Xe sentence:multiple video film about stand up is a great glimpse into a very different world
+Ye sentence:multiple still film about stand up is a great glimpse into a very different world
+X: ['multiple']
+Y: ['multiple', 'still']
+e: film
+F(X) = 0.2702, F(Y) = 0.2700, F(Xe) = 0.2703, F(Ye) = 0.2703
+F(Xe) - F(X) = 0.0001 < F(Ye) - F(Y) = 0.0003
+========= 67 ====================== 
+Orig sentence: almost every scene in this film is a gem that could stand alone a perfectly realized observation of mood behavior and intent
+X sentence: nearly every scene in this film is a gem that could stand alone a perfectly realized observation of mood behavior and intent
+Y sentence: nearly every picture in this film is a gem that could stand alone a perfectly realized observation of mood behavior and intent
+Xe sentence:nearly every scene in this piece is a gem that could stand alone a perfectly realized observation of mood behavior and intent
+Ye sentence:nearly every picture in this piece is a gem that could stand alone a perfectly realized observation of mood behavior and intent
+X: ['nearly']
+Y: ['nearly', 'picture']
+e: piece
+F(X) = 0.5154, F(Y) = 0.4969, F(Xe) = 0.3878, F(Ye) = 0.3762
+F(Xe) - F(X) = -0.1276 < F(Ye) - F(Y) = -0.1207
+========= 68 ====================== 
+Orig sentence: a original take on a theme that will resonate with singles of many ages
+X sentence: a original take on a theme that will ring with singles of many ages
+Y sentence: a just take on a theme that will ring with singles of many ages
+Xe sentence:a original take on a theme that will ring with singles of many times
+Ye sentence:a just take on a theme that will ring with singles of many times
+X: ['ring']
+Y: ['just', 'ring']
+e: times
+F(X) = 0.2836, F(Y) = 0.2913, F(Xe) = 0.2952, F(Ye) = 0.3059
+F(Xe) - F(X) = 0.0116 < F(Ye) - F(Y) = 0.0145
+========= 69 ====================== 
+Orig sentence: elling portrayed with quiet by per christian is a truly singular character one whose are only slightly versions of the ones that nearly everyone
+X sentence: elling drawn with quiet by per christian is a truly singular character one whose are only slightly versions of the ones that nearly everyone
+Y sentence: elling drawn with still by per christian is a truly singular character one whose are only slightly versions of the ones that nearly everyone
+Xe sentence:elling drawn with quiet by per christian needs a truly singular character one whose are only slightly versions of the ones that nearly everyone
+Ye sentence:elling drawn with still by per christian needs a truly singular character one whose are only slightly versions of the ones that nearly everyone
+X: ['drawn']
+Y: ['drawn', 'still']
+e: needs
+F(X) = 0.3021, F(Y) = 0.3088, F(Xe) = 0.3569, F(Ye) = 0.4036
+F(Xe) - F(X) = 0.0547 < F(Ye) - F(Y) = 0.0947
+========= 70 ====================== 
+Orig sentence: the movie is full of fine performances led by as brecht and as his wife
+X sentence: the film is full of fine performances led by as brecht and as his wife
+Y sentence: the film has full of fine performances led by as brecht and as his wife
+Xe sentence:the film is well of fine performances led by as brecht and as his wife
+Ye sentence:the film has well of fine performances led by as brecht and as his wife
+X: ['film']
+Y: ['film', 'has']
+e: well
+F(X) = 0.3042, F(Y) = 0.2899, F(Xe) = 0.2753, F(Ye) = 0.2759
+F(Xe) - F(X) = -0.0290 < F(Ye) - F(Y) = -0.0140
+========= 71 ====================== 
+Orig sentence: all but the most should enjoy this but thrilling adventure
+X sentence: all but the most should enjoy this but funny adventure
+Y sentence: all but the most should enjoy this but funny chance
+Xe sentence:all but the most should have this but funny adventure
+Ye sentence:all but the most should have this but funny chance
+X: ['funny']
+Y: ['funny', 'chance']
+e: have
+F(X) = 0.2727, F(Y) = 0.2761, F(Xe) = 0.2904, F(Ye) = 0.3054
+F(Xe) - F(X) = 0.0177 < F(Ye) - F(Y) = 0.0293
+========= 72 ====================== 
+Orig sentence: for the first two thirds of this inventive and artful always fast and furious tale kids will go happily along for the ride
+X sentence: for the so two thirds of this inventive and artful always fast and furious tale kids will go happily along for the ride
+Y sentence: for the so two thirds of this inventive and slick always fast and furious tale kids will go happily along for the ride
+Xe sentence:for the so two thirds of this inventive and artful always fast and wild tale kids will go happily along for the ride
+Ye sentence:for the so two thirds of this inventive and slick always fast and wild tale kids will go happily along for the ride
+X: ['so']
+Y: ['so', 'slick']
+e: wild
+F(X) = 0.2697, F(Y) = 0.2700, F(Xe) = 0.2697, F(Ye) = 0.2702
+F(Xe) - F(X) = 0.0000 < F(Ye) - F(Y) = 0.0001
+========= 73 ====================== 
+Orig sentence: biggie and tupac is so single daring it puts far more polished documentaries to shame
+X sentence: biggie and tupac has so single daring it puts far more polished documentaries to shame
+Y sentence: biggie and tupac has in single daring it puts far more polished documentaries to shame
+Xe sentence:biggie and tupac has so solely daring it puts far more polished documentaries to shame
+Ye sentence:biggie and tupac has in solely daring it puts far more polished documentaries to shame
+X: ['has']
+Y: ['has', 'in']
+e: solely
+F(X) = 0.3044, F(Y) = 0.3243, F(Xe) = 0.3544, F(Ye) = 0.3907
+F(Xe) - F(X) = 0.0500 < F(Ye) - F(Y) = 0.0663
+========= 74 ====================== 
+Orig sentence: an offbeat romantic comedy with a great meet cute gimmick
+X sentence: an quirky romantic comedy with a great meet cute gimmick
+Y sentence: an quirky emotional comedy with a great meet cute gimmick
+Xe sentence:an quirky romantic pleasure with a great meet cute gimmick
+Ye sentence:an quirky emotional pleasure with a great meet cute gimmick
+X: ['quirky']
+Y: ['quirky', 'emotional']
+e: pleasure
+F(X) = 0.2757, F(Y) = 0.2842, F(Xe) = 0.2804, F(Ye) = 0.2986
+F(Xe) - F(X) = 0.0046 < F(Ye) - F(Y) = 0.0144
+========= 75 ====================== 
+Orig sentence: emerges as something rare an issue movie that 's so honest and keenly observed that it does n't feel like one
+X sentence: presents as something rare an issue movie that 's so honest and keenly observed that it does n't feel like one
+Y sentence: presents as something little an issue movie that 's so honest and keenly observed that it does n't feel like one
+Xe sentence:presents as something rare an problem movie that 's so honest and keenly observed that it does n't feel like one
+Ye sentence:presents as something little an problem movie that 's so honest and keenly observed that it does n't feel like one
+X: ['presents']
+Y: ['presents', 'little']
+e: problem
+F(X) = 0.2799, F(Y) = 0.3063, F(Xe) = 0.3830, F(Ye) = 0.5781
+F(Xe) - F(X) = 0.1032 < F(Ye) - F(Y) = 0.2718
+========= 76 ====================== 
+Orig sentence: shainberg weaves a carefully balanced scenario that is controlled by neither character is weirdly sympathetic to both and manages to be tender and darkly comic
+X sentence: shainberg does a carefully balanced scenario that is controlled by neither character is weirdly sympathetic to both and manages to be tender and darkly comic
+Y sentence: shainberg does a close balanced scenario that is controlled by neither character is weirdly sympathetic to both and manages to be tender and darkly comic
+Xe sentence:shainberg does a carefully balanced script that is controlled by neither character is weirdly sympathetic to both and manages to be tender and darkly comic
+Ye sentence:shainberg does a close balanced script that is controlled by neither character is weirdly sympathetic to both and manages to be tender and darkly comic
+X: ['does']
+Y: ['does', 'close']
+e: script
+F(X) = 0.3627, F(Y) = 0.3751, F(Xe) = 0.3111, F(Ye) = 0.3288
+F(Xe) - F(X) = -0.0515 < F(Ye) - F(Y) = -0.0464
+========= 77 ====================== 
+Orig sentence: earns its laughs from stock types ' and from the many many moments when we recognize even without the prose the play behind the thing
+X sentence: makes its laughs from stock types ' and from the many many moments when we recognize even without the prose the play behind the thing
+Y sentence: makes its smiles from stock types ' and from the many many moments when we recognize even without the prose the play behind the thing
+Xe sentence:makes its laughs from supply types ' and from the many many moments when we recognize even without the prose the play behind the thing
+Ye sentence:makes its smiles from supply types ' and from the many many moments when we recognize even without the prose the play behind the thing
+X: ['makes']
+Y: ['makes', 'smiles']
+e: supply
+F(X) = 0.2813, F(Y) = 0.2743, F(Xe) = 0.2732, F(Ye) = 0.2714
+F(Xe) - F(X) = -0.0081 < F(Ye) - F(Y) = -0.0029
+========= 78 ====================== 
+Orig sentence: a moody horror thriller elevated by deft and the director 's well known narrative gamesmanship
+X sentence: a listless horror thriller elevated by deft and the director 's well known narrative gamesmanship
+Y sentence: a listless fear thriller elevated by deft and the director 's well known narrative gamesmanship
+Xe sentence:a listless horror thriller elevated by deft and the lord 's well known narrative gamesmanship
+Ye sentence:a listless fear thriller elevated by deft and the lord 's well known narrative gamesmanship
+X: ['listless']
+Y: ['listless', 'fear']
+e: lord
+F(X) = 0.7294, F(Y) = 0.7293, F(Xe) = 0.7288, F(Ye) = 0.7289
+F(Xe) - F(X) = -0.0006 < F(Ye) - F(Y) = -0.0004
+========= 79 ====================== 
+Orig sentence: s personal revelations regarding what the shop means in the big picture iconic characters through the story with charming results
+X sentence: s this revelations regarding what the shop means in the big picture iconic characters through the story with charming results
+Y sentence: s this shows regarding what the shop means in the big picture iconic characters through the story with charming results
+Xe sentence:s this revelations feeling what the shop means in the big picture iconic characters through the story with charming results
+Ye sentence:s this shows feeling what the shop means in the big picture iconic characters through the story with charming results
+X: ['this']
+Y: ['this', 'shows']
+e: feeling
+F(X) = 0.2819, F(Y) = 0.2767, F(Xe) = 0.2785, F(Ye) = 0.2759
+F(Xe) - F(X) = -0.0034 < F(Ye) - F(Y) = -0.0008
+========= 80 ====================== 
+Orig sentence: for the most part i spy was an amusing lark that will probably rank as one of murphy 's better performances in one of his lesser praised movies
+X sentence: for the most character i spy was an amusing lark that will probably rank as one of murphy 's better performances in one of his lesser praised movies
+Y sentence: for the most character i spot was an amusing lark that will probably rank as one of murphy 's better performances in one of his lesser praised movies
+Xe sentence:for the most character i spy were an amusing lark that will probably rank as one of murphy 's better performances in one of his lesser praised movies
+Ye sentence:for the most character i spot were an amusing lark that will probably rank as one of murphy 's better performances in one of his lesser praised movies
+X: ['character']
+Y: ['character', 'spot']
+e: were
+F(X) = 0.3085, F(Y) = 0.3031, F(Xe) = 0.3196, F(Ye) = 0.3181
+F(Xe) - F(X) = 0.0111 < F(Ye) - F(Y) = 0.0150
+========= 81 ====================== 
+Orig sentence: though the controversial korean filmmaker 's latest effort is not for all it offers gorgeous imagery effective performances and an increasingly unsettling sense of
+X sentence: though the contentious korean filmmaker 's latest effort is not for all it offers gorgeous imagery effective performances and an increasingly unsettling sense of
+Y sentence: though the contentious korean filmmaker 's latest power is not for all it offers gorgeous imagery effective performances and an increasingly unsettling sense of
+Xe sentence:though the contentious korean filmmaker 's latest effort has not for all it offers gorgeous imagery effective performances and an increasingly unsettling sense of
+Ye sentence:though the contentious korean filmmaker 's latest power has not for all it offers gorgeous imagery effective performances and an increasingly unsettling sense of
+X: ['contentious']
+Y: ['contentious', 'power']
+e: has
+F(X) = 0.2701, F(Y) = 0.2697, F(Xe) = 0.2699, F(Ye) = 0.2697
+F(Xe) - F(X) = -0.0002 < F(Ye) - F(Y) = -0.0001
+========= 82 ====================== 
+Orig sentence: this is the best american movie about troubled teens since 1998 's whatever
+X sentence: this is the best american movie about troubled kids since 1998 's whatever
+Y sentence: this has the best american movie about troubled kids since 1998 's whatever
+Xe sentence:this is the greatest american movie about troubled kids since 1998 's whatever
+Ye sentence:this has the greatest american movie about troubled kids since 1998 's whatever
+X: ['kids']
+Y: ['has', 'kids']
+e: greatest
+F(X) = 0.3056, F(Y) = 0.2892, F(Xe) = 0.3063, F(Ye) = 0.2904
+F(Xe) - F(X) = 0.0007 < F(Ye) - F(Y) = 0.0012
+========= 83 ====================== 
+Orig sentence: i whole recommend that everyone see this movie for its historical significance alone
+X sentence: i all recommend that everyone see this movie for its historical significance alone
+Y sentence: i all present that everyone see this movie for its historical significance alone
+Xe sentence:i all recommend that everyone feel this movie for its historical significance alone
+Ye sentence:i all present that everyone feel this movie for its historical significance alone
+X: ['all']
+Y: ['all', 'present']
+e: feel
+F(X) = 0.2723, F(Y) = 0.2973, F(Xe) = 0.2750, F(Ye) = 0.3246
+F(Xe) - F(X) = 0.0027 < F(Ye) - F(Y) = 0.0273
+========= 84 ====================== 
+Orig sentence: stephen earnhart 's documentary blues has nothing but love for its of trailer park
+X sentence: stephen earnhart 's film blues has nothing but love for its of trailer park
+Y sentence: stephen earnhart 's film means has nothing but love for its of trailer park
+Xe sentence:stephen earnhart 's film blues is nothing but love for its of trailer park
+Ye sentence:stephen earnhart 's film means is nothing but love for its of trailer park
+X: ['film']
+Y: ['film', 'means']
+e: is
+F(X) = 0.2977, F(Y) = 0.3317, F(Xe) = 0.3451, F(Ye) = 0.3993
+F(Xe) - F(X) = 0.0474 < F(Ye) - F(Y) = 0.0676
+========= 85 ====================== 
+Orig sentence: it 's a sly to the others without becoming a postmodern joke made creepy by its men in a can '' warped logic
+X sentence: it 's a sly to the others without becoming a postmodern joke made creepy by its people in a can '' warped logic
+Y sentence: it 's a slick to the others without becoming a postmodern joke made creepy by its people in a can '' warped logic
+Xe sentence:it 's a sly to the others without becoming a postmodern joke made creepy by its people in a can '' warped ground
+Ye sentence:it 's a slick to the others without becoming a postmodern joke made creepy by its people in a can '' warped ground
+X: ['people']
+Y: ['slick', 'people']
+e: ground
+F(X) = 0.3187, F(Y) = 0.3800, F(Xe) = 0.4207, F(Ye) = 0.5098
+F(Xe) - F(X) = 0.1020 < F(Ye) - F(Y) = 0.1298
+========= 86 ====================== 
+Orig sentence: one of the greatest romantic comedies of the past decade
+X sentence: one of the greatest romantic comedies of the so decade
+Y sentence: one of the best romantic comedies of the so decade
+Xe sentence:one of the greatest passionate comedies of the so decade
+Ye sentence:one of the best passionate comedies of the so decade
+X: ['so']
+Y: ['best', 'so']
+e: passionate
+F(X) = 0.2726, F(Y) = 0.2723, F(Xe) = 0.2700, F(Ye) = 0.2699
+F(Xe) - F(X) = -0.0026 < F(Ye) - F(Y) = -0.0023
+========= 87 ====================== 
+Orig sentence: time may not be the most memorable cinema but its profound self message about our fragile existence and the absence of spiritual should at least an of
+X sentence: while may not be the most memorable cinema but its profound self message about our fragile existence and the absence of spiritual should at least an of
+Y sentence: while may either be the most memorable cinema but its profound self message about our fragile existence and the absence of spiritual should at least an of
+Xe sentence:while may not down the most memorable cinema but its profound self message about our fragile existence and the absence of spiritual should at least an of
+Ye sentence:while may either down the most memorable cinema but its profound self message about our fragile existence and the absence of spiritual should at least an of
+X: ['while']
+Y: ['while', 'either']
+e: down
+F(X) = 0.2807, F(Y) = 0.2770, F(Xe) = 0.2782, F(Ye) = 0.2765
+F(Xe) - F(X) = -0.0025 < F(Ye) - F(Y) = -0.0005
+========= 88 ====================== 
+Orig sentence: a very witty take on change risk and romance and the film uses humour to make its points about acceptance and growth
+X sentence: a much witty take on change risk and romance and the film uses humour to make its points about acceptance and growth
+Y sentence: a much smart take on change risk and romance and the film uses humour to make its points about acceptance and growth
+Xe sentence:a much witty take on development risk and romance and the film uses humour to make its points about acceptance and growth
+Ye sentence:a much smart take on development risk and romance and the film uses humour to make its points about acceptance and growth
+X: ['much']
+Y: ['much', 'smart']
+e: development
+F(X) = 0.2734, F(Y) = 0.2734, F(Xe) = 0.2736, F(Ye) = 0.2738
+F(Xe) - F(X) = 0.0001 < F(Ye) - F(Y) = 0.0004
+========= 89 ====================== 
+Orig sentence: the wwii drama is well plotted visually striking and filled with enjoyably complex characters who are never what they first appear
+X sentence: the wwii film is well plotted visually striking and filled with enjoyably complex characters who are never what they first appear
+Y sentence: the wwii film has well plotted visually striking and filled with enjoyably complex characters who are never what they first appear
+Xe sentence:the wwii film is well plotted visually striking and filled with enjoyably complex hallmarks who are never what they first appear
+Ye sentence:the wwii film has well plotted visually striking and filled with enjoyably complex hallmarks who are never what they first appear
+X: ['film']
+Y: ['film', 'has']
+e: hallmarks
+F(X) = 0.2699, F(Y) = 0.2699, F(Xe) = 0.2704, F(Ye) = 0.2705
+F(Xe) - F(X) = 0.0005 < F(Ye) - F(Y) = 0.0006
+========= 90 ====================== 
+Orig sentence: a film that is a portrait of grace in an imperfect world
+X sentence: a movie that is a portrait of grace in an imperfect world
+Y sentence: a movie that has a portrait of grace in an imperfect world
+Xe sentence:a movie that is a portraiture of grace in an imperfect world
+Ye sentence:a movie that has a portraiture of grace in an imperfect world
+X: ['movie']
+Y: ['movie', 'has']
+e: portraiture
+F(X) = 0.2697, F(Y) = 0.2698, F(Xe) = 0.2699, F(Ye) = 0.2703
+F(Xe) - F(X) = 0.0003 < F(Ye) - F(Y) = 0.0005
+========= 91 ====================== 
+Orig sentence: davis has filled out his cast with appealing fresh faces
+X sentence: davis is filled out his cast with appealing fresh faces
+Y sentence: davis is cast out his cast with appealing fresh faces
+Xe sentence:davis is filled out his reflection with appealing fresh faces
+Ye sentence:davis is cast out his reflection with appealing fresh faces
+X: ['is']
+Y: ['is', 'cast']
+e: reflection
+F(X) = 0.2726, F(Y) = 0.2702, F(Xe) = 0.2710, F(Ye) = 0.2703
+F(Xe) - F(X) = -0.0016 < F(Ye) - F(Y) = 0.0001
+========= 92 ====================== 
+Orig sentence: it might be tempting to regard mr and his collaborators as oddballs but mr earnhart 's charming movie allows us to see them finally as artists
+X sentence: it might down tempting to regard mr and his collaborators as oddballs but mr earnhart 's charming movie allows us to see them finally as artists
+Y sentence: it might down compelling to regard mr and his collaborators as oddballs but mr earnhart 's charming movie allows us to see them finally as artists
+Xe sentence:it might down tempting to level mr and his collaborators as oddballs but mr earnhart 's charming movie allows us to see them finally as artists
+Ye sentence:it might down compelling to level mr and his collaborators as oddballs but mr earnhart 's charming movie allows us to see them finally as artists
+X: ['down']
+Y: ['down', 'compelling']
+e: level
+F(X) = 0.2768, F(Y) = 0.2801, F(Xe) = 0.2783, F(Ye) = 0.2865
+F(Xe) - F(X) = 0.0015 < F(Ye) - F(Y) = 0.0064
+========= 93 ====================== 
+Orig sentence: director ozpetek creates an interesting dynamic with the members of this group who live in the same building
+X sentence: head ozpetek creates an interesting dynamic with the members of this group who live in the same building
+Y sentence: head ozpetek makes an interesting dynamic with the members of this group who live in the same building
+Xe sentence:head ozpetek creates an animated dynamic with the members of this group who live in the same building
+Ye sentence:head ozpetek makes an animated dynamic with the members of this group who live in the same building
+X: ['head']
+Y: ['head', 'makes']
+e: animated
+F(X) = 0.2700, F(Y) = 0.2706, F(Xe) = 0.2702, F(Ye) = 0.2715
+F(Xe) - F(X) = 0.0003 < F(Ye) - F(Y) = 0.0009
+========= 94 ====================== 
+Orig sentence: the stunning dreamlike visuals will impress even those viewers who have little patience for film pretension
+X sentence: the compelling dreamlike visuals will impress even those viewers who have little patience for film pretension
+Y sentence: the compelling dreamlike visuals will touch even those viewers who have little patience for film pretension
+Xe sentence:the compelling dreamlike visuals will impress in those viewers who have little patience for film pretension
+Ye sentence:the compelling dreamlike visuals will touch in those viewers who have little patience for film pretension
+X: ['compelling']
+Y: ['compelling', 'touch']
+e: in
+F(X) = 0.4554, F(Y) = 0.3479, F(Xe) = 0.3500, F(Ye) = 0.2948
+F(Xe) - F(X) = -0.1054 < F(Ye) - F(Y) = -0.0531
+========= 95 ====================== 
+Orig sentence: an eccentric little comic thriller deeply in love with its own quirky personality
+X sentence: an extreme little comic thriller deeply in love with its own quirky personality
+Y sentence: an extreme low comic thriller deeply in love with its own quirky personality
+Xe sentence:an extreme little comic thriller completely in love with its own quirky personality
+Ye sentence:an extreme low comic thriller completely in love with its own quirky personality
+X: ['extreme']
+Y: ['extreme', 'low']
+e: completely
+F(X) = 0.2828, F(Y) = 0.3075, F(Xe) = 0.4260, F(Ye) = 0.5035
+F(Xe) - F(X) = 0.1433 < F(Ye) - F(Y) = 0.1961
+========= 96 ====================== 
+Orig sentence: will grab your children by the imagination and amaze them and amuse them
+X sentence: will capture your children by the imagination and amaze them and amuse them
+Y sentence: will capture your kids by the imagination and amaze them and amuse them
+Xe sentence:will capture your children by the speculation and amaze them and amuse them
+Ye sentence:will capture your kids by the speculation and amaze them and amuse them
+X: ['capture']
+Y: ['capture', 'kids']
+e: speculation
+F(X) = 0.2784, F(Y) = 0.2812, F(Xe) = 0.2780, F(Ye) = 0.2818
+F(Xe) - F(X) = -0.0003 < F(Ye) - F(Y) = 0.0006
+========= 97 ====================== 
+Orig sentence: the animated subplot keenly depicts the inner struggles of our adolescent heroes insecure and intense
+X sentence: the funny subplot keenly depicts the inner struggles of our adolescent heroes insecure and intense
+Y sentence: the funny subplot hard depicts the inner struggles of our adolescent heroes insecure and intense
+Xe sentence:the funny subplot keenly describes the inner struggles of our adolescent heroes insecure and intense
+Ye sentence:the funny subplot hard describes the inner struggles of our adolescent heroes insecure and intense
+X: ['funny']
+Y: ['funny', 'hard']
+e: describes
+F(X) = 0.2720, F(Y) = 0.2752, F(Xe) = 0.2720, F(Ye) = 0.2756
+F(Xe) - F(X) = -0.0000 < F(Ye) - F(Y) = 0.0004
+========= 98 ====================== 
+Orig sentence: a compelling moving film that respects its audience and its source material
+X sentence: a fascinating moving film that respects its audience and its source material
+Y sentence: a fascinating acting film that respects its audience and its source material
+Xe sentence:a fascinating moving drama that respects its audience and its source material
+Ye sentence:a fascinating acting drama that respects its audience and its source material
+X: ['fascinating']
+Y: ['fascinating', 'acting']
+e: drama
+F(X) = 0.2719, F(Y) = 0.2713, F(Xe) = 0.2705, F(Ye) = 0.2703
+F(Xe) - F(X) = -0.0013 < F(Ye) - F(Y) = -0.0010
+========= 99 ====================== 
+Orig sentence: the talents of the actors helps moonlight mile '' rise above its heart on its sleeve writing
+X sentence: the arts of the actors helps moonlight mile '' rise above its heart on its sleeve writing
+Y sentence: the arts of the performers helps moonlight mile '' rise above its heart on its sleeve writing
+Xe sentence:the arts of the actors helps moonlight in '' rise above its heart on its sleeve writing
+Ye sentence:the arts of the performers helps moonlight in '' rise above its heart on its sleeve writing
+X: ['arts']
+Y: ['arts', 'performers']
+e: in
+F(X) = 0.2744, F(Y) = 0.2765, F(Xe) = 0.2743, F(Ye) = 0.2778
+F(Xe) - F(X) = -0.0000 < F(Ye) - F(Y) = 0.0013
+========= 100 ====================== 
+Orig sentence: day is not a great bond movie but it is a good bond movie which still makes it much better than your typical bond knock
+X sentence: date is not a great bond movie but it is a good bond movie which still makes it much better than your typical bond knock
+Y sentence: date has not a great bond movie but it is a good bond movie which still makes it much better than your typical bond knock
+Xe sentence:date is either a great bond movie but it is a good bond movie which still makes it much better than your typical bond knock
+Ye sentence:date has either a great bond movie but it is a good bond movie which still makes it much better than your typical bond knock
+X: ['date']
+Y: ['date', 'has']
+e: either
+F(X) = 0.2857, F(Y) = 0.2846, F(Xe) = 0.2827, F(Ye) = 0.2820
+F(Xe) - F(X) = -0.0030 < F(Ye) - F(Y) = -0.0027
+========= 101 ====================== 
+Orig sentence: this clever caper movie has twists worthy of david mamet and is enormous fun for thinking audiences
+X sentence: this smart caper movie has twists worthy of david mamet and is enormous fun for thinking audiences
+Y sentence: this smart entertainment movie has twists worthy of david mamet and is enormous fun for thinking audiences
+Xe sentence:this smart caper storytelling has twists worthy of david mamet and is enormous fun for thinking audiences
+Ye sentence:this smart entertainment storytelling has twists worthy of david mamet and is enormous fun for thinking audiences
+X: ['smart']
+Y: ['smart', 'entertainment']
+e: storytelling
+F(X) = 0.2697, F(Y) = 0.2696, F(Xe) = 0.2696, F(Ye) = 0.2696
+F(Xe) - F(X) = -0.0001 < F(Ye) - F(Y) = -0.0000
+========= 102 ====================== 
+Orig sentence: most of crush is a clever and captivating romantic comedy with a welcome of
+X sentence: most of crush has a clever and captivating romantic comedy with a welcome of
+Y sentence: most of crush has a smart and captivating romantic comedy with a welcome of
+Xe sentence:most of crush has a clever and annoying romantic comedy with a welcome of
+Ye sentence:most of crush has a smart and annoying romantic comedy with a welcome of
+X: ['has']
+Y: ['has', 'smart']
+e: annoying
+F(X) = 0.2693, F(Y) = 0.2693, F(Xe) = 0.2727, F(Ye) = 0.2751
+F(Xe) - F(X) = 0.0033 < F(Ye) - F(Y) = 0.0058
+========= 103 ====================== 
+Orig sentence: follows a resolutely realistic path in this uncompromising insight into the harsh existence of the refugees of iran 's
+X sentence: succeeds a resolutely realistic path in this uncompromising insight into the harsh existence of the refugees of iran 's
+Y sentence: succeeds a desperately realistic path in this uncompromising insight into the harsh existence of the refugees of iran 's
+Xe sentence:succeeds a resolutely real path in this uncompromising insight into the harsh existence of the refugees of iran 's
+Ye sentence:succeeds a desperately real path in this uncompromising insight into the harsh existence of the refugees of iran 's
+X: ['succeeds']
+Y: ['succeeds', 'desperately']
+e: real
+F(X) = 0.2697, F(Y) = 0.2869, F(Xe) = 0.2698, F(Ye) = 0.3848
+F(Xe) - F(X) = 0.0001 < F(Ye) - F(Y) = 0.0979
+========= 104 ====================== 
+Orig sentence: well written nicely acted and beautifully shot and scored the film works on several levels openly questioning social mores while the audience with its emotional pull
+X sentence: in written nicely acted and beautifully shot and scored the film works on several levels openly questioning social mores while the audience with its emotional pull
+Y sentence: in edited nicely acted and beautifully shot and scored the film works on several levels openly questioning social mores while the audience with its emotional pull
+Xe sentence:in written nicely played and beautifully shot and scored the film works on several levels openly questioning social mores while the audience with its emotional pull
+Ye sentence:in edited nicely played and beautifully shot and scored the film works on several levels openly questioning social mores while the audience with its emotional pull
+X: ['in']
+Y: ['in', 'edited']
+e: played
+F(X) = 0.3221, F(Y) = 0.3203, F(Xe) = 0.2991, F(Ye) = 0.2976
+F(Xe) - F(X) = -0.0230 < F(Ye) - F(Y) = -0.0227
+========= 105 ====================== 
+Orig sentence: sensitive to a view of their lord as a luv spreading dr or will feel vastly more than who might even praise god for delivering such an camp classic
+X sentence: susceptible to a view of their lord as a luv spreading dr or will feel vastly more than who might even praise god for delivering such an camp classic
+Y sentence: susceptible to a picture of their lord as a luv spreading dr or will feel vastly more than who might even praise god for delivering such an camp classic
+Xe sentence:susceptible to a view of their director as a luv spreading dr or will feel vastly more than who might even praise god for delivering such an camp classic
+Ye sentence:susceptible to a picture of their director as a luv spreading dr or will feel vastly more than who might even praise god for delivering such an camp classic
+X: ['susceptible']
+Y: ['susceptible', 'picture']
+e: director
+F(X) = 0.4197, F(Y) = 0.3515, F(Xe) = 0.3639, F(Ye) = 0.3312
+F(Xe) - F(X) = -0.0558 < F(Ye) - F(Y) = -0.0203
+========= 106 ====================== 
+Orig sentence: the filmmakers skillfully evoke the sense of menace that nature holds for many urban
+X sentence: the filmmakers deftly evoke the sense of menace that nature holds for many urban
+Y sentence: the filmmakers deftly touch the sense of menace that nature holds for many urban
+Xe sentence:the filmmakers deftly evoke the realism of menace that nature holds for many urban
+Ye sentence:the filmmakers deftly touch the realism of menace that nature holds for many urban
+X: ['deftly']
+Y: ['deftly', 'touch']
+e: realism
+F(X) = 0.2702, F(Y) = 0.2703, F(Xe) = 0.2711, F(Ye) = 0.2718
+F(Xe) - F(X) = 0.0009 < F(Ye) - F(Y) = 0.0015
+========= 107 ====================== 
+Orig sentence: pray 's film works well and will appeal even to those who are n't too familiar with turntablism
+X sentence: pray 's movie works well and will appeal even to those who are n't too familiar with turntablism
+Y sentence: pray 's movie does well and will appeal even to those who are n't too familiar with turntablism
+Xe sentence:pray 's movie works in and will appeal even to those who are n't too familiar with turntablism
+Ye sentence:pray 's movie does in and will appeal even to those who are n't too familiar with turntablism
+X: ['movie']
+Y: ['movie', 'does']
+e: in
+F(X) = 0.2786, F(Y) = 0.4457, F(Xe) = 0.2950, F(Ye) = 0.5341
+F(Xe) - F(X) = 0.0164 < F(Ye) - F(Y) = 0.0884
+========= 108 ====================== 
+Orig sentence: to the film 's credit the acting is fresh and and munch is a marvel of reality versus sappy sentiment
+X sentence: to the movie 's credit the acting is fresh and and munch is a marvel of reality versus sappy sentiment
+Y sentence: to the movie 's money the acting is fresh and and munch is a marvel of reality versus sappy sentiment
+Xe sentence:to the movie 's credit the impersonation is fresh and and munch is a marvel of reality versus sappy sentiment
+Ye sentence:to the movie 's money the impersonation is fresh and and munch is a marvel of reality versus sappy sentiment
+X: ['movie']
+Y: ['movie', 'money']
+e: impersonation
+F(X) = 0.2895, F(Y) = 0.4052, F(Xe) = 0.3328, F(Ye) = 0.6025
+F(Xe) - F(X) = 0.0432 < F(Ye) - F(Y) = 0.1973
+========= 109 ====================== 
+Orig sentence: an absorbing trip into the minds and motivations of people under stress as well as a keen unsentimental look at variations on the theme of motherhood
+X sentence: an having trip into the minds and motivations of people under stress as well as a keen unsentimental look at variations on the theme of motherhood
+Y sentence: an having journey into the minds and motivations of people under stress as well as a keen unsentimental look at variations on the theme of motherhood
+Xe sentence:an having trip into the looks and motivations of people under stress as well as a keen unsentimental look at variations on the theme of motherhood
+Ye sentence:an having journey into the looks and motivations of people under stress as well as a keen unsentimental look at variations on the theme of motherhood
+X: ['having']
+Y: ['having', 'journey']
+e: looks
+F(X) = 0.2711, F(Y) = 0.2708, F(Xe) = 0.2712, F(Ye) = 0.2711
+F(Xe) - F(X) = 0.0001 < F(Ye) - F(Y) = 0.0003
+========= 110 ====================== 
+Orig sentence: though a bit of a patchwork in script and production a glossy rich green environment almost makes the picture work
+X sentence: though a film of a patchwork in script and production a glossy rich green environment almost makes the picture work
+Y sentence: though a film of a patchwork in character and production a glossy rich green environment almost makes the picture work
+Xe sentence:though a film of a patchwork in script and process a glossy rich green environment almost makes the picture work
+Ye sentence:though a film of a patchwork in character and process a glossy rich green environment almost makes the picture work
+X: ['film']
+Y: ['film', 'character']
+e: process
+F(X) = 0.3550, F(Y) = 0.2967, F(Xe) = 0.3129, F(Ye) = 0.2817
+F(Xe) - F(X) = -0.0421 < F(Ye) - F(Y) = -0.0150
+========= 111 ====================== 
+Orig sentence: there 's a implied in metropolis that is just breathtaking
+X sentence: there 's a implied in metropolis that is in breathtaking
+Y sentence: there 's a implied in metropolis that is in terrific
+Xe sentence:there 's a meant in metropolis that is in breathtaking
+Ye sentence:there 's a meant in metropolis that is in terrific
+X: ['in']
+Y: ['in', 'terrific']
+e: meant
+F(X) = 0.3260, F(Y) = 0.2765, F(Xe) = 0.2783, F(Ye) = 0.2709
+F(Xe) - F(X) = -0.0478 < F(Ye) - F(Y) = -0.0056
+========= 112 ====================== 
+Orig sentence: a feel good picture in the best sense of the term
+X sentence: a feel well picture in the best sense of the term
+Y sentence: a feel well film in the best sense of the term
+Xe sentence:a feel well picture in the greatest sense of the term
+Ye sentence:a feel well film in the greatest sense of the term
+X: ['well']
+Y: ['well', 'film']
+e: greatest
+F(X) = 0.2735, F(Y) = 0.2776, F(Xe) = 0.2726, F(Ye) = 0.2785
+F(Xe) - F(X) = -0.0008 < F(Ye) - F(Y) = 0.0009
+========= 113 ====================== 
+Orig sentence: this is a happy throwback to the time when cartoons were cinema 's most idiosyncratic form instead of one of its most predictable
+X sentence: this has a happy throwback to the time when cartoons were cinema 's most idiosyncratic form instead of one of its most predictable
+Y sentence: this has a sweet throwback to the time when cartoons were cinema 's most idiosyncratic form instead of one of its most predictable
+Xe sentence:this has a happy iteration to the time when cartoons were cinema 's most idiosyncratic form instead of one of its most predictable
+Ye sentence:this has a sweet iteration to the time when cartoons were cinema 's most idiosyncratic form instead of one of its most predictable
+X: ['has']
+Y: ['has', 'sweet']
+e: iteration
+F(X) = 0.3111, F(Y) = 0.3022, F(Xe) = 0.3715, F(Ye) = 0.3671
+F(Xe) - F(X) = 0.0604 < F(Ye) - F(Y) = 0.0650
+========= 114 ====================== 
+Orig sentence: draws our attention like a and acts circles around her better known co star mark
+X sentence: gets our attention like a and acts circles around her better known co star mark
+Y sentence: gets our mind like a and acts circles around her better known co star mark
+Xe sentence:gets our attention like a and plays circles around her better known co star mark
+Ye sentence:gets our mind like a and plays circles around her better known co star mark
+X: ['gets']
+Y: ['gets', 'mind']
+e: plays
+F(X) = 0.5800, F(Y) = 0.4500, F(Xe) = 0.6742, F(Ye) = 0.5724
+F(Xe) - F(X) = 0.0942 < F(Ye) - F(Y) = 0.1224
+========= 115 ====================== 
+Orig sentence: vividly conveys both the pitfalls and the pleasures of over the top love
+X sentence: sure conveys both the pitfalls and the pleasures of over the top love
+Y sentence: sure gives both the pitfalls and the pleasures of over the top love
+Xe sentence:sure conveys both the traps and the pleasures of over the top love
+Ye sentence:sure gives both the traps and the pleasures of over the top love
+X: ['sure']
+Y: ['sure', 'gives']
+e: traps
+F(X) = 0.2702, F(Y) = 0.2716, F(Xe) = 0.2702, F(Ye) = 0.2728
+F(Xe) - F(X) = 0.0000 < F(Ye) - F(Y) = 0.0013
+========= 116 ====================== 
+Orig sentence: when your leading ladies are a couple of screen eating like goldie hawn and susan sarandon at their raunchy best even hokum goes down easily
+X sentence: when your telling ladies are a couple of screen eating like goldie hawn and susan sarandon at their raunchy best even hokum goes down easily
+Y sentence: when your telling women are a couple of screen eating like goldie hawn and susan sarandon at their raunchy best even hokum goes down easily
+Xe sentence:when your telling ladies like a couple of screen eating like goldie hawn and susan sarandon at their raunchy best even hokum goes down easily
+Ye sentence:when your telling women like a couple of screen eating like goldie hawn and susan sarandon at their raunchy best even hokum goes down easily
+X: ['telling']
+Y: ['telling', 'women']
+e: like
+F(X) = 0.3026, F(Y) = 0.3339, F(Xe) = 0.3720, F(Ye) = 0.4310
+F(Xe) - F(X) = 0.0695 < F(Ye) - F(Y) = 0.0971
+========= 117 ====================== 
+Orig sentence: an incredibly low rent danish film it brings a group of people together in a sweet and charming way if a little convenient
+X sentence: an deeply low rent danish film it brings a group of people together in a sweet and charming way if a little convenient
+Y sentence: an deeply little rent danish film it brings a group of people together in a sweet and charming way if a little convenient
+Xe sentence:an deeply low rental danish film it brings a group of people together in a sweet and charming way if a little convenient
+Ye sentence:an deeply little rental danish film it brings a group of people together in a sweet and charming way if a little convenient
+X: ['deeply']
+Y: ['deeply', 'little']
+e: rental
+F(X) = 0.2784, F(Y) = 0.2788, F(Xe) = 0.2811, F(Ye) = 0.2822
+F(Xe) - F(X) = 0.0027 < F(Ye) - F(Y) = 0.0034
+========= 118 ====================== 
+Orig sentence: occasionally funny always very colorful and enjoyably overblown in the traditional style
+X sentence: sometimes funny always very colorful and enjoyably overblown in the traditional style
+Y sentence: sometimes fun always very colorful and enjoyably overblown in the traditional style
+Xe sentence:sometimes funny ever very colorful and enjoyably overblown in the traditional style
+Ye sentence:sometimes fun ever very colorful and enjoyably overblown in the traditional style
+X: ['sometimes']
+Y: ['sometimes', 'fun']
+e: ever
+F(X) = 0.2696, F(Y) = 0.2697, F(Xe) = 0.2700, F(Ye) = 0.2702
+F(Xe) - F(X) = 0.0005 < F(Ye) - F(Y) = 0.0006
+========= 119 ====================== 
+Orig sentence: a movie that will touch the hearts of both children and adults as well as bring audiences to the edge of their seats
+X sentence: a film that will touch the hearts of both children and adults as well as bring audiences to the edge of their seats
+Y sentence: a film that will shake the hearts of both children and adults as well as bring audiences to the edge of their seats
+Xe sentence:a film that will touch the ideas of both children and adults as well as bring audiences to the edge of their seats
+Ye sentence:a film that will shake the ideas of both children and adults as well as bring audiences to the edge of their seats
+X: ['film']
+Y: ['film', 'shake']
+e: ideas
+F(X) = 0.2708, F(Y) = 0.2961, F(Xe) = 0.2801, F(Ye) = 0.6254
+F(Xe) - F(X) = 0.0093 < F(Ye) - F(Y) = 0.3293
+========= 120 ====================== 
+Orig sentence: a hip ride into hyper time clockstoppers is a lively and enjoyable adventure for all ages at any time
+X sentence: a behind ride into hyper time clockstoppers is a lively and enjoyable adventure for all ages at any time
+Y sentence: a behind ride into hyper while clockstoppers is a lively and enjoyable adventure for all ages at any time
+Xe sentence:a behind ride into hyper time clockstoppers lies a lively and enjoyable adventure for all ages at any time
+Ye sentence:a behind ride into hyper while clockstoppers lies a lively and enjoyable adventure for all ages at any time
+X: ['behind']
+Y: ['behind', 'while']
+e: lies
+F(X) = 0.2699, F(Y) = 0.2701, F(Xe) = 0.2704, F(Ye) = 0.2707
+F(Xe) - F(X) = 0.0005 < F(Ye) - F(Y) = 0.0006
+========= 121 ====================== 
+Orig sentence: an enjoyably half wit remake of the italian comedy big deal on madonna street
+X sentence: an enjoyably half intelligence remake of the italian comedy big deal on madonna street
+Y sentence: an enjoyably half intelligence remake of the italian pleasure big deal on madonna street
+Xe sentence:an enjoyably half intelligence remake of the italian comedy serious deal on madonna street
+Ye sentence:an enjoyably half intelligence remake of the italian pleasure serious deal on madonna street
+X: ['intelligence']
+Y: ['intelligence', 'pleasure']
+e: serious
+F(X) = 0.2718, F(Y) = 0.2719, F(Xe) = 0.2723, F(Ye) = 0.2737
+F(Xe) - F(X) = 0.0005 < F(Ye) - F(Y) = 0.0018
+========= 122 ====================== 
+Orig sentence: the second chapter of the harry potter series is even more magical than the first and simply the best family film of the year
+X sentence: the second stage of the harry potter series is even more magical than the first and simply the best family film of the year
+Y sentence: the second stage of the harry potter can is even more magical than the first and simply the best family film of the year
+Xe sentence:the second stage of the harry potter series remains even more magical than the first and simply the best family film of the year
+Ye sentence:the second stage of the harry potter can remains even more magical than the first and simply the best family film of the year
+X: ['stage']
+Y: ['stage', 'can']
+e: remains
+F(X) = 0.2813, F(Y) = 0.2816, F(Xe) = 0.2814, F(Ye) = 0.2827
+F(Xe) - F(X) = 0.0001 < F(Ye) - F(Y) = 0.0011
+========= 123 ====================== 
+Orig sentence: it 's one of the most honest films ever made about hollywood
+X sentence: it 's one of the most honest films just made about hollywood
+Y sentence: it 's one of the most honest films just cast about hollywood
+Xe sentence:it 's one of the most heartfelt films just made about hollywood
+Ye sentence:it 's one of the most heartfelt films just cast about hollywood
+X: ['just']
+Y: ['just', 'cast']
+e: heartfelt
+F(X) = 0.2794, F(Y) = 0.2721, F(Xe) = 0.2723, F(Ye) = 0.2704
+F(Xe) - F(X) = -0.0071 < F(Ye) - F(Y) = -0.0018
+========= 125 ====================== 
+Orig sentence: there is a kind of attentive concern that hoffman brings to his characters as if he has been giving them private lessons and now it is time for their first public
+X sentence: there has a kind of attentive concern that hoffman brings to his characters as if he has been giving them private lessons and now it is time for their first public
+Y sentence: there has a good of attentive concern that hoffman brings to his characters as if he has been giving them private lessons and now it is time for their first public
+Xe sentence:there has a kind of attentive mind that hoffman brings to his characters as if he has been giving them private lessons and now it is time for their first public
+Ye sentence:there has a good of attentive mind that hoffman brings to his characters as if he has been giving them private lessons and now it is time for their first public
+X: ['has']
+Y: ['has', 'good']
+e: mind
+F(X) = 0.2753, F(Y) = 0.2714, F(Xe) = 0.2731, F(Ye) = 0.2711
+F(Xe) - F(X) = -0.0021 < F(Ye) - F(Y) = -0.0003
+========= 126 ====================== 
+Orig sentence: the movie 's quiet of neighborhood values gives it an honest lived in glow
+X sentence: the film 's quiet of neighborhood values gives it an honest lived in glow
+Y sentence: the film 's still of neighborhood values gives it an honest lived in glow
+Xe sentence:the film 's quiet of complex values gives it an honest lived in glow
+Ye sentence:the film 's still of complex values gives it an honest lived in glow
+X: ['film']
+Y: ['film', 'still']
+e: complex
+F(X) = 0.2724, F(Y) = 0.2773, F(Xe) = 0.2796, F(Ye) = 0.2963
+F(Xe) - F(X) = 0.0073 < F(Ye) - F(Y) = 0.0190
+========= 127 ====================== 
+Orig sentence: the film 's greatest asset is how much it 's not just another connect the dots spy on the run picture
+X sentence: the movie 's greatest asset is how much it 's not just another connect the dots spy on the run picture
+Y sentence: the movie 's best asset is how much it 's not just another connect the dots spy on the run picture
+Xe sentence:the movie 's greatest asset has how much it 's not just another connect the dots spy on the run picture
+Ye sentence:the movie 's best asset has how much it 's not just another connect the dots spy on the run picture
+X: ['movie']
+Y: ['movie', 'best']
+e: has
+F(X) = 0.3487, F(Y) = 0.3442, F(Xe) = 0.3259, F(Ye) = 0.3218
+F(Xe) - F(X) = -0.0228 < F(Ye) - F(Y) = -0.0224
+========= 128 ====================== 
+Orig sentence: one of those rare exhilarating cinematic delights that gets even better in as you over its every nuance in your mind
+X sentence: one of those rare exhilarating cinematic delights that gets even better in as you over its every subtlety in your mind
+Y sentence: one of those little exhilarating cinematic delights that gets even better in as you over its every subtlety in your mind
+Xe sentence:one of those rare inspiring cinematic delights that gets even better in as you over its every subtlety in your mind
+Ye sentence:one of those little inspiring cinematic delights that gets even better in as you over its every subtlety in your mind
+X: ['subtlety']
+Y: ['little', 'subtlety']
+e: inspiring
+F(X) = 0.3393, F(Y) = 0.3457, F(Xe) = 0.3103, F(Ye) = 0.3389
+F(Xe) - F(X) = -0.0290 < F(Ye) - F(Y) = -0.0067
+========= 129 ====================== 
+Orig sentence: painful to watch but viewers willing to take a chance will be rewarded with two of the year 's most accomplished and riveting film performances
+X sentence: hard to watch but viewers willing to take a chance will be rewarded with two of the year 's most accomplished and riveting film performances
+Y sentence: hard to watch but viewers willing to appreciate a chance will be rewarded with two of the year 's most accomplished and riveting film performances
+Xe sentence:hard to watch but viewers willing to take a chance will be rewarded with two of the year 's most accomplished and riveting heap performances
+Ye sentence:hard to watch but viewers willing to appreciate a chance will be rewarded with two of the year 's most accomplished and riveting heap performances
+X: ['hard']
+Y: ['hard', 'appreciate']
+e: heap
+F(X) = 0.2696, F(Y) = 0.2696, F(Xe) = 0.2708, F(Ye) = 0.2711
+F(Xe) - F(X) = 0.0012 < F(Ye) - F(Y) = 0.0015
+========= 130 ====================== 
+Orig sentence: he simply presents his point of view that ayurveda works
+X sentence: he in presents his point of view that ayurveda works
+Y sentence: he in gives his point of view that ayurveda works
+Xe sentence:he in presents his bit of view that ayurveda works
+Ye sentence:he in gives his bit of view that ayurveda works
+X: ['in']
+Y: ['in', 'gives']
+e: bit
+F(X) = 0.4609, F(Y) = 0.3885, F(Xe) = 0.3995, F(Ye) = 0.3278
+F(Xe) - F(X) = -0.0614 < F(Ye) - F(Y) = -0.0608
+========= 131 ====================== 
+Orig sentence: while surprisingly sincere this average little story is with some awesome action photography and surfing
+X sentence: while odd sincere this average little story is with some awesome action photography and surfing
+Y sentence: while odd true this average little story is with some awesome action photography and surfing
+Xe sentence:while odd sincere this middle little story is with some awesome action photography and surfing
+Ye sentence:while odd true this middle little story is with some awesome action photography and surfing
+X: ['odd']
+Y: ['odd', 'true']
+e: middle
+F(X) = 0.2706, F(Y) = 0.2709, F(Xe) = 0.2706, F(Ye) = 0.2712
+F(Xe) - F(X) = -0.0000 < F(Ye) - F(Y) = 0.0003
+========= 132 ====================== 
+Orig sentence: an endlessly fascinating landmark movie that is as bold as anything the cinema has seen in years
+X sentence: an generally fascinating landmark movie that is as bold as anything the cinema has seen in years
+Y sentence: an generally funny landmark movie that is as bold as anything the cinema has seen in years
+Xe sentence:an generally fascinating landmark opera that is as bold as anything the cinema has seen in years
+Ye sentence:an generally funny landmark opera that is as bold as anything the cinema has seen in years
+X: ['generally']
+Y: ['generally', 'funny']
+e: opera
+F(X) = 0.2714, F(Y) = 0.2708, F(Xe) = 0.2706, F(Ye) = 0.2703
+F(Xe) - F(X) = -0.0007 < F(Ye) - F(Y) = -0.0005
+========= 133 ====================== 
+Orig sentence: a yarn that respects the marvel version without becoming by it
+X sentence: a yarn that respects the marvel version without going by it
+Y sentence: a yarn that regards the marvel version without going by it
+Xe sentence:a yarn that respects the marvel collection without going by it
+Ye sentence:a yarn that regards the marvel collection without going by it
+X: ['going']
+Y: ['regards', 'going']
+e: collection
+F(X) = 0.2873, F(Y) = 0.2975, F(Xe) = 0.3096, F(Ye) = 0.3320
+F(Xe) - F(X) = 0.0223 < F(Ye) - F(Y) = 0.0345
+========= 134 ====================== 
+Orig sentence: lrb howard rrb so good as leon barlow that he hardly seems to be acting
+X sentence: lrb howard rrb in good as leon barlow that he hardly seems to be acting
+Y sentence: lrb howard rrb in well as leon barlow that he hardly seems to be acting
+Xe sentence:lrb howard rrb in good as leon barlow that he hardly seems to right acting
+Ye sentence:lrb howard rrb in well as leon barlow that he hardly seems to right acting
+X: ['in']
+Y: ['in', 'well']
+e: right
+F(X) = 0.6465, F(Y) = 0.6839, F(Xe) = 0.6489, F(Ye) = 0.6898
+F(Xe) - F(X) = 0.0024 < F(Ye) - F(Y) = 0.0058
+========= 135 ====================== 
+Orig sentence: the people in dogtown and z boys are so funny aggressive and alive you have to watch them because you ca n't wait to see what they do next
+X sentence: the men in dogtown and z boys are so funny aggressive and alive you have to watch them because you ca n't wait to see what they do next
+Y sentence: the men in dogtown and z boys like so funny aggressive and alive you have to watch them because you ca n't wait to see what they do next
+Xe sentence:the men in dogtown and z boys are in funny aggressive and alive you have to watch them because you ca n't wait to see what they do next
+Ye sentence:the men in dogtown and z boys like in funny aggressive and alive you have to watch them because you ca n't wait to see what they do next
+X: ['men']
+Y: ['men', 'like']
+e: in
+F(X) = 0.2754, F(Y) = 0.2752, F(Xe) = 0.2778, F(Ye) = 0.2780
+F(Xe) - F(X) = 0.0024 < F(Ye) - F(Y) = 0.0028
+========= 136 ====================== 
+Orig sentence: lrb fessenden rrb is much more into ambiguity and creating mood than he is for on screen thrills
+X sentence: lrb fessenden rrb has much more into ambiguity and creating mood than he is for on screen thrills
+Y sentence: lrb fessenden rrb has very more into ambiguity and creating mood than he is for on screen thrills
+Xe sentence:lrb fessenden rrb has much less into ambiguity and creating mood than he is for on screen thrills
+Ye sentence:lrb fessenden rrb has very less into ambiguity and creating mood than he is for on screen thrills
+X: ['has']
+Y: ['has', 'very']
+e: less
+F(X) = 0.4071, F(Y) = 0.2915, F(Xe) = 0.6918, F(Ye) = 0.6340
+F(Xe) - F(X) = 0.2847 < F(Ye) - F(Y) = 0.3424
+========= 137 ====================== 
+Orig sentence: if you can get past the aspects and harsh realities of the '' you 'll get a you in the eye flick that is a visual tour de force and a story that is unlike any you will likely see anywhere else
+X sentence: if you can get past the aspects and harsh realities of the '' you 'll get a you in the eye flick that is a visual tour de force and a story that has unlike any you will likely see anywhere else
+Y sentence: if you can have past the aspects and harsh realities of the '' you 'll get a you in the eye flick that is a visual tour de force and a story that has unlike any you will likely see anywhere else
+Xe sentence:if you can get past the situations and harsh realities of the '' you 'll get a you in the eye flick that is a visual tour de force and a story that has unlike any you will likely see anywhere else
+Ye sentence:if you can have past the situations and harsh realities of the '' you 'll get a you in the eye flick that is a visual tour de force and a story that has unlike any you will likely see anywhere else
+X: ['has']
+Y: ['have', 'has']
+e: situations
+F(X) = 0.2795, F(Y) = 0.2778, F(Xe) = 0.2786, F(Ye) = 0.2778
+F(Xe) - F(X) = -0.0009 < F(Ye) - F(Y) = 0.0000
+========= 138 ====================== 
+Orig sentence: the drama is played out with such aching beauty and truth that it brings tears to your eyes
+X sentence: the film is played out with such aching beauty and truth that it brings tears to your eyes
+Y sentence: the film has played out with such aching beauty and truth that it brings tears to your eyes
+Xe sentence:the film is done out with such aching beauty and truth that it brings tears to your eyes
+Ye sentence:the film has done out with such aching beauty and truth that it brings tears to your eyes
+X: ['film']
+Y: ['film', 'has']
+e: done
+F(X) = 0.2715, F(Y) = 0.2708, F(Xe) = 0.2707, F(Ye) = 0.2704
+F(Xe) - F(X) = -0.0008 < F(Ye) - F(Y) = -0.0004
+========= 139 ====================== 
+Orig sentence: divine secrets of the ya ya sisterhood may not be exactly divine but it 's definitely defiantly ya ya what with all of those terrific songs and spirited performances
+X sentence: proud secrets of the ya ya sisterhood may not be exactly divine but it 's definitely defiantly ya ya what with all of those terrific songs and spirited performances
+Y sentence: proud mysteries of the ya ya sisterhood may not be exactly divine but it 's definitely defiantly ya ya what with all of those terrific songs and spirited performances
+Xe sentence:proud secrets of the ya ya sisterhood may not be but divine but it 's definitely defiantly ya ya what with all of those terrific songs and spirited performances
+Ye sentence:proud mysteries of the ya ya sisterhood may not be but divine but it 's definitely defiantly ya ya what with all of those terrific songs and spirited performances
+X: ['proud']
+Y: ['proud', 'mysteries']
+e: but
+F(X) = 0.2725, F(Y) = 0.2724, F(Xe) = 0.2719, F(Ye) = 0.2720
+F(Xe) - F(X) = -0.0006 < F(Ye) - F(Y) = -0.0004
+========= 140 ====================== 
+Orig sentence: the principals in this cast are all fine but and stevenson are
+X sentence: the leads in this cast are all fine but and stevenson are
+Y sentence: the leads in this stuff are all fine but and stevenson are
+Xe sentence:the leads in this cast like all fine but and stevenson are
+Ye sentence:the leads in this stuff like all fine but and stevenson are
+X: ['leads']
+Y: ['leads', 'stuff']
+e: like
+F(X) = 0.5039, F(Y) = 0.6050, F(Xe) = 0.5324, F(Ye) = 0.6499
+F(Xe) - F(X) = 0.0284 < F(Ye) - F(Y) = 0.0449
+========= 141 ====================== 
+Orig sentence: but it offers plenty to ponder and chew on as its unusual relationship slowly unfolds
+X sentence: but it provides plenty to ponder and chew on as its unusual relationship slowly unfolds
+Y sentence: but it provides plenty to ponder and chomp on as its unusual relationship slowly unfolds
+Xe sentence:but it provides plenty to ponder and chew on as its unusual relationship laggard unfolds
+Ye sentence:but it provides plenty to ponder and chomp on as its unusual relationship laggard unfolds
+X: ['provides']
+Y: ['provides', 'chomp']
+e: laggard
+F(X) = 0.2707, F(Y) = 0.2707, F(Xe) = 0.2705, F(Ye) = 0.2707
+F(Xe) - F(X) = -0.0002 < F(Ye) - F(Y) = -0.0000
+========= 142 ====================== 
+Orig sentence: workmanlike maybe but still a film with all the elements that made the other three great scary times at the movies
+X sentence: workmanlike in but still a film with all the elements that made the other three great scary times at the movies
+Y sentence: workmanlike in but in a film with all the elements that made the other three great scary times at the movies
+Xe sentence:workmanlike in but still a movie with all the elements that made the other three great scary times at the movies
+Ye sentence:workmanlike in but in a movie with all the elements that made the other three great scary times at the movies
+X: ['in']
+Y: ['in', 'in']
+e: movie
+F(X) = 0.3054, F(Y) = 0.3111, F(Xe) = 0.3155, F(Ye) = 0.3317
+F(Xe) - F(X) = 0.0101 < F(Ye) - F(Y) = 0.0206
+========= 143 ====================== 
+Orig sentence: elling really is about a couple of crazy guys and it 's therapeutic to laugh along with them
+X sentence: elling in is about a couple of crazy guys and it 's therapeutic to laugh along with them
+Y sentence: elling in has about a couple of crazy guys and it 's therapeutic to laugh along with them
+Xe sentence:elling in is about a bond of crazy guys and it 's therapeutic to laugh along with them
+Ye sentence:elling in has about a bond of crazy guys and it 's therapeutic to laugh along with them
+X: ['in']
+Y: ['in', 'has']
+e: bond
+F(X) = 0.2735, F(Y) = 0.2721, F(Xe) = 0.2709, F(Ye) = 0.2707
+F(Xe) - F(X) = -0.0026 < F(Ye) - F(Y) = -0.0013
+========= 144 ====================== 
+Orig sentence: a refreshing korean film about five female high school friends who face an uphill battle when they try to take their relationships into deeper waters
+X sentence: a refreshing korean movie about five female high school friends who face an uphill battle when they try to take their relationships into deeper waters
+Y sentence: a refreshing korean movie about five feminine high school friends who face an uphill battle when they try to take their relationships into deeper waters
+Xe sentence:a refreshing korean movie about five female deep school friends who face an uphill battle when they try to take their relationships into deeper waters
+Ye sentence:a refreshing korean movie about five feminine deep school friends who face an uphill battle when they try to take their relationships into deeper waters
+X: ['movie']
+Y: ['movie', 'feminine']
+e: deep
+F(X) = 0.2777, F(Y) = 0.2739, F(Xe) = 0.2771, F(Ye) = 0.2736
+F(Xe) - F(X) = -0.0006 < F(Ye) - F(Y) = -0.0003
+========= 145 ====================== 
+Orig sentence: and liu offer natural matter of fact performances that with sorrow longing and love
+X sentence: and liu match natural matter of fact performances that with sorrow longing and love
+Y sentence: and liu match original matter of fact performances that with sorrow longing and love
+Xe sentence:and liu match natural problem of fact performances that with sorrow longing and love
+Ye sentence:and liu match original problem of fact performances that with sorrow longing and love
+X: ['match']
+Y: ['match', 'original']
+e: problem
+F(X) = 0.2879, F(Y) = 0.3062, F(Xe) = 0.3591, F(Ye) = 0.4004
+F(Xe) - F(X) = 0.0713 < F(Ye) - F(Y) = 0.0942
+========= 146 ====================== 
+Orig sentence: bubba ho tep is a wonderful film with a bravura lead performance by bruce campbell that does n't deserve to leave the building until everyone is aware of it
+X sentence: bubba ca tep is a wonderful film with a bravura lead performance by bruce campbell that does n't deserve to leave the building until everyone is aware of it
+Y sentence: bubba ca tep has a wonderful film with a bravura lead performance by bruce campbell that does n't deserve to leave the building until everyone is aware of it
+Xe sentence:bubba ca tep is a marvelous film with a bravura lead performance by bruce campbell that does n't deserve to leave the building until everyone is aware of it
+Ye sentence:bubba ca tep has a marvelous film with a bravura lead performance by bruce campbell that does n't deserve to leave the building until everyone is aware of it
+X: ['ca']
+Y: ['ca', 'has']
+e: marvelous
+F(X) = 0.2752, F(Y) = 0.2758, F(Xe) = 0.2743, F(Ye) = 0.2750
+F(Xe) - F(X) = -0.0009 < F(Ye) - F(Y) = -0.0008
+========= 147 ====================== 
+Orig sentence: a and provocative film one that pushes the boundaries of biography and challenges its audience
+X sentence: a and inflammatory film one that pushes the boundaries of biography and challenges its audience
+Y sentence: a and inflammatory movie one that pushes the boundaries of biography and challenges its audience
+Xe sentence:a and inflammatory film one that dares the boundaries of biography and challenges its audience
+Ye sentence:a and inflammatory movie one that dares the boundaries of biography and challenges its audience
+X: ['inflammatory']
+Y: ['inflammatory', 'movie']
+e: dares
+F(X) = 0.4757, F(Y) = 0.3632, F(Xe) = 0.4585, F(Ye) = 0.3845
+F(Xe) - F(X) = -0.0172 < F(Ye) - F(Y) = 0.0213
+========= 148 ====================== 
+Orig sentence: it 's traditional moviemaking all the way but it 's done with a lot of careful period attention as well as some very welcome wit
+X sentence: it 's conventional moviemaking all the way but it 's done with a lot of careful period attention as well as some very welcome wit
+Y sentence: it 's conventional moviemaking all the how but it 's done with a lot of careful period attention as well as some very welcome wit
+Xe sentence:it 's conventional moviemaking all the way but it 's lived with a lot of careful period attention as well as some very welcome wit
+Ye sentence:it 's conventional moviemaking all the how but it 's lived with a lot of careful period attention as well as some very welcome wit
+X: ['conventional']
+Y: ['conventional', 'how']
+e: lived
+F(X) = 0.2723, F(Y) = 0.2729, F(Xe) = 0.2730, F(Ye) = 0.2738
+F(Xe) - F(X) = 0.0007 < F(Ye) - F(Y) = 0.0009
+========= 149 ====================== 
+Orig sentence: it 's as close as we 'll ever come to looking through a photographer 's as he works
+X sentence: it 's as close as we 'll ever come to looking through a photographer 's as he does
+Y sentence: it 's as full as we 'll ever come to looking through a photographer 's as he does
+Xe sentence:it 's as close as we 'll then come to looking through a photographer 's as he does
+Ye sentence:it 's as full as we 'll then come to looking through a photographer 's as he does
+X: ['does']
+Y: ['full', 'does']
+e: then
+F(X) = 0.4819, F(Y) = 0.4506, F(Xe) = 0.5556, F(Ye) = 0.5392
+F(Xe) - F(X) = 0.0738 < F(Ye) - F(Y) = 0.0886
+========= 150 ====================== 
+Orig sentence: the film is all a little lit 101 but it 's extremely well played and often very funny
+X sentence: the movie is all a little lit 101 but it 's extremely well played and often very funny
+Y sentence: the movie has all a little lit 101 but it 's extremely well played and often very funny
+Xe sentence:the movie is all a low lit 101 but it 's extremely well played and often very funny
+Ye sentence:the movie has all a low lit 101 but it 's extremely well played and often very funny
+X: ['movie']
+Y: ['movie', 'has']
+e: low
+F(X) = 0.2786, F(Y) = 0.2775, F(Xe) = 0.2778, F(Ye) = 0.2770
+F(Xe) - F(X) = -0.0007 < F(Ye) - F(Y) = -0.0005
+========= 151 ====================== 
+Orig sentence: de creates an emotionally rich and visually but never film whose bittersweet themes are and brilliantly personified by michel piccoli
+X sentence: de makes an emotionally rich and visually but never film whose bittersweet themes are and brilliantly personified by michel piccoli
+Y sentence: de makes an emotionally much and visually but never film whose bittersweet themes are and brilliantly personified by michel piccoli
+Xe sentence:de makes an emotionally rich and visually but never cartoon whose bittersweet themes are and brilliantly personified by michel piccoli
+Ye sentence:de makes an emotionally much and visually but never cartoon whose bittersweet themes are and brilliantly personified by michel piccoli
+X: ['makes']
+Y: ['makes', 'much']
+e: cartoon
+F(X) = 0.2699, F(Y) = 0.2702, F(Xe) = 0.2702, F(Ye) = 0.2706
+F(Xe) - F(X) = 0.0003 < F(Ye) - F(Y) = 0.0005
+========= 152 ====================== 
+Orig sentence: funny and at times poignant the film from director george hickenlooper all takes place in a city where people still read ''
+X sentence: fun and at times poignant the film from director george hickenlooper all takes place in a city where people still read ''
+Y sentence: fun and at ages poignant the film from director george hickenlooper all takes place in a city where people still read ''
+Xe sentence:fun and at times inspiring the film from director george hickenlooper all takes place in a city where people still read ''
+Ye sentence:fun and at ages inspiring the film from director george hickenlooper all takes place in a city where people still read ''
+X: ['fun']
+Y: ['fun', 'ages']
+e: inspiring
+F(X) = 0.2737, F(Y) = 0.2716, F(Xe) = 0.2728, F(Ye) = 0.2709
+F(Xe) - F(X) = -0.0008 < F(Ye) - F(Y) = -0.0006
+========= 153 ====================== 
+Orig sentence: would surely have called this gutsy and at times exhilarating movie a great yarn
+X sentence: would in have called this gutsy and at times exhilarating movie a great yarn
+Y sentence: would in like called this gutsy and at times exhilarating movie a great yarn
+Xe sentence:would in have thrown this gutsy and at times exhilarating movie a great yarn
+Ye sentence:would in like thrown this gutsy and at times exhilarating movie a great yarn
+X: ['in']
+Y: ['in', 'like']
+e: thrown
+F(X) = 0.2705, F(Y) = 0.2707, F(Xe) = 0.2708, F(Ye) = 0.2711
+F(Xe) - F(X) = 0.0003 < F(Ye) - F(Y) = 0.0004
+========= 154 ====================== 
+Orig sentence: an enchanting film that presents an audacious tour of the past and takes within its warm embrace the of cultural inside 's hermitage
+X sentence: an enchanting movie that presents an audacious tour of the past and takes within its warm embrace the of cultural inside 's hermitage
+Y sentence: an enchanting movie that gives an audacious tour of the past and takes within its warm embrace the of cultural inside 's hermitage
+Xe sentence:an enchanting movie that presents an shameless tour of the past and takes within its warm embrace the of cultural inside 's hermitage
+Ye sentence:an enchanting movie that gives an shameless tour of the past and takes within its warm embrace the of cultural inside 's hermitage
+X: ['movie']
+Y: ['movie', 'gives']
+e: shameless
+F(X) = 0.2703, F(Y) = 0.2702, F(Xe) = 0.2711, F(Ye) = 0.2712
+F(Xe) - F(X) = 0.0008 < F(Ye) - F(Y) = 0.0010
+========= 155 ====================== 
+Orig sentence: nolan treads where few american films dare to into the world of ambivalence and ambiguity
+X sentence: nolan feet where few american films dare to into the world of ambivalence and ambiguity
+Y sentence: nolan feet where few american movies dare to into the world of ambivalence and ambiguity
+Xe sentence:nolan feet where few american films be to into the world of ambivalence and ambiguity
+Ye sentence:nolan feet where few american movies be to into the world of ambivalence and ambiguity
+X: ['feet']
+Y: ['feet', 'movies']
+e: be
+F(X) = 0.2770, F(Y) = 0.2759, F(Xe) = 0.2713, F(Ye) = 0.2718
+F(Xe) - F(X) = -0.0056 < F(Ye) - F(Y) = -0.0041
+========= 156 ====================== 
+Orig sentence: few films this year have been as in their emotional
+X sentence: few movies this year have been as in their emotional
+Y sentence: few movies this age have been as in their emotional
+Xe sentence:few movies this year are been as in their emotional
+Ye sentence:few movies this age are been as in their emotional
+X: ['movies']
+Y: ['movies', 'age']
+e: are
+F(X) = 0.3205, F(Y) = 0.3158, F(Xe) = 0.3070, F(Ye) = 0.3131
+F(Xe) - F(X) = -0.0136 < F(Ye) - F(Y) = -0.0028
+========= 157 ====================== 
+Orig sentence: it extends the writings of jean and john the films of perhaps even the works of
+X sentence: it gives the writings of jean and john the films of perhaps even the works of
+Y sentence: it gives the characters of jean and john the films of perhaps even the works of
+Xe sentence:it gives the writings of canvas and john the films of perhaps even the works of
+Ye sentence:it gives the characters of canvas and john the films of perhaps even the works of
+X: ['gives']
+Y: ['gives', 'characters']
+e: canvas
+F(X) = 0.2847, F(Y) = 0.2784, F(Xe) = 0.2775, F(Ye) = 0.2738
+F(Xe) - F(X) = -0.0072 < F(Ye) - F(Y) = -0.0046
+========= 158 ====================== 
+Orig sentence: edited and shot with a style the work of his subjects pray turns the idea of the documentary on its head making it rousing invigorating fun lacking any mtv
+X sentence: written and shot with a style the work of his subjects pray turns the idea of the documentary on its head making it rousing invigorating fun lacking any mtv
+Y sentence: written and taken with a style the work of his subjects pray turns the idea of the documentary on its head making it rousing invigorating fun lacking any mtv
+Xe sentence:written and shot with a way the work of his subjects pray turns the idea of the documentary on its head making it rousing invigorating fun lacking any mtv
+Ye sentence:written and taken with a way the work of his subjects pray turns the idea of the documentary on its head making it rousing invigorating fun lacking any mtv
+X: ['written']
+Y: ['written', 'taken']
+e: way
+F(X) = 0.2945, F(Y) = 0.2948, F(Xe) = 0.2927, F(Ye) = 0.2935
+F(Xe) - F(X) = -0.0018 < F(Ye) - F(Y) = -0.0013
+========= 159 ====================== 
+Orig sentence: this minded wildlife friendly film good ethics while entertaining with its wacky but loving family
+X sentence: this served wildlife friendly film good ethics while entertaining with its wacky but loving family
+Y sentence: this served wildlife kind film good ethics while entertaining with its wacky but loving family
+Xe sentence:this served wildlife friendly movie good ethics while entertaining with its wacky but loving family
+Ye sentence:this served wildlife kind movie good ethics while entertaining with its wacky but loving family
+X: ['served']
+Y: ['served', 'kind']
+e: movie
+F(X) = 0.2694, F(Y) = 0.2697, F(Xe) = 0.2695, F(Ye) = 0.2699
+F(Xe) - F(X) = 0.0001 < F(Ye) - F(Y) = 0.0002
+========= 160 ====================== 
+Orig sentence: only an epic documentary could get it all down and spike lee 's jim brown all american at long last gives its subject a movie worthy of his talents
+X sentence: in an epic documentary could get it all down and spike lee 's jim brown all american at long last gives its subject a movie worthy of his talents
+Y sentence: in an novel documentary could get it all down and spike lee 's jim brown all american at long last gives its subject a movie worthy of his talents
+Xe sentence:in an epic film could get it all down and spike lee 's jim brown all american at long last gives its subject a movie worthy of his talents
+Ye sentence:in an novel film could get it all down and spike lee 's jim brown all american at long last gives its subject a movie worthy of his talents
+X: ['in']
+Y: ['in', 'novel']
+e: film
+F(X) = 0.2748, F(Y) = 0.2767, F(Xe) = 0.2793, F(Ye) = 0.2818
+F(Xe) - F(X) = 0.0044 < F(Ye) - F(Y) = 0.0051
+========= 161 ====================== 
+Orig sentence: waydowntown is by no means a perfect film but its boasts a huge charm factor and smacks of originality
+X sentence: waydowntown has by no means a perfect film but its boasts a huge charm factor and smacks of originality
+Y sentence: waydowntown has by no represents a perfect film but its boasts a huge charm factor and smacks of originality
+Xe sentence:waydowntown has by no means a great film but its boasts a huge charm factor and smacks of originality
+Ye sentence:waydowntown has by no represents a great film but its boasts a huge charm factor and smacks of originality
+X: ['has']
+Y: ['has', 'represents']
+e: great
+F(X) = 0.3067, F(Y) = 0.3102, F(Xe) = 0.3153, F(Ye) = 0.3203
+F(Xe) - F(X) = 0.0086 < F(Ye) - F(Y) = 0.0100
+========= 162 ====================== 
+Orig sentence: a tale of horror and revenge that is nearly perfect in its relentless to the depths of one man 's tortured soul
+X sentence: a story of horror and revenge that is nearly perfect in its relentless to the depths of one man 's tortured soul
+Y sentence: a story of fear and revenge that is nearly perfect in its relentless to the depths of one man 's tortured soul
+Xe sentence:a story of horror and retaliation that is nearly perfect in its relentless to the depths of one man 's tortured soul
+Ye sentence:a story of fear and retaliation that is nearly perfect in its relentless to the depths of one man 's tortured soul
+X: ['story']
+Y: ['story', 'fear']
+e: retaliation
+F(X) = 0.2840, F(Y) = 0.2893, F(Xe) = 0.3032, F(Ye) = 0.3110
+F(Xe) - F(X) = 0.0192 < F(Ye) - F(Y) = 0.0217
+========= 163 ====================== 
+Orig sentence: a journey through memory a celebration of living and a sobering rumination on and
+X sentence: a journey through memory a celebration of living and a sobering meditation on and
+Y sentence: a trip through memory a celebration of living and a sobering meditation on and
+Xe sentence:a journey through save a celebration of living and a sobering meditation on and
+Ye sentence:a trip through save a celebration of living and a sobering meditation on and
+X: ['meditation']
+Y: ['trip', 'meditation']
+e: save
+F(X) = 0.2713, F(Y) = 0.2722, F(Xe) = 0.2713, F(Ye) = 0.2724
+F(Xe) - F(X) = 0.0000 < F(Ye) - F(Y) = 0.0002
+========= 164 ====================== 
+Orig sentence: makes s m seem very romantic and maggie gyllenhaal is a delight
+X sentence: has s m seem very romantic and maggie gyllenhaal is a delight
+Y sentence: has s k seem very romantic and maggie gyllenhaal is a delight
+Xe sentence:has s m seem badly romantic and maggie gyllenhaal is a delight
+Ye sentence:has s k seem badly romantic and maggie gyllenhaal is a delight
+X: ['has']
+Y: ['has', 'k']
+e: badly
+F(X) = 0.2702, F(Y) = 0.2702, F(Xe) = 0.2859, F(Ye) = 0.2956
+F(Xe) - F(X) = 0.0156 < F(Ye) - F(Y) = 0.0254
+========= 165 ====================== 
+Orig sentence: it has the courage to wonder about big questions with sincerity and devotion
+X sentence: it is the courage to wonder about big questions with sincerity and devotion
+Y sentence: it is the bravery to wonder about big questions with sincerity and devotion
+Xe sentence:it is the courage to wonder in big questions with sincerity and devotion
+Ye sentence:it is the bravery to wonder in big questions with sincerity and devotion
+X: ['is']
+Y: ['is', 'bravery']
+e: in
+F(X) = 0.2738, F(Y) = 0.2726, F(Xe) = 0.2714, F(Ye) = 0.2711
+F(Xe) - F(X) = -0.0024 < F(Ye) - F(Y) = -0.0016
+========= 166 ====================== 
+Orig sentence: the year 's surprise a movie that deals with a real subject in an always surprising way
+X sentence: the age 's surprise a movie that deals with a real subject in an always surprising way
+Y sentence: the age 's wonder a movie that deals with a real subject in an always surprising way
+Xe sentence:the age 's surprise a cartoon that deals with a real subject in an always surprising way
+Ye sentence:the age 's wonder a cartoon that deals with a real subject in an always surprising way
+X: ['age']
+Y: ['age', 'wonder']
+e: cartoon
+F(X) = 0.2878, F(Y) = 0.3372, F(Xe) = 0.3183, F(Ye) = 0.3836
+F(Xe) - F(X) = 0.0305 < F(Ye) - F(Y) = 0.0464
+========= 167 ====================== 
+Orig sentence: as the story you feel the pieces of the star wars saga falling into place in a way that makes your spine with revelation and excitement
+X sentence: as the tale you feel the pieces of the star wars saga falling into place in a way that makes your spine with revelation and excitement
+Y sentence: as the tale you have the pieces of the star wars saga falling into place in a way that makes your spine with revelation and excitement
+Xe sentence:as the tale you feel the guns of the star wars saga falling into place in a way that makes your spine with revelation and excitement
+Ye sentence:as the tale you have the guns of the star wars saga falling into place in a way that makes your spine with revelation and excitement
+X: ['tale']
+Y: ['tale', 'have']
+e: guns
+F(X) = 0.2736, F(Y) = 0.2726, F(Xe) = 0.2800, F(Ye) = 0.2800
+F(Xe) - F(X) = 0.0065 < F(Ye) - F(Y) = 0.0074
+========= 168 ====================== 
+Orig sentence: a splendid entertainment young in spirit but accomplished in all aspects with the fullness of spirit and sense of ease that comes only with experience
+X sentence: a smart entertainment young in spirit but accomplished in all aspects with the fullness of spirit and sense of ease that comes only with experience
+Y sentence: a smart caper young in spirit but accomplished in all aspects with the fullness of spirit and sense of ease that comes only with experience
+Xe sentence:a smart entertainment immature in spirit but accomplished in all aspects with the fullness of spirit and sense of ease that comes only with experience
+Ye sentence:a smart caper immature in spirit but accomplished in all aspects with the fullness of spirit and sense of ease that comes only with experience
+X: ['smart']
+Y: ['smart', 'caper']
+e: immature
+F(X) = 0.2698, F(Y) = 0.2699, F(Xe) = 0.2698, F(Ye) = 0.2701
+F(Xe) - F(X) = 0.0000 < F(Ye) - F(Y) = 0.0002
+========= 169 ====================== 
+Orig sentence: foster nails the role giving a tight focused performance illuminated by of feeling
+X sentence: foster hands the role giving a tight focused performance illuminated by of feeling
+Y sentence: foster hands the character giving a tight focused performance illuminated by of feeling
+Xe sentence:foster hands the role playing a tight focused performance illuminated by of feeling
+Ye sentence:foster hands the character playing a tight focused performance illuminated by of feeling
+X: ['hands']
+Y: ['hands', 'character']
+e: playing
+F(X) = 0.2726, F(Y) = 0.2791, F(Xe) = 0.2766, F(Ye) = 0.2859
+F(Xe) - F(X) = 0.0040 < F(Ye) - F(Y) = 0.0068
+========= 170 ====================== 
+Orig sentence: it dares to be a little different and that is what makes it worthwhile
+X sentence: it is to be a little different and that is what makes it worthwhile
+Y sentence: it is to down a little different and that is what makes it worthwhile
+Xe sentence:it is to be a low different and that is what makes it worthwhile
+Ye sentence:it is to down a low different and that is what makes it worthwhile
+X: ['is']
+Y: ['is', 'down']
+e: low
+F(X) = 0.2790, F(Y) = 0.2840, F(Xe) = 0.2799, F(Ye) = 0.2867
+F(Xe) - F(X) = 0.0009 < F(Ye) - F(Y) = 0.0028
+========= 171 ====================== 
+Orig sentence: tuck everlasting achieves a delicate balance of romantic innocence and philosophical depth
+X sentence: tuck timeless achieves a delicate balance of romantic innocence and philosophical depth
+Y sentence: tuck timeless gets a delicate balance of romantic innocence and philosophical depth
+Xe sentence:tuck timeless achieves a pretty balance of romantic innocence and philosophical depth
+Ye sentence:tuck timeless gets a pretty balance of romantic innocence and philosophical depth
+X: ['timeless']
+Y: ['timeless', 'gets']
+e: pretty
+F(X) = 0.2693, F(Y) = 0.2695, F(Xe) = 0.2694, F(Ye) = 0.2699
+F(Xe) - F(X) = 0.0001 < F(Ye) - F(Y) = 0.0004
+========= 172 ====================== 
+Orig sentence: this is 's debut feature but his script and direction with a confidence that many spend entire careers trying to reach
+X sentence: this has 's debut feature but his script and direction with a confidence that many spend entire careers trying to reach
+Y sentence: this has 's debut film but his script and direction with a confidence that many spend entire careers trying to reach
+Xe sentence:this has 's debut feature but his scenario and direction with a confidence that many spend entire careers trying to reach
+Ye sentence:this has 's debut film but his scenario and direction with a confidence that many spend entire careers trying to reach
+X: ['has']
+Y: ['has', 'film']
+e: scenario
+F(X) = 0.3089, F(Y) = 0.3235, F(Xe) = 0.3088, F(Ye) = 0.3279
+F(Xe) - F(X) = -0.0001 < F(Ye) - F(Y) = 0.0044
+========= 173 ====================== 
+Orig sentence: moore 's performance impresses almost as much as her work with haynes in 1995 's safe
+X sentence: moore 's way impresses almost as much as her work with haynes in 1995 's safe
+Y sentence: moore 's way moves almost as much as her work with haynes in 1995 's safe
+Xe sentence:moore 's way impresses nearly as much as her work with haynes in 1995 's safe
+Ye sentence:moore 's way moves nearly as much as her work with haynes in 1995 's safe
+X: ['way']
+Y: ['way', 'moves']
+e: nearly
+F(X) = 0.2736, F(Y) = 0.2793, F(Xe) = 0.2745, F(Ye) = 0.2820
+F(Xe) - F(X) = 0.0008 < F(Ye) - F(Y) = 0.0027
+========= 174 ====================== 
+Orig sentence: a picture that the virtues of and community in a spirited fashion
+X sentence: a film that the virtues of and community in a spirited fashion
+Y sentence: a film that the virtues of and community in a spirited way
+Xe sentence:a film that the ways of and community in a spirited fashion
+Ye sentence:a film that the ways of and community in a spirited way
+X: ['film']
+Y: ['film', 'way']
+e: ways
+F(X) = 0.2727, F(Y) = 0.2720, F(Xe) = 0.2725, F(Ye) = 0.2719
+F(Xe) - F(X) = -0.0002 < F(Ye) - F(Y) = -0.0001
+========= 175 ====================== 
+Orig sentence: too bad but thanks to some lovely comedic moments and several fine performances it 's not a total loss
+X sentence: still bad but thanks to some lovely comedic moments and several fine performances it 's not a total loss
+Y sentence: still off but thanks to some lovely comedic moments and several fine performances it 's not a total loss
+Xe sentence:still bad but thanks to some good comedic moments and several fine performances it 's not a total loss
+Ye sentence:still off but thanks to some good comedic moments and several fine performances it 's not a total loss
+X: ['still']
+Y: ['still', 'off']
+e: good
+F(X) = 0.4491, F(Y) = 0.3934, F(Xe) = 0.5189, F(Ye) = 0.4649
+F(Xe) - F(X) = 0.0697 < F(Ye) - F(Y) = 0.0715
+========= 176 ====================== 
+Orig sentence: his characters are engaging intimate and the dialogue is realistic and greatly moving
+X sentence: his performances are engaging intimate and the dialogue is realistic and greatly moving
+Y sentence: his performances like engaging intimate and the dialogue is realistic and greatly moving
+Xe sentence:his performances are working intimate and the dialogue is realistic and greatly moving
+Ye sentence:his performances like working intimate and the dialogue is realistic and greatly moving
+X: ['performances']
+Y: ['performances', 'like']
+e: working
+F(X) = 0.2704, F(Y) = 0.2708, F(Xe) = 0.2708, F(Ye) = 0.2715
+F(Xe) - F(X) = 0.0005 < F(Ye) - F(Y) = 0.0006
+========= 177 ====================== 
+Orig sentence: offers enough playful fun to entertain the set while embracing a wholesome attitude
+X sentence: questions enough playful fun to entertain the set while embracing a wholesome attitude
+Y sentence: questions well playful fun to entertain the set while embracing a wholesome attitude
+Xe sentence:questions enough playful fun to bear the set while embracing a wholesome attitude
+Ye sentence:questions well playful fun to bear the set while embracing a wholesome attitude
+X: ['questions']
+Y: ['questions', 'well']
+e: bear
+F(X) = 0.2710, F(Y) = 0.2698, F(Xe) = 0.2705, F(Ye) = 0.2697
+F(Xe) - F(X) = -0.0005 < F(Ye) - F(Y) = -0.0001
+========= 178 ====================== 
+Orig sentence: there are times when a rumor of angels plays like an extended episode of touched by an angel a little too much dancing a few too many scenes but i liked its heart and its spirit
+X sentence: there like times when a rumor of angels plays like an extended episode of touched by an angel a little too much dancing a few too many scenes but i liked its heart and its spirit
+Y sentence: there like ages when a rumor of angels plays like an extended episode of touched by an angel a little too much dancing a few too many scenes but i liked its heart and its spirit
+Xe sentence:there like times when a rumor of aliens plays like an extended episode of touched by an angel a little too much dancing a few too many scenes but i liked its heart and its spirit
+Ye sentence:there like ages when a rumor of aliens plays like an extended episode of touched by an angel a little too much dancing a few too many scenes but i liked its heart and its spirit
+X: ['like']
+Y: ['like', 'ages']
+e: aliens
+F(X) = 0.3262, F(Y) = 0.3120, F(Xe) = 0.3256, F(Ye) = 0.3167
+F(Xe) - F(X) = -0.0006 < F(Ye) - F(Y) = 0.0047
+========= 179 ====================== 
+Orig sentence: a romantic comedy that operates by the rules of its own self contained universe
+X sentence: a emotional comedy that operates by the rules of its own self contained universe
+Y sentence: a emotional pleasure that operates by the rules of its own self contained universe
+Xe sentence:a emotional comedy that works by the rules of its own self contained universe
+Ye sentence:a emotional pleasure that works by the rules of its own self contained universe
+X: ['emotional']
+Y: ['emotional', 'pleasure']
+e: works
+F(X) = 0.3253, F(Y) = 0.2716, F(Xe) = 0.2781, F(Ye) = 0.2708
+F(Xe) - F(X) = -0.0472 < F(Ye) - F(Y) = -0.0009
+========= 180 ====================== 
+Orig sentence: a triumph of art direction over narrative but what art direction
+X sentence: a triumph of way direction over narrative but what art direction
+Y sentence: a triumph of way future over narrative but what art direction
+Xe sentence:a triumph of way direction over epic but what art direction
+Ye sentence:a triumph of way future over epic but what art direction
+X: ['way']
+Y: ['way', 'future']
+e: epic
+F(X) = 0.3016, F(Y) = 0.2985, F(Xe) = 0.2815, F(Ye) = 0.2796
+F(Xe) - F(X) = -0.0201 < F(Ye) - F(Y) = -0.0188
+========= 181 ====================== 
+Orig sentence: one of the most haunting honest coming of age films in recent memory
+X sentence: one of the most disturbing honest coming of age films in recent memory
+Y sentence: one of the most disturbing just coming of age films in recent memory
+Xe sentence:one of the most disturbing honest getting of age films in recent memory
+Ye sentence:one of the most disturbing just getting of age films in recent memory
+X: ['disturbing']
+Y: ['disturbing', 'just']
+e: getting
+F(X) = 0.2705, F(Y) = 0.3368, F(Xe) = 0.2711, F(Ye) = 0.5469
+F(Xe) - F(X) = 0.0006 < F(Ye) - F(Y) = 0.2101
+========= 182 ====================== 
+Orig sentence: the film has just enough of everything re enactments archival footage talking head interviews and the music is simply sublime
+X sentence: the movie has just enough of everything re enactments archival footage talking head interviews and the music is simply sublime
+Y sentence: the movie is just enough of everything re enactments archival footage talking head interviews and the music is simply sublime
+Xe sentence:the movie has in enough of everything re enactments archival footage talking head interviews and the music is simply sublime
+Ye sentence:the movie is in enough of everything re enactments archival footage talking head interviews and the music is simply sublime
+X: ['movie']
+Y: ['movie', 'is']
+e: in
+F(X) = 0.4091, F(Y) = 0.4991, F(Xe) = 0.4113, F(Ye) = 0.5026
+F(Xe) - F(X) = 0.0023 < F(Ye) - F(Y) = 0.0035
+========= 183 ====================== 
+Orig sentence: i like the new footage and still love the old stuff
+X sentence: i like the fresh footage and still love the old stuff
+Y sentence: i like the fresh picture and still love the old stuff
+Xe sentence:i like the fresh footage and in love the old stuff
+Ye sentence:i like the fresh picture and in love the old stuff
+X: ['fresh']
+Y: ['fresh', 'picture']
+e: in
+F(X) = 0.2749, F(Y) = 0.2721, F(Xe) = 0.2719, F(Ye) = 0.2705
+F(Xe) - F(X) = -0.0030 < F(Ye) - F(Y) = -0.0015
+========= 184 ====================== 
+Orig sentence: flavorful and romantic you could call this how martha got her groove back assuming that is she ever had one to begin with
+X sentence: light and romantic you could call this how martha got her groove back assuming that is she ever had one to begin with
+Y sentence: light and emotional you could call this how martha got her groove back assuming that is she ever had one to begin with
+Xe sentence:light and romantic you could hold this how martha got her groove back assuming that is she ever had one to begin with
+Ye sentence:light and emotional you could hold this how martha got her groove back assuming that is she ever had one to begin with
+X: ['light']
+Y: ['light', 'emotional']
+e: hold
+F(X) = 0.3233, F(Y) = 0.3280, F(Xe) = 0.3214, F(Ye) = 0.3284
+F(Xe) - F(X) = -0.0020 < F(Ye) - F(Y) = 0.0004
+========= 185 ====================== 
+Orig sentence: director rob marshall went out to make a great one
+X sentence: head rob marshall went out to make a great one
+Y sentence: head rob justice went out to make a great one
+Xe sentence:head rob marshall got out to make a great one
+Ye sentence:head rob justice got out to make a great one
+X: ['head']
+Y: ['head', 'justice']
+e: got
+F(X) = 0.5561, F(Y) = 0.4225, F(Xe) = 0.4739, F(Ye) = 0.4204
+F(Xe) - F(X) = -0.0822 < F(Ye) - F(Y) = -0.0020
+========= 186 ====================== 
+Orig sentence: while undercover brother is definitely one for the masses it 's also full of sharp smart satire
+X sentence: while secret brother is definitely one for the masses it 's also full of sharp smart satire
+Y sentence: while secret man is definitely one for the masses it 's also full of sharp smart satire
+Xe sentence:while secret brother is even one for the masses it 's also full of sharp smart satire
+Ye sentence:while secret man is even one for the masses it 's also full of sharp smart satire
+X: ['secret']
+Y: ['secret', 'man']
+e: even
+F(X) = 0.2729, F(Y) = 0.2722, F(Xe) = 0.2722, F(Ye) = 0.2718
+F(Xe) - F(X) = -0.0007 < F(Ye) - F(Y) = -0.0004
+========= 187 ====================== 
+Orig sentence: spy movie territory like a novel you ca n't put down examines a footnote to history seldom brought to light on the screen and keeps you guessing from first frame to last
+X sentence: spot movie territory like a novel you ca n't put down examines a footnote to history seldom brought to light on the screen and keeps you guessing from first frame to last
+Y sentence: spot film territory like a novel you ca n't put down examines a footnote to history seldom brought to light on the screen and keeps you guessing from first frame to last
+Xe sentence:spot movie point like a novel you ca n't put down examines a footnote to history seldom brought to light on the screen and keeps you guessing from first frame to last
+Ye sentence:spot film point like a novel you ca n't put down examines a footnote to history seldom brought to light on the screen and keeps you guessing from first frame to last
+X: ['spot']
+Y: ['spot', 'film']
+e: point
+F(X) = 0.3797, F(Y) = 0.3939, F(Xe) = 0.3917, F(Ye) = 0.4098
+F(Xe) - F(X) = 0.0121 < F(Ye) - F(Y) = 0.0159
+========= 188 ====================== 
+Orig sentence: this warm and gentle romantic comedy has enough interesting characters to fill several movies and its ample charms should win over the most hard hearted
+X sentence: this sincere and gentle romantic comedy has enough interesting characters to fill several movies and its ample charms should win over the most hard hearted
+Y sentence: this sincere and charming romantic comedy has enough interesting characters to fill several movies and its ample charms should win over the most hard hearted
+Xe sentence:this sincere and gentle sentimental comedy has enough interesting characters to fill several movies and its ample charms should win over the most hard hearted
+Ye sentence:this sincere and charming sentimental comedy has enough interesting characters to fill several movies and its ample charms should win over the most hard hearted
+X: ['sincere']
+Y: ['sincere', 'charming']
+e: sentimental
+F(X) = 0.2708, F(Y) = 0.2713, F(Xe) = 0.2711, F(Ye) = 0.2719
+F(Xe) - F(X) = 0.0002 < F(Ye) - F(Y) = 0.0006
+========= 189 ====================== 
+Orig sentence: a tough go but leigh 's depth and rigor and his skill at inspiring accomplished portrayals that are all the more impressive for their lack of to a notable degree the film 's often mined and despairing milieu
+X sentence: a hard go but leigh 's depth and rigor and his skill at inspiring accomplished portrayals that are all the more impressive for their lack of to a notable degree the film 's often mined and despairing milieu
+Y sentence: a hard go but leigh 's depth and rigor and his skill at inspiring accomplished portrayals that are all the more impressive for their lack of to a notable degree the film 's frequently mined and despairing milieu
+Xe sentence:a hard go but leigh 's depth and stern and his skill at inspiring accomplished portrayals that are all the more impressive for their lack of to a notable degree the film 's often mined and despairing milieu
+Ye sentence:a hard go but leigh 's depth and stern and his skill at inspiring accomplished portrayals that are all the more impressive for their lack of to a notable degree the film 's frequently mined and despairing milieu
+X: ['hard']
+Y: ['hard', 'frequently']
+e: stern
+F(X) = 0.2864, F(Y) = 0.2871, F(Xe) = 0.2885, F(Ye) = 0.2896
+F(Xe) - F(X) = 0.0021 < F(Ye) - F(Y) = 0.0025
+========= 190 ====================== 
+Orig sentence: a charming romantic comedy that is by far the lightest dogme film and among the most enjoyable
+X sentence: a compelling romantic comedy that is by far the lightest dogme film and among the most enjoyable
+Y sentence: a compelling emotional comedy that is by far the lightest dogme film and among the most enjoyable
+Xe sentence:a compelling romantic comedy that equals by far the lightest dogme film and among the most enjoyable
+Ye sentence:a compelling emotional comedy that equals by far the lightest dogme film and among the most enjoyable
+X: ['compelling']
+Y: ['compelling', 'emotional']
+e: equals
+F(X) = 0.2699, F(Y) = 0.2700, F(Xe) = 0.2702, F(Ye) = 0.2703
+F(Xe) - F(X) = 0.0002 < F(Ye) - F(Y) = 0.0004
+========= 191 ====================== 
+Orig sentence: while the is both preposterous and thoroughly its vistas are incredibly beautiful to look at
+X sentence: while the has both preposterous and thoroughly its vistas are incredibly beautiful to look at
+Y sentence: while the has both wrong and thoroughly its vistas are incredibly beautiful to look at
+Xe sentence:while the has both preposterous and thoroughly its vistas are abysmally beautiful to look at
+Ye sentence:while the has both wrong and thoroughly its vistas are abysmally beautiful to look at
+X: ['has']
+Y: ['has', 'wrong']
+e: abysmally
+F(X) = 0.2697, F(Y) = 0.2696, F(Xe) = 0.6025, F(Ye) = 0.6142
+F(Xe) - F(X) = 0.3328 < F(Ye) - F(Y) = 0.3446
+========= 192 ====================== 
+Orig sentence: denis and co writer michele 's impeccable screenplay with a rawness that that is both unflinching and
+X sentence: denis and co author michele 's impeccable screenplay with a rawness that that is both unflinching and
+Y sentence: denis and co author michele 's impeccable screenplay with a rawness that that is both unblinking and
+Xe sentence:denis and co author michele 's impeccable screenplay with a rawness that that equals both unflinching and
+Ye sentence:denis and co author michele 's impeccable screenplay with a rawness that that equals both unblinking and
+X: ['author']
+Y: ['author', 'unblinking']
+e: equals
+F(X) = 0.2695, F(Y) = 0.2696, F(Xe) = 0.2697, F(Ye) = 0.2702
+F(Xe) - F(X) = 0.0003 < F(Ye) - F(Y) = 0.0006
+========= 193 ====================== 
+Orig sentence: lathan and diggs have considerable personal charm and their screen rapport makes the old story seem new
+X sentence: lathan and diggs like considerable personal charm and their screen rapport makes the old story seem new
+Y sentence: lathan and diggs like much personal charm and their screen rapport makes the old story seem new
+Xe sentence:lathan and diggs like considerable personal attraction and their screen rapport makes the old story seem new
+Ye sentence:lathan and diggs like much personal attraction and their screen rapport makes the old story seem new
+X: ['like']
+Y: ['like', 'much']
+e: attraction
+F(X) = 0.2754, F(Y) = 0.2790, F(Xe) = 0.2793, F(Ye) = 0.2869
+F(Xe) - F(X) = 0.0039 < F(Ye) - F(Y) = 0.0078
+========= 194 ====================== 
+Orig sentence: the reason this picture works better than its predecessors is that myers is no longer simply the mini madness of '60s spy movies
+X sentence: the sense this picture works better than its predecessors is that myers is no longer simply the mini madness of '60s spy movies
+Y sentence: the sense this film works better than its predecessors is that myers is no longer simply the mini madness of '60s spy movies
+Xe sentence:the sense this picture does better than its predecessors is that myers is no longer simply the mini madness of '60s spy movies
+Ye sentence:the sense this film does better than its predecessors is that myers is no longer simply the mini madness of '60s spy movies
+X: ['sense']
+Y: ['sense', 'film']
+e: does
+F(X) = 0.2769, F(Y) = 0.2785, F(Xe) = 0.4034, F(Ye) = 0.4200
+F(Xe) - F(X) = 0.1265 < F(Ye) - F(Y) = 0.1414
+========= 195 ====================== 
+Orig sentence: an intelligent earnest intimate film that drops the ball only when it for exposition to make sure you 're getting its metaphysical point
+X sentence: an smart earnest intimate film that drops the ball only when it for exposition to make sure you 're getting its metaphysical point
+Y sentence: an smart true intimate film that drops the ball only when it for exposition to make sure you 're getting its metaphysical point
+Xe sentence:an smart earnest solid film that drops the ball only when it for exposition to make sure you 're getting its metaphysical point
+Ye sentence:an smart true solid film that drops the ball only when it for exposition to make sure you 're getting its metaphysical point
+X: ['smart']
+Y: ['smart', 'true']
+e: solid
+F(X) = 0.3001, F(Y) = 0.3036, F(Xe) = 0.2989, F(Ye) = 0.3101
+F(Xe) - F(X) = -0.0012 < F(Ye) - F(Y) = 0.0065
+========= 196 ====================== 
+Orig sentence: majidi 's poetic love story is a ravishing consciousness if a bit draggy at times
+X sentence: majidi 's novel love story is a ravishing consciousness if a bit draggy at times
+Y sentence: majidi 's novel fun story is a ravishing consciousness if a bit draggy at times
+Xe sentence:majidi 's novel love report is a ravishing consciousness if a bit draggy at times
+Ye sentence:majidi 's novel fun report is a ravishing consciousness if a bit draggy at times
+X: ['novel']
+Y: ['novel', 'fun']
+e: report
+F(X) = 0.2781, F(Y) = 0.2789, F(Xe) = 0.2775, F(Ye) = 0.2790
+F(Xe) - F(X) = -0.0005 < F(Ye) - F(Y) = 0.0001
+========= 197 ====================== 
+Orig sentence: and exude a chemistry and comfort level that 's both saucy and endearing
+X sentence: and stretch a chemistry and comfort level that 's both saucy and endearing
+Y sentence: and stretch a lot and comfort level that 's both saucy and endearing
+Xe sentence:and stretch a chemistry and consolation level that 's both saucy and endearing
+Ye sentence:and stretch a lot and consolation level that 's both saucy and endearing
+X: ['stretch']
+Y: ['stretch', 'lot']
+e: consolation
+F(X) = 0.2704, F(Y) = 0.2708, F(Xe) = 0.2732, F(Ye) = 0.2775
+F(Xe) - F(X) = 0.0028 < F(Ye) - F(Y) = 0.0067
+========= 198 ====================== 
+Orig sentence: when it 's all wet blue crush is highly enjoyable
+X sentence: when it 's all moist blue crush is highly enjoyable
+Y sentence: when it 's all moist sad crush is highly enjoyable
+Xe sentence:when it 's all moist blue crush has highly enjoyable
+Ye sentence:when it 's all moist sad crush has highly enjoyable
+X: ['moist']
+Y: ['moist', 'sad']
+e: has
+F(X) = 0.2696, F(Y) = 0.2702, F(Xe) = 0.2699, F(Ye) = 0.2713
+F(Xe) - F(X) = 0.0003 < F(Ye) - F(Y) = 0.0011
+========= 199 ====================== 
+Orig sentence: longley has constructed a remarkably coherent vivid snapshot of those turbulent days
+X sentence: longley is constructed a remarkably coherent vivid snapshot of those turbulent days
+Y sentence: longley is made a remarkably coherent vivid snapshot of those turbulent days
+Xe sentence:longley is constructed a obvious coherent vivid snapshot of those turbulent days
+Ye sentence:longley is made a obvious coherent vivid snapshot of those turbulent days
+X: ['is']
+Y: ['is', 'made']
+e: obvious
+F(X) = 0.2694, F(Y) = 0.2694, F(Xe) = 0.2725, F(Ye) = 0.2728
+F(Xe) - F(X) = 0.0031 < F(Ye) - F(Y) = 0.0034
+========= 200 ====================== 
+Orig sentence: a stunning piece of visual poetry that will hopefully be remembered as one of the most important stories to be told in australia 's film history
+X sentence: a compelling piece of visual poetry that will hopefully be remembered as one of the most important stories to be told in australia 's film history
+Y sentence: a compelling film of visual poetry that will hopefully be remembered as one of the most important stories to be told in australia 's film history
+Xe sentence:a compelling piece of visual novel that will hopefully be remembered as one of the most important stories to be told in australia 's film history
+Ye sentence:a compelling film of visual novel that will hopefully be remembered as one of the most important stories to be told in australia 's film history
+X: ['compelling']
+Y: ['compelling', 'film']
+e: novel
+F(X) = 0.2702, F(Y) = 0.2699, F(Xe) = 0.2701, F(Ye) = 0.2699
+F(Xe) - F(X) = -0.0001 < F(Ye) - F(Y) = 0.0000
+199 / 200 = 99.50% 
